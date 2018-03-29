@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="78b66811-180b-45b9-8c74-a5a37c07e3f2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.dockerignore" afterPath="$PROJECT_DIR$/.dockerignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.rst" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dockerfile" afterPath="$PROJECT_DIR$/Dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE.md" afterPath="$PROJECT_DIR$/LICENSE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Makefile" afterPath="$PROJECT_DIR$/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rst" afterPath="$PROJECT_DIR$/README.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/docker_entrypoint" afterPath="$PROJECT_DIR$/bin/docker_entrypoint" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/agents.md" afterPath="$PROJECT_DIR$/docs/agents.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/environments.md" afterPath="$PROJECT_DIR$/docs/environments.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/misc.md" afterPath="$PROJECT_DIR$/docs/misc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/readme.md" afterPath="$PROJECT_DIR$/docs/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/agents/_policies.py" afterPath="$PROJECT_DIR$/examples/agents/_policies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/agents/cem.py" afterPath="$PROJECT_DIR$/examples/agents/cem.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/agents/keyboard_agent.py" afterPath="$PROJECT_DIR$/examples/agents/keyboard_agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/agents/random_agent.py" afterPath="$PROJECT_DIR$/examples/agents/random_agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/agents/tabular_q_agent.py" afterPath="$PROJECT_DIR$/examples/agents/tabular_q_agent.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/scripts/benchmark_runner" afterPath="$PROJECT_DIR$/examples/scripts/benchmark_runner" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/scripts/list_envs" afterPath="$PROJECT_DIR$/examples/scripts/list_envs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/scripts/play_go" afterPath="$PROJECT_DIR$/examples/scripts/play_go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/scripts/sim_env" afterPath="$PROJECT_DIR$/examples/scripts/sim_env" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/scripts/upload" afterPath="$PROJECT_DIR$/examples/scripts/upload" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/__init__.py" afterPath="$PROJECT_DIR$/gym/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/benchmarks/__init__.py" afterPath="$PROJECT_DIR$/gym/benchmarks/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/benchmarks/registration.py" afterPath="$PROJECT_DIR$/gym/benchmarks/registration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/benchmarks/scoring.py" afterPath="$PROJECT_DIR$/gym/benchmarks/scoring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/benchmarks/tests/test_benchmark.py" afterPath="$PROJECT_DIR$/gym/benchmarks/tests/test_benchmark.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/configuration.py" afterPath="$PROJECT_DIR$/gym/configuration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/core.py" afterPath="$PROJECT_DIR$/gym/core.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/README.md" afterPath="$PROJECT_DIR$/gym/envs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/algorithmic_env.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/algorithmic_env.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/copy_.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/copy_.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/duplicated_input.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/duplicated_input.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/repeat_copy.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/repeat_copy.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/reverse.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/reverse.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/reversed_addition.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/reversed_addition.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/algorithmic/tests/test_algorithmic.py" afterPath="$PROJECT_DIR$/gym/envs/algorithmic/tests/test_algorithmic.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/atari/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/atari/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/atari/atari_env.py" afterPath="$PROJECT_DIR$/gym/envs/atari/atari_env.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/board_game/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/board_game/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/board_game/go.py" afterPath="$PROJECT_DIR$/gym/envs/board_game/go.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/board_game/hex.py" afterPath="$PROJECT_DIR$/gym/envs/board_game/hex.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/box2d/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/box2d/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/box2d/bipedal_walker.py" afterPath="$PROJECT_DIR$/gym/envs/box2d/bipedal_walker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/box2d/car_dynamics.py" afterPath="$PROJECT_DIR$/gym/envs/box2d/car_dynamics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/box2d/car_racing.py" afterPath="$PROJECT_DIR$/gym/envs/box2d/car_racing.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/box2d/lunar_lander.py" afterPath="$PROJECT_DIR$/gym/envs/box2d/lunar_lander.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/acrobot.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/acrobot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/cartpole.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/cartpole.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/continuous_mountain_car.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/continuous_mountain_car.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/mountain_car.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/mountain_car.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/pendulum.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/pendulum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/classic_control/rendering.py" afterPath="$PROJECT_DIR$/gym/envs/classic_control/rendering.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/debugging/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/debugging/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/debugging/one_round_deterministic_reward.py" afterPath="$PROJECT_DIR$/gym/envs/debugging/one_round_deterministic_reward.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/debugging/one_round_nondeterministic_reward.py" afterPath="$PROJECT_DIR$/gym/envs/debugging/one_round_nondeterministic_reward.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/debugging/two_round_deterministic_reward.py" afterPath="$PROJECT_DIR$/gym/envs/debugging/two_round_deterministic_reward.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/debugging/two_round_nondeterministic_reward.py" afterPath="$PROJECT_DIR$/gym/envs/debugging/two_round_nondeterministic_reward.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/ant.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/ant.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/ant.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/half_cheetah.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/half_cheetah.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/hopper.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/hopper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/inverted_double_pendulum.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/inverted_double_pendulum.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/point.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/point.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/pusher.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/pusher.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/striker.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/striker.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/swimmer.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/swimmer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/thrower.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/thrower.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/assets/walker2d.xml" afterPath="$PROJECT_DIR$/gym/envs/mujoco/assets/walker2d.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/half_cheetah.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/half_cheetah.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/hopper.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/hopper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/humanoid.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/humanoid.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/humanoidstandup.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/humanoidstandup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/inverted_double_pendulum.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/inverted_double_pendulum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/inverted_pendulum.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/inverted_pendulum.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/mujoco_env.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/mujoco_env.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/pusher.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/pusher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/reacher.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/reacher.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/striker.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/striker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/swimmer.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/swimmer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/thrower.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/thrower.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/mujoco/walker2d.py" afterPath="$PROJECT_DIR$/gym/envs/mujoco/walker2d.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/parameter_tuning/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/parameter_tuning/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/parameter_tuning/convergence.py" afterPath="$PROJECT_DIR$/gym/envs/parameter_tuning/convergence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/parameter_tuning/train_deep_cnn.py" afterPath="$PROJECT_DIR$/gym/envs/parameter_tuning/train_deep_cnn.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/registration.py" afterPath="$PROJECT_DIR$/gym/envs/registration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/README.md" afterPath="$PROJECT_DIR$/gym/envs/safety/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/safety/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/offswitch_cartpole.py" afterPath="$PROJECT_DIR$/gym/envs/safety/offswitch_cartpole.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/offswitch_cartpole_prob.py" afterPath="$PROJECT_DIR$/gym/envs/safety/offswitch_cartpole_prob.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/predict_actions_cartpole.py" afterPath="$PROJECT_DIR$/gym/envs/safety/predict_actions_cartpole.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/predict_obs_cartpole.py" afterPath="$PROJECT_DIR$/gym/envs/safety/predict_obs_cartpole.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/safety/semisuper.py" afterPath="$PROJECT_DIR$/gym/envs/safety/semisuper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/rollout.json" afterPath="$PROJECT_DIR$/gym/envs/tests/rollout.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/spec_list.py" afterPath="$PROJECT_DIR$/gym/envs/tests/spec_list.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/test_determinism.py" afterPath="$PROJECT_DIR$/gym/envs/tests/test_determinism.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/test_envs.py" afterPath="$PROJECT_DIR$/gym/envs/tests/test_envs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/test_envs_semantics.py" afterPath="$PROJECT_DIR$/gym/envs/tests/test_envs_semantics.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/test_registration.py" afterPath="$PROJECT_DIR$/gym/envs/tests/test_registration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/tests/test_safety_envs.py" afterPath="$PROJECT_DIR$/gym/envs/tests/test_safety_envs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/__init__.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/blackjack.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/blackjack.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/cliffwalking.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/cliffwalking.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/discrete.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/discrete.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/frozen_lake.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/frozen_lake.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/guessing_game.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/guessing_game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/hotter_colder.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/hotter_colder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/kellycoinflip.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/kellycoinflip.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/nchain.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/nchain.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/roulette.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/roulette.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/envs/toy_text/taxi.py" afterPath="$PROJECT_DIR$/gym/envs/toy_text/taxi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/error.py" afterPath="$PROJECT_DIR$/gym/error.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/monitoring/__init__.py" afterPath="$PROJECT_DIR$/gym/monitoring/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/monitoring/stats_recorder.py" afterPath="$PROJECT_DIR$/gym/monitoring/stats_recorder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/monitoring/tests/helpers.py" afterPath="$PROJECT_DIR$/gym/monitoring/tests/helpers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/monitoring/tests/test_monitor.py" afterPath="$PROJECT_DIR$/gym/monitoring/tests/test_monitor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/monitoring/tests/test_video_recorder.py" afterPath="$PROJECT_DIR$/gym/monitoring/tests/test_video_recorder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/monitoring/video_recorder.py" afterPath="$PROJECT_DIR$/gym/monitoring/video_recorder.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/__init__.py" afterPath="$PROJECT_DIR$/gym/scoreboard/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/api.py" afterPath="$PROJECT_DIR$/gym/scoreboard/api.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/README.md" afterPath="$PROJECT_DIR$/gym/scoreboard/client/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/__init__.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/api_requestor.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/api_requestor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/http_client.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/http_client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/resource.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/resource.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/tests/helper.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/tests/helper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/tests/test_evaluation.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/tests/test_evaluation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/tests/test_file_upload.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/tests/test_file_upload.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/client/util.py" afterPath="$PROJECT_DIR$/gym/scoreboard/client/util.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/registration.py" afterPath="$PROJECT_DIR$/gym/scoreboard/registration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/scoring.py" afterPath="$PROJECT_DIR$/gym/scoreboard/scoring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/tests/test_registration.py" afterPath="$PROJECT_DIR$/gym/scoreboard/tests/test_registration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/scoreboard/tests/test_scoring.py" afterPath="$PROJECT_DIR$/gym/scoreboard/tests/test_scoring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/__init__.py" afterPath="$PROJECT_DIR$/gym/spaces/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/box.py" afterPath="$PROJECT_DIR$/gym/spaces/box.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/dict_space.py" afterPath="$PROJECT_DIR$/gym/spaces/dict_space.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/discrete.py" afterPath="$PROJECT_DIR$/gym/spaces/discrete.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/multi_binary.py" afterPath="$PROJECT_DIR$/gym/spaces/multi_binary.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/multi_discrete.py" afterPath="$PROJECT_DIR$/gym/spaces/multi_discrete.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/prng.py" afterPath="$PROJECT_DIR$/gym/spaces/prng.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/tests/test_spaces.py" afterPath="$PROJECT_DIR$/gym/spaces/tests/test_spaces.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/spaces/tuple_space.py" afterPath="$PROJECT_DIR$/gym/spaces/tuple_space.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/tests/test_core.py" afterPath="$PROJECT_DIR$/gym/tests/test_core.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/__init__.py" afterPath="$PROJECT_DIR$/gym/utils/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/atomic_write.py" afterPath="$PROJECT_DIR$/gym/utils/atomic_write.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/closer.py" afterPath="$PROJECT_DIR$/gym/utils/closer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/colorize.py" afterPath="$PROJECT_DIR$/gym/utils/colorize.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/ezpickle.py" afterPath="$PROJECT_DIR$/gym/utils/ezpickle.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/json_utils.py" afterPath="$PROJECT_DIR$/gym/utils/json_utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/play.py" afterPath="$PROJECT_DIR$/gym/utils/play.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/reraise.py" afterPath="$PROJECT_DIR$/gym/utils/reraise.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/reraise_impl_py2.py" afterPath="$PROJECT_DIR$/gym/utils/reraise_impl_py2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/reraise_impl_py3.py" afterPath="$PROJECT_DIR$/gym/utils/reraise_impl_py3.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/seeding.py" afterPath="$PROJECT_DIR$/gym/utils/seeding.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/tests/test_atexit.py" afterPath="$PROJECT_DIR$/gym/utils/tests/test_atexit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/utils/tests/test_seeding.py" afterPath="$PROJECT_DIR$/gym/utils/tests/test_seeding.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/version.py" afterPath="$PROJECT_DIR$/gym/version.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/wrappers/README.md" afterPath="$PROJECT_DIR$/gym/wrappers/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/wrappers/__init__.py" afterPath="$PROJECT_DIR$/gym/wrappers/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/wrappers/frame_skipping.py" afterPath="$PROJECT_DIR$/gym/wrappers/frame_skipping.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/wrappers/monitoring.py" afterPath="$PROJECT_DIR$/gym/wrappers/monitoring.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/wrappers/tests/test_wrappers.py" afterPath="$PROJECT_DIR$/gym/wrappers/tests/test_wrappers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym/wrappers/time_limit.py" afterPath="$PROJECT_DIR$/gym/wrappers/time_limit.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/check_envs_for_change.py" afterPath="$PROJECT_DIR$/misc/check_envs_for_change.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/compare_rollout_data.py" afterPath="$PROJECT_DIR$/misc/compare_rollout_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/misc/write_rollout_data.py" afterPath="$PROJECT_DIR$/misc/write_rollout_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/requirements_dev.txt" afterPath="$PROJECT_DIR$/requirements_dev.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/generate_json.py" afterPath="$PROJECT_DIR$/scripts/generate_json.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.dockerfile" afterPath="$PROJECT_DIR$/test.dockerfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tox.ini" afterPath="$PROJECT_DIR$/tox.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/unittest.cfg" afterPath="$PROJECT_DIR$/unittest.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/Xdummy" afterPath="$PROJECT_DIR$/vendor/Xdummy" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/experiments/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gym/scoreboard/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1320">
+              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="envs.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/experiments/envs.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gym/scoreboard/__init__.py" />
+        <option value="$PROJECT_DIR$/experiments/test.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1919" />
+    <option name="width" value="1922" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="examples" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="experiments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gym" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="gym" type="462c0819:PsiDirectoryNode" />
+              <item name="envs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tensorforce" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.test">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/experiments" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="gym" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experiments/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b66811-180b-45b9-8c74-a5a37c07e3f2" name="Default" comment="" />
+      <created>1511644147867</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511644147867</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1919" y="0" width="1922" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.255603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/experiments/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym/scoreboard/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/envs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/envs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/envs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/envs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/envs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gym/scoreboard/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiments/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

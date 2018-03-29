@@ -1,0 +1,214 @@
+2018-03-28 00:48:11.443357 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] Building BNN model (eta=0.0001) ...
+2018-03-28 00:48:32.495737 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] Model built (21.1 sec).
+2018-03-28 00:48:32.496353 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] Populating workers...
+2018-03-28 00:50:02.117223 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] Populated
+2018-03-28 00:50:26.787343 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | fitting baseline...
+2018-03-28 00:50:26.845894 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | fitted
+2018-03-28 00:50:26.846502 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | Fitting dynamics model using replay pool ...
+2018-03-28 00:50:42.475313 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | computing loss before
+2018-03-28 00:50:42.654098 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | performing update
+2018-03-28 00:50:42.654529 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | computing descent direction
+2018-03-28 00:50:53.389554 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | descent direction computed
+2018-03-28 00:50:53.903342 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | backtrack iters: 0
+2018-03-28 00:50:53.903795 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | computing loss after
+2018-03-28 00:50:53.903995 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | optimization finished
+2018-03-28 00:50:54.551526 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | saving snapshot...
+2018-03-28 00:50:54.563866 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #0 | saved
+2018-03-28 00:50:54.564993 CEST | ------------------------  -------------
+2018-03-28 00:50:54.565189 CEST | Expl_MeanKL                 0
+2018-03-28 00:50:54.565370 CEST | Expl_StdKL                  0
+2018-03-28 00:50:54.565549 CEST | Expl_MinKL                  0
+2018-03-28 00:50:54.565726 CEST | Expl_MaxKL                  0
+2018-03-28 00:50:54.567813 CEST | Iteration                   0
+2018-03-28 00:50:54.568347 CEST | AverageDiscountedReturn     0.000446865
+2018-03-28 00:50:54.568598 CEST | AverageReturn               0.0194175
+2018-03-28 00:50:54.568839 CEST | ExplainedVariance           5.16506e-06
+2018-03-28 00:50:54.569080 CEST | NumTrajs                  103
+2018-03-28 00:50:54.569312 CEST | Entropy                     2.83788
+2018-03-28 00:50:54.569552 CEST | Perplexity                 17.0795
+2018-03-28 00:50:54.569793 CEST | StdReturn                   0.137987
+2018-03-28 00:50:54.570032 CEST | MaxReturn                   1
+2018-03-28 00:50:54.570230 CEST | MinReturn                   0
+2018-03-28 00:50:54.570407 CEST | BNN_DynModelSqLossBefore  874.537
+2018-03-28 00:50:54.571428 CEST | BNN_DynModelSqLossAfter   246.959
+2018-03-28 00:50:54.580230 CEST | AveragePolicyStd            1
+2018-03-28 00:50:54.580462 CEST | LossAfter                  -0.0105387
+2018-03-28 00:50:54.580645 CEST | MeanKL                      0.00916786
+2018-03-28 00:50:54.580825 CEST | dLoss                       0.0105387
+2018-03-28 00:50:54.581002 CEST | ------------------------  -------------
+2018-03-28 00:51:57.910359 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | fitting baseline...
+2018-03-28 00:51:57.967433 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | fitted
+2018-03-28 00:51:57.970812 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | Fitting dynamics model using replay pool ...
+2018-03-28 00:52:12.749438 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | computing loss before
+2018-03-28 00:52:12.925984 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | performing update
+2018-03-28 00:52:12.926447 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | computing descent direction
+2018-03-28 00:52:20.112631 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | descent direction computed
+2018-03-28 00:52:20.485443 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | backtrack iters: 1
+2018-03-28 00:52:20.485857 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | computing loss after
+2018-03-28 00:52:20.486076 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | optimization finished
+2018-03-28 00:52:20.850551 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | saving snapshot...
+2018-03-28 00:52:20.859883 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #1 | saved
+2018-03-28 00:52:20.861019 CEST | ------------------------  -------------
+2018-03-28 00:52:20.861223 CEST | Expl_MeanKL                 1.73113
+2018-03-28 00:52:20.861408 CEST | Expl_StdKL                  1.59928
+2018-03-28 00:52:20.861590 CEST | Expl_MinKL                  0.035842
+2018-03-28 00:52:20.861769 CEST | Expl_MaxKL                 38.3379
+2018-03-28 00:52:20.861948 CEST | Iteration                   1
+2018-03-28 00:52:20.862126 CEST | AverageDiscountedReturn     0.000115421
+2018-03-28 00:52:20.862303 CEST | AverageReturn               0.00970874
+2018-03-28 00:52:20.862489 CEST | ExplainedVariance          -0.0424111
+2018-03-28 00:52:20.862665 CEST | NumTrajs                  103
+2018-03-28 00:52:20.862843 CEST | Entropy                     2.87278
+2018-03-28 00:52:20.863020 CEST | Perplexity                 17.6861
+2018-03-28 00:52:20.863197 CEST | StdReturn                   0.0980534
+2018-03-28 00:52:20.863374 CEST | MaxReturn                   1
+2018-03-28 00:52:20.863551 CEST | MinReturn                   0
+2018-03-28 00:52:20.863727 CEST | BNN_DynModelSqLossBefore  247.653
+2018-03-28 00:52:20.863903 CEST | BNN_DynModelSqLossAfter    85.6225
+2018-03-28 00:52:20.864080 CEST | AveragePolicyStd            1.01762
+2018-03-28 00:52:20.864256 CEST | LossAfter                  -0.00557851
+2018-03-28 00:52:20.875779 CEST | MeanKL                      0.00659554
+2018-03-28 00:52:20.875973 CEST | dLoss                       0.00557851
+2018-03-28 00:52:20.876156 CEST | ------------------------  -------------
+2018-03-28 00:53:26.058501 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | fitting baseline...
+2018-03-28 00:53:26.111448 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | fitted
+2018-03-28 00:53:26.113746 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | Fitting dynamics model using replay pool ...
+2018-03-28 00:53:41.216056 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | computing loss before
+2018-03-28 00:53:41.385319 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | performing update
+2018-03-28 00:53:41.385764 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | computing descent direction
+2018-03-28 00:53:47.669692 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | descent direction computed
+2018-03-28 00:53:47.845643 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | backtrack iters: 0
+2018-03-28 00:53:47.846079 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | computing loss after
+2018-03-28 00:53:47.846304 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | optimization finished
+2018-03-28 00:53:48.187080 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | saving snapshot...
+2018-03-28 00:53:48.196424 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #2 | saved
+2018-03-28 00:53:48.197614 CEST | ------------------------  -------------
+2018-03-28 00:53:48.197815 CEST | Expl_MeanKL                 0.344109
+2018-03-28 00:53:48.197999 CEST | Expl_StdKL                  0.356028
+2018-03-28 00:53:48.198180 CEST | Expl_MinKL                  0.00389153
+2018-03-28 00:53:48.198360 CEST | Expl_MaxKL                  7.62031
+2018-03-28 00:53:48.198547 CEST | Iteration                   2
+2018-03-28 00:53:48.198724 CEST | AverageDiscountedReturn     0.000853335
+2018-03-28 00:53:48.198902 CEST | AverageReturn               0.038835
+2018-03-28 00:53:48.199084 CEST | ExplainedVariance           0.0789308
+2018-03-28 00:53:48.199262 CEST | NumTrajs                  103
+2018-03-28 00:53:48.199438 CEST | Entropy                     2.89085
+2018-03-28 00:53:48.199614 CEST | Perplexity                 18.0086
+2018-03-28 00:53:48.199791 CEST | StdReturn                   0.193201
+2018-03-28 00:53:48.199966 CEST | MaxReturn                   1
+2018-03-28 00:53:48.200142 CEST | MinReturn                   0
+2018-03-28 00:53:48.200318 CEST | BNN_DynModelSqLossBefore   85.8096
+2018-03-28 00:53:48.200494 CEST | BNN_DynModelSqLossAfter    28.9959
+2018-03-28 00:53:48.200669 CEST | AveragePolicyStd            1.02686
+2018-03-28 00:53:48.200845 CEST | LossAfter                  -0.00914615
+2018-03-28 00:53:48.201021 CEST | MeanKL                      0.00942903
+2018-03-28 00:53:48.201197 CEST | dLoss                       0.00914615
+2018-03-28 00:53:48.201373 CEST | ------------------------  -------------
+2018-03-28 00:54:55.056613 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | fitting baseline...
+2018-03-28 00:54:55.108478 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | fitted
+2018-03-28 00:54:55.111405 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | Fitting dynamics model using replay pool ...
+2018-03-28 00:55:11.264874 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | computing loss before
+2018-03-28 00:55:11.443086 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | performing update
+2018-03-28 00:55:11.443505 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | computing descent direction
+2018-03-28 00:55:19.276058 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | descent direction computed
+2018-03-28 00:55:19.454965 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | backtrack iters: 0
+2018-03-28 00:55:19.455385 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | computing loss after
+2018-03-28 00:55:19.455607 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | optimization finished
+2018-03-28 00:55:19.800682 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | saving snapshot...
+2018-03-28 00:55:19.809825 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #3 | saved
+2018-03-28 00:55:19.810998 CEST | ------------------------  -------------
+2018-03-28 00:55:19.811193 CEST | Expl_MeanKL                 0.0494734
+2018-03-28 00:55:19.811371 CEST | Expl_StdKL                  0.0529679
+2018-03-28 00:55:19.811545 CEST | Expl_MinKL                  0.000785803
+2018-03-28 00:55:19.811736 CEST | Expl_MaxKL                  1.02384
+2018-03-28 00:55:19.811909 CEST | Iteration                   3
+2018-03-28 00:55:19.812080 CEST | AverageDiscountedReturn    -0.000100057
+2018-03-28 00:55:19.812251 CEST | AverageReturn              -0.00970874
+2018-03-28 00:55:19.812423 CEST | ExplainedVariance          -0.110302
+2018-03-28 00:55:19.812594 CEST | NumTrajs                  103
+2018-03-28 00:55:19.812766 CEST | Entropy                     2.90728
+2018-03-28 00:55:19.812936 CEST | Perplexity                 18.3069
+2018-03-28 00:55:19.813107 CEST | StdReturn                   0.260513
+2018-03-28 00:55:19.813279 CEST | MaxReturn                   1
+2018-03-28 00:55:19.813450 CEST | MinReturn                  -1
+2018-03-28 00:55:19.813633 CEST | BNN_DynModelSqLossBefore   28.9318
+2018-03-28 00:55:19.813815 CEST | BNN_DynModelSqLossAfter    11.3371
+2018-03-28 00:55:19.813986 CEST | AveragePolicyStd            1.03551
+2018-03-28 00:55:19.814157 CEST | LossAfter                  -0.00685221
+2018-03-28 00:55:19.814327 CEST | MeanKL                      0.00933802
+2018-03-28 00:55:19.814518 CEST | dLoss                       0.00685221
+2018-03-28 00:55:19.814693 CEST | ------------------------  -------------
+2018-03-28 00:56:35.642979 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | fitting baseline...
+2018-03-28 00:56:35.695774 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | fitted
+2018-03-28 00:56:35.699007 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | Fitting dynamics model using replay pool ...
+2018-03-28 00:56:50.460976 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | computing loss before
+2018-03-28 00:56:50.631872 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | performing update
+2018-03-28 00:56:50.632314 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | computing descent direction
+2018-03-28 00:56:58.130497 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | descent direction computed
+2018-03-28 00:56:58.503542 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | backtrack iters: 1
+2018-03-28 00:56:58.503936 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | computing loss after
+2018-03-28 00:56:58.504144 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | optimization finished
+2018-03-28 00:56:58.913750 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | saving snapshot...
+2018-03-28 00:56:58.922949 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #4 | saved
+2018-03-28 00:56:58.924101 CEST | ------------------------  -------------
+2018-03-28 00:56:58.924297 CEST | Expl_MeanKL                 0.0086423
+2018-03-28 00:56:58.924478 CEST | Expl_StdKL                  0.0109982
+2018-03-28 00:56:58.924669 CEST | Expl_MinKL                  4.5571e-05
+2018-03-28 00:56:58.924846 CEST | Expl_MaxKL                  0.379482
+2018-03-28 00:56:58.925022 CEST | Iteration                   4
+2018-03-28 00:56:58.925197 CEST | AverageDiscountedReturn     0.000360057
+2018-03-28 00:56:58.925370 CEST | AverageReturn               0.00970874
+2018-03-28 00:56:58.925543 CEST | ExplainedVariance          -0.175861
+2018-03-28 00:56:58.925717 CEST | NumTrajs                  103
+2018-03-28 00:56:58.925890 CEST | Entropy                     2.901
+2018-03-28 00:56:58.926063 CEST | Perplexity                 18.1923
+2018-03-28 00:56:58.926236 CEST | StdReturn                   0.220112
+2018-03-28 00:56:58.926409 CEST | MaxReturn                   1
+2018-03-28 00:56:58.926592 CEST | MinReturn                  -1
+2018-03-28 00:56:58.926780 CEST | BNN_DynModelSqLossBefore   11.446
+2018-03-28 00:56:58.926953 CEST | BNN_DynModelSqLossAfter     7.05056
+2018-03-28 00:56:58.927127 CEST | AveragePolicyStd            1.03234
+2018-03-28 00:56:58.927300 CEST | LossAfter                  -0.00628822
+2018-03-28 00:56:58.927474 CEST | MeanKL                      0.0071964
+2018-03-28 00:56:58.927647 CEST | dLoss                       0.00628822
+2018-03-28 00:56:58.927820 CEST | ------------------------  -------------
+2018-03-28 00:58:01.697328 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | fitting baseline...
+2018-03-28 00:58:01.744222 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | fitted
+2018-03-28 00:58:01.747013 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | Fitting dynamics model using replay pool ...
+2018-03-28 00:58:16.431727 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | computing loss before
+2018-03-28 00:58:16.602717 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | performing update
+2018-03-28 00:58:16.603158 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | computing descent direction
+2018-03-28 00:58:22.901509 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | descent direction computed
+2018-03-28 00:58:23.073708 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | backtrack iters: 0
+2018-03-28 00:58:23.074060 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | computing loss after
+2018-03-28 00:58:23.074272 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | optimization finished
+2018-03-28 00:58:23.420520 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | saving snapshot...
+2018-03-28 00:58:23.429787 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #5 | saved
+2018-03-28 00:58:23.430947 CEST | ------------------------  -------------
+2018-03-28 00:58:23.431144 CEST | Expl_MeanKL                 0.00240459
+2018-03-28 00:58:23.431329 CEST | Expl_StdKL                  0.00251105
+2018-03-28 00:58:23.431509 CEST | Expl_MinKL                  1.81126e-05
+2018-03-28 00:58:23.431687 CEST | Expl_MaxKL                  0.0408585
+2018-03-28 00:58:23.431865 CEST | Iteration                   5
+2018-03-28 00:58:23.432041 CEST | AverageDiscountedReturn    -4.70823e-05
+2018-03-28 00:58:23.432218 CEST | AverageReturn              -0.00970874
+2018-03-28 00:58:23.432394 CEST | ExplainedVariance          -0.0465946
+2018-03-28 00:58:23.432569 CEST | NumTrajs                  103
+2018-03-28 00:58:23.432745 CEST | Entropy                     2.89879
+2018-03-28 00:58:23.432921 CEST | Perplexity                 18.1521
+2018-03-28 00:58:23.433097 CEST | StdReturn                   0.170388
+2018-03-28 00:58:23.433273 CEST | MaxReturn                   1
+2018-03-28 00:58:23.433450 CEST | MinReturn                  -1
+2018-03-28 00:58:23.433626 CEST | BNN_DynModelSqLossBefore    7.09772
+2018-03-28 00:58:23.433802 CEST | BNN_DynModelSqLossAfter     6.44381
+2018-03-28 00:58:23.433978 CEST | AveragePolicyStd            1.03126
+2018-03-28 00:58:23.434154 CEST | LossAfter                  -0.00567978
+2018-03-28 00:58:23.434330 CEST | MeanKL                      0.00910191
+2018-03-28 00:58:23.434522 CEST | dLoss                       0.00567978
+2018-03-28 00:58:23.434698 CEST | ------------------------  -------------
+2018-03-28 00:59:25.582509 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #6 | fitting baseline...
+2018-03-28 00:59:25.638452 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #6 | fitted
+2018-03-28 00:59:25.642594 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #6 | Fitting dynamics model using replay pool ...
+2018-03-28 00:59:40.009592 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #6 | computing loss before
+2018-03-28 00:59:40.190489 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #6 | performing update
+2018-03-28 00:59:40.190927 CEST | [trpo-vime-swimmer-gather_2018_03_28_00_48_07_0001] itr #6 | computing descent direction

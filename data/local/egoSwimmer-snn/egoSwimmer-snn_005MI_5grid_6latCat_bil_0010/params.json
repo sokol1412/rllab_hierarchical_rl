@@ -1,0 +1,133 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAsAAABwcm94eV9jbGFzc3EHY3NhbmRib3guc25uNGhybC5hbGdvcy50cnBvX3NubgpUUlBPX3NubgpxCFgGAAAAa3dhcmdzcQl9cQooWBYAAABsb2dfaW5kaXZpZHVhbF9sYXRlbnRzcQuIWBEAAABsb2dfZGV0ZXJtaW5pc3RpY3EMiFgLAAAAd2hvbGVfcGF0aHNxDYhYAwAAAGVudnEOaAQpgXEPfXEQKGgHY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxEWgJfXESaA5oBCmBcRN9cRQoaAdjc2FuZGJveC5zbm40aHJsLmVudnMubXVqb2NvLnN3aW1tZXJfZW52ClN3aW1tZXJFbnYKcRVoCX1xFlgHAAAAZWdvX29ic3EXiHNYBAAAAGFyZ3NxGCl1YnNoGCl1YlgKAAAAYmF0Y2hfc2l6ZXEZTVDDWAYAAABwb2xpY3lxGmgEKYFxG31xHChoB2NzYW5kYm94LnNubjRocmwucG9saWNpZXMuc25uX21scF9wb2xpY3kKR2F1c3NpYW5NTFBQb2xpY3lfc25uCnEdaAl9cR4oWAwAAABoaWRkZW5fc2l6ZXNxH0tAS0CGcSBYBwAAAG1pbl9zdGRxIUc+sMb3oLXtjVgLAAAAbGF0ZW50X25hbWVxIlgLAAAAY2F0ZWdvcmljYWxxI1gIAAAAZW52X3NwZWNxJGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcSUpgXEmfXEnKFgEAAAAX29ianEoaA9YCgAAAF9hdHRyX25hbWVxKVgEAAAAc3BlY3EqdWJYFAAAAGJpbGluZWFyX2ludGVncmF0aW9ucSuIWAoAAABsYXRlbnRfZGltcSxLBnVoGCl1YlgIAAAAZGlzY291bnRxLUc/764UeuFHrlgRAAAAcmV3YXJkX2NvZWZfYm9udXNxLl1xL0sBYVgIAAAAYmFzZWxpbmVxMGgEKYFxMX1xMihoB2NybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEzaAl9cTRoJGglKYFxNX1xNihoKGgPaCloKnVic2gYKXViWBAAAABsYXRlbnRfcmVncmVzc29ycTdoBCmBcTh9cTkoaAdjc2FuZGJveC5zbm40aHJsLnJlZ3Jlc3NvcnMubGF0ZW50X3JlZ3Jlc3NvcgpMYXRlbnRfcmVncmVzc29yCnE6aAl9cTsoaCRoJSmBcTx9cT0oaChoD2gpaCp1YlgRAAAAbm9pc2lmeV90cmFqX2NvZWZxPksAaBpoG1gOAAAAcmVncmVzc29yX2FyZ3NxP31xQChoH0sgSyCGcUFYBAAAAG5hbWVxQlgKAAAAbGF0ZW50X3JlZ3FDWBAAAAB1c2VfdHJ1c3RfcmVnaW9ucUSJdVgNAAAAb2JzX3JlZ3Jlc3NlZHFFWAMAAABhbGxxRlgLAAAAcHJlZGljdF9hbGxxR4hYDQAAAGFjdF9yZWdyZXNzZWRxSF1xSXVoGCl1YlgFAAAAbl9pdHJxSk3oA1gPAAAAYm9udXNfZXZhbHVhdG9ycUtdcUxoBCmBcU19cU4oaAdjc2FuZGJveC5zbm40aHJsLmJvbnVzX2V2YWx1YXRvcnMuZ3JpZF9ib251c19ldmFsdWF0b3IKR3JpZEJvbnVzRXZhbHVhdG9yCnFPaAl9cVAoWBAAAABzd2l0Y2hfbGF0X2V2ZXJ5cVFLAFgLAAAAc25uX0hfYm9udXNxUkc/qZmZmZmZmlgMAAAAbWVzaF9kZW5zaXR5cVNLBVgNAAAAdmlydHVhbF9yZXNldHFUiXVoGCl1YmFYCQAAAHN0ZXBfc2l6ZXFVRz+EeuFHrhR7WBMAAAByZXdhcmRfcmVncmVzc29yX21pcVZLAFgPAAAAbWF4X3BhdGhfbGVuZ3RocVdN9AFoUUsAWA4AAABzZWxmX25vcm1hbGl6ZXFYiHVoGCl1YlgFAAAAdHJhaW5xWSl9cVp0cVtYCAAAAF9fa3dhcmdzcVx9cV11Yi4=",
+  "exp_name": "egoSwimmer-snn_005MI_5grid_6latCat_bil_0010",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.snn4hrl.algos.trpo_snn.TRPO_snn",
+      "batch_size": 50000,
+      "bonus_evaluator": [
+        {
+          "_name": "sandbox.snn4hrl.bonus_evaluators.grid_bonus_evaluator.GridBonusEvaluator",
+          "mesh_density": 5,
+          "snn_H_bonus": 0.05,
+          "switch_lat_every": 0,
+          "virtual_reset": false
+        }
+      ],
+      "discount": 0.99,
+      "latent_regressor": {
+        "_name": "sandbox.snn4hrl.regressors.latent_regressor.Latent_regressor",
+        "act_regressed": [],
+        "env_spec": {
+          "attr": "spec",
+          "obj": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.swimmer_env.SwimmerEnv",
+              "ego_obs": true
+            }
+          }
+        },
+        "noisify_traj_coef": 0,
+        "obs_regressed": "all",
+        "policy": {
+          "_name": "sandbox.snn4hrl.policies.snn_mlp_policy.GaussianMLPPolicy_snn",
+          "bilinear_integration": true,
+          "env_spec": {
+            "attr": "spec",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "sandbox.snn4hrl.envs.mujoco.swimmer_env.SwimmerEnv",
+                "ego_obs": true
+              }
+            }
+          },
+          "hidden_sizes": [
+            64,
+            64
+          ],
+          "latent_dim": 6,
+          "latent_name": "categorical",
+          "min_std": 1e-06
+        },
+        "predict_all": true,
+        "regressor_args": {
+          "hidden_sizes": [
+            32,
+            32
+          ],
+          "name": "latent_reg",
+          "use_trust_region": false
+        }
+      },
+      "log_deterministic": true,
+      "log_individual_latents": true,
+      "max_path_length": 500,
+      "n_itr": 1000,
+      "reward_coef_bonus": [
+        1
+      ],
+      "reward_regressor_mi": 0,
+      "self_normalize": true,
+      "step_size": 0.01,
+      "switch_lat_every": 0,
+      "whole_paths": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "sandbox.snn4hrl.envs.mujoco.swimmer_env.SwimmerEnv",
+            "ego_obs": true
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "rllab.envs.normalized_env.NormalizedEnv",
+      "env": {
+        "_name": "sandbox.snn4hrl.envs.mujoco.swimmer_env.SwimmerEnv",
+        "ego_obs": true
+      }
+    },
+    "policy": {
+      "_name": "sandbox.snn4hrl.policies.snn_mlp_policy.GaussianMLPPolicy_snn",
+      "bilinear_integration": true,
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "sandbox.snn4hrl.envs.mujoco.swimmer_env.SwimmerEnv",
+            "ego_obs": true
+          }
+        }
+      },
+      "hidden_sizes": [
+        64,
+        64
+      ],
+      "latent_dim": 6,
+      "latent_name": "categorical",
+      "min_std": 1e-06
+    }
+  },
+  "log_dir": "/home/sokol/Pulpit/Magisterka_Wladek/Magisterka/rllab_wadim_fork/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 10,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

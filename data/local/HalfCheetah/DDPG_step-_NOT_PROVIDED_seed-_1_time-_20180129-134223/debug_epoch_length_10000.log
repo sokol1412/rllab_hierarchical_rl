@@ -1,0 +1,1930 @@
+2018-01-29 13:42:26.032541 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] Populating workers...
+2018-01-29 13:42:26.032860 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] Populated
+2018-01-29 13:42:28.286239 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #0 | Training started
+2018-01-29 13:42:35.148094 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #0 | Training finished
+2018-01-29 13:42:35.148462 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #1 | Training started
+2018-01-29 13:44:32.446679 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #1 | Training finished
+2018-01-29 13:44:32.447055 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #1 | Collecting samples for evaluation
+2018-01-29 13:44:39.224352 CET | -----------------------  -------------
+2018-01-29 13:44:39.224641 CET | Epoch                       1
+2018-01-29 13:44:39.224862 CET | AverageReturn            -136.341
+2018-01-29 13:44:39.225077 CET | StdReturn                   9.30625
+2018-01-29 13:44:39.225290 CET | MaxReturn                -131.148
+2018-01-29 13:44:39.225503 CET | MinReturn                -176.408
+2018-01-29 13:44:39.225750 CET | AverageEsReturn           -63.8953
+2018-01-29 13:44:39.225961 CET | StdEsReturn                85.1938
+2018-01-29 13:44:39.226173 CET | MaxEsReturn               105.805
+2018-01-29 13:44:39.226385 CET | MinEsReturn              -269.771
+2018-01-29 13:44:39.226595 CET | AverageDiscountedReturn   -27.4892
+2018-01-29 13:44:39.226806 CET | AverageQLoss                0.00107647
+2018-01-29 13:44:39.227017 CET | AveragePolicySurr          -0.0309662
+2018-01-29 13:44:39.227229 CET | AverageQ                    0.0144426
+2018-01-29 13:44:39.227440 CET | AverageAbsQ                 0.126393
+2018-01-29 13:44:39.227652 CET | AverageY                    0.0144727
+2018-01-29 13:44:39.227863 CET | AverageAbsY                 0.128707
+2018-01-29 13:44:39.228073 CET | AverageAbsQYDiff            0.0226709
+2018-01-29 13:44:39.228285 CET | AverageAction               0.784601
+2018-01-29 13:44:39.228531 CET | PolicyRegParamNorm         29.3472
+2018-01-29 13:44:39.228748 CET | QFunRegParamNorm           36.8954
+2018-01-29 13:44:39.228959 CET | -----------------------  -------------
+2018-01-29 13:44:39.229282 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #2 | Training started
+2018-01-29 13:46:54.569775 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #2 | Training finished
+2018-01-29 13:46:54.570140 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #2 | Collecting samples for evaluation
+2018-01-29 13:47:01.612944 CET | -----------------------  -------------
+2018-01-29 13:47:01.613227 CET | Epoch                       2
+2018-01-29 13:47:01.613447 CET | AverageReturn             -50.895
+2018-01-29 13:47:01.613662 CET | StdReturn                  23.9333
+2018-01-29 13:47:01.613875 CET | MaxReturn                   0.631716
+2018-01-29 13:47:01.614086 CET | MinReturn                 -92.955
+2018-01-29 13:47:01.614308 CET | AverageEsReturn           -13.3757
+2018-01-29 13:47:01.614529 CET | StdEsReturn                42.6058
+2018-01-29 13:47:01.614739 CET | MaxEsReturn                97.7188
+2018-01-29 13:47:01.614950 CET | MinEsReturn              -111.068
+2018-01-29 13:47:01.615160 CET | AverageDiscountedReturn    -3.79752
+2018-01-29 13:47:01.615371 CET | AverageQLoss                0.00361855
+2018-01-29 13:47:01.615581 CET | AveragePolicySurr          -0.170631
+2018-01-29 13:47:01.615792 CET | AverageQ                    0.143402
+2018-01-29 13:47:01.616037 CET | AverageAbsQ                 0.316255
+2018-01-29 13:47:01.616265 CET | AverageY                    0.143401
+2018-01-29 13:47:01.616475 CET | AverageAbsY                 0.319443
+2018-01-29 13:47:01.616714 CET | AverageAbsQYDiff            0.0419087
+2018-01-29 13:47:01.616925 CET | AverageAction               0.932879
+2018-01-29 13:47:01.617135 CET | PolicyRegParamNorm         30.3432
+2018-01-29 13:47:01.617345 CET | QFunRegParamNorm           43.6436
+2018-01-29 13:47:01.617561 CET | -----------------------  -------------
+2018-01-29 13:47:01.617843 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #3 | Training started
+2018-01-29 13:49:20.888137 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #3 | Training finished
+2018-01-29 13:49:20.888521 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #3 | Collecting samples for evaluation
+2018-01-29 13:49:27.712382 CET | -----------------------  -------------
+2018-01-29 13:49:27.712672 CET | Epoch                       3
+2018-01-29 13:49:27.712891 CET | AverageReturn            -112.648
+2018-01-29 13:49:27.713104 CET | StdReturn                  10.8832
+2018-01-29 13:49:27.713316 CET | MaxReturn                 -88.6578
+2018-01-29 13:49:27.713549 CET | MinReturn                -130.339
+2018-01-29 13:49:27.713779 CET | AverageEsReturn           -38.0459
+2018-01-29 13:49:27.713989 CET | StdEsReturn                49.5407
+2018-01-29 13:49:27.714198 CET | MaxEsReturn                55.2215
+2018-01-29 13:49:27.714408 CET | MinEsReturn              -113.256
+2018-01-29 13:49:27.714617 CET | AverageDiscountedReturn   -15.0679
+2018-01-29 13:49:27.714827 CET | AverageQLoss                0.00613405
+2018-01-29 13:49:27.715037 CET | AveragePolicySurr          -0.304419
+2018-01-29 13:49:27.715247 CET | AverageQ                    0.283232
+2018-01-29 13:49:27.715456 CET | AverageAbsQ                 0.463431
+2018-01-29 13:49:27.715683 CET | AverageY                    0.283188
+2018-01-29 13:49:27.715892 CET | AverageAbsY                 0.467192
+2018-01-29 13:49:27.716120 CET | AverageAbsQYDiff            0.0550933
+2018-01-29 13:49:27.716347 CET | AverageAction               0.927745
+2018-01-29 13:49:27.716557 CET | PolicyRegParamNorm         31.3297
+2018-01-29 13:49:27.716774 CET | QFunRegParamNorm           48.9071
+2018-01-29 13:49:27.716983 CET | -----------------------  -------------
+2018-01-29 13:49:27.717265 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #4 | Training started
+2018-01-29 13:51:45.974790 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #4 | Training finished
+2018-01-29 13:51:45.975425 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #4 | Collecting samples for evaluation
+2018-01-29 13:51:52.706739 CET | -----------------------  -------------
+2018-01-29 13:51:52.707058 CET | Epoch                       4
+2018-01-29 13:51:52.707277 CET | AverageReturn             -79.9565
+2018-01-29 13:51:52.707491 CET | StdReturn                  11.6712
+2018-01-29 13:51:52.707704 CET | MaxReturn                 -61.2007
+2018-01-29 13:51:52.707932 CET | MinReturn                -106.564
+2018-01-29 13:51:52.708144 CET | AverageEsReturn           -52.8252
+2018-01-29 13:51:52.708354 CET | StdEsReturn                71.1949
+2018-01-29 13:51:52.708566 CET | MaxEsReturn                85.5514
+2018-01-29 13:51:52.708843 CET | MinEsReturn              -174.729
+2018-01-29 13:51:52.709054 CET | AverageDiscountedReturn     0.0730552
+2018-01-29 13:51:52.709264 CET | AverageQLoss                0.00965725
+2018-01-29 13:51:52.709474 CET | AveragePolicySurr          -0.366855
+2018-01-29 13:51:52.709684 CET | AverageQ                    0.341264
+2018-01-29 13:51:52.709894 CET | AverageAbsQ                 0.588729
+2018-01-29 13:51:52.710104 CET | AverageY                    0.341257
+2018-01-29 13:51:52.710329 CET | AverageAbsY                 0.592899
+2018-01-29 13:51:52.710540 CET | AverageAbsQYDiff            0.0674693
+2018-01-29 13:51:52.710749 CET | AverageAction               0.986898
+2018-01-29 13:51:52.710959 CET | PolicyRegParamNorm         32.4785
+2018-01-29 13:51:52.711170 CET | QFunRegParamNorm           53.4708
+2018-01-29 13:51:52.711381 CET | -----------------------  -------------
+2018-01-29 13:51:52.711662 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #5 | Training started
+2018-01-29 13:54:12.010958 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #5 | Training finished
+2018-01-29 13:54:12.011353 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #5 | Collecting samples for evaluation
+2018-01-29 13:54:18.716304 CET | -----------------------  ------------
+2018-01-29 13:54:18.716584 CET | Epoch                       5
+2018-01-29 13:54:18.716813 CET | AverageReturn             -46.8622
+2018-01-29 13:54:18.717028 CET | StdReturn                  30.5556
+2018-01-29 13:54:18.717461 CET | MaxReturn                  30.3804
+2018-01-29 13:54:18.717710 CET | MinReturn                -101.922
+2018-01-29 13:54:18.717921 CET | AverageEsReturn           -11.0093
+2018-01-29 13:54:18.718150 CET | StdEsReturn                47.7339
+2018-01-29 13:54:18.718360 CET | MaxEsReturn                66.0378
+2018-01-29 13:54:18.718570 CET | MinEsReturn              -112.237
+2018-01-29 13:54:18.718781 CET | AverageDiscountedReturn    17.5957
+2018-01-29 13:54:18.718990 CET | AverageQLoss                0.0169661
+2018-01-29 13:54:18.719200 CET | AveragePolicySurr          -0.723887
+2018-01-29 13:54:18.719409 CET | AverageQ                    0.665795
+2018-01-29 13:54:18.719863 CET | AverageAbsQ                 0.8691
+2018-01-29 13:54:18.720074 CET | AverageY                    0.666123
+2018-01-29 13:54:18.720284 CET | AverageAbsY                 0.873886
+2018-01-29 13:54:18.720493 CET | AverageAbsQYDiff            0.0887398
+2018-01-29 13:54:18.720727 CET | AverageAction               0.973764
+2018-01-29 13:54:18.720937 CET | PolicyRegParamNorm         33.7332
+2018-01-29 13:54:18.721147 CET | QFunRegParamNorm           57.7672
+2018-01-29 13:54:18.721355 CET | -----------------------  ------------
+2018-01-29 13:54:18.721637 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #6 | Training started
+2018-01-29 13:56:37.403590 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #6 | Training finished
+2018-01-29 13:56:37.403979 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #6 | Collecting samples for evaluation
+2018-01-29 13:56:44.137952 CET | -----------------------  -----------
+2018-01-29 13:56:44.138232 CET | Epoch                      6
+2018-01-29 13:56:44.138449 CET | AverageReturn            -13.1449
+2018-01-29 13:56:44.138662 CET | StdReturn                 13.2901
+2018-01-29 13:56:44.138931 CET | MaxReturn                 21.6715
+2018-01-29 13:56:44.139142 CET | MinReturn                -36.3651
+2018-01-29 13:56:44.139368 CET | AverageEsReturn           -5.13818
+2018-01-29 13:56:44.139579 CET | StdEsReturn               39.3462
+2018-01-29 13:56:44.139806 CET | MaxEsReturn               54.3395
+2018-01-29 13:56:44.140017 CET | MinEsReturn              -80.2583
+2018-01-29 13:56:44.140226 CET | AverageDiscountedReturn   27.9004
+2018-01-29 13:56:44.140436 CET | AverageQLoss               0.0239908
+2018-01-29 13:56:44.140656 CET | AveragePolicySurr         -1.25427
+2018-01-29 13:56:44.140866 CET | AverageQ                   1.19018
+2018-01-29 13:56:44.141076 CET | AverageAbsQ                1.2917
+2018-01-29 13:56:44.141285 CET | AverageY                   1.19075
+2018-01-29 13:56:44.141495 CET | AverageAbsY                1.29544
+2018-01-29 13:56:44.141719 CET | AverageAbsQYDiff           0.105426
+2018-01-29 13:56:44.141936 CET | AverageAction              0.929343
+2018-01-29 13:56:44.142146 CET | PolicyRegParamNorm        34.8391
+2018-01-29 13:56:44.142356 CET | QFunRegParamNorm          61.6218
+2018-01-29 13:56:44.142566 CET | -----------------------  -----------
+2018-01-29 13:56:44.142865 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #7 | Training started
+2018-01-29 13:59:02.461997 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #7 | Training finished
+2018-01-29 13:59:02.462377 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #7 | Collecting samples for evaluation
+2018-01-29 13:59:09.158230 CET | -----------------------  -----------
+2018-01-29 13:59:09.158510 CET | Epoch                       7
+2018-01-29 13:59:09.158749 CET | AverageReturn             -10.7541
+2018-01-29 13:59:09.158966 CET | StdReturn                  32.206
+2018-01-29 13:59:09.159178 CET | MaxReturn                  39.46
+2018-01-29 13:59:09.159389 CET | MinReturn                -127.536
+2018-01-29 13:59:09.159614 CET | AverageEsReturn            44.8716
+2018-01-29 13:59:09.159831 CET | StdEsReturn                39.5732
+2018-01-29 13:59:09.160040 CET | MaxEsReturn               111.365
+2018-01-29 13:59:09.160250 CET | MinEsReturn               -43.5497
+2018-01-29 13:59:09.160476 CET | AverageDiscountedReturn    19.7697
+2018-01-29 13:59:09.160698 CET | AverageQLoss                0.028875
+2018-01-29 13:59:09.160908 CET | AveragePolicySurr          -1.75625
+2018-01-29 13:59:09.161117 CET | AverageQ                    1.68855
+2018-01-29 13:59:09.161327 CET | AverageAbsQ                 1.73305
+2018-01-29 13:59:09.161536 CET | AverageY                    1.68927
+2018-01-29 13:59:09.161746 CET | AverageAbsY                 1.73598
+2018-01-29 13:59:09.161973 CET | AverageAbsQYDiff            0.11375
+2018-01-29 13:59:09.162183 CET | AverageAction               0.931258
+2018-01-29 13:59:09.162391 CET | PolicyRegParamNorm         35.953
+2018-01-29 13:59:09.162601 CET | QFunRegParamNorm           65.1535
+2018-01-29 13:59:09.162810 CET | -----------------------  -----------
+2018-01-29 13:59:09.163129 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #8 | Training started
+2018-01-29 14:01:28.784783 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #8 | Training finished
+2018-01-29 14:01:28.785169 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #8 | Collecting samples for evaluation
+2018-01-29 14:01:35.555560 CET | -----------------------  ------------
+2018-01-29 14:01:35.555839 CET | Epoch                       8
+2018-01-29 14:01:35.556058 CET | AverageReturn             -76.6235
+2018-01-29 14:01:35.556272 CET | StdReturn                  28.5338
+2018-01-29 14:01:35.556485 CET | MaxReturn                 -17.6026
+2018-01-29 14:01:35.556709 CET | MinReturn                -118.921
+2018-01-29 14:01:35.556932 CET | AverageEsReturn            30.8922
+2018-01-29 14:01:35.557152 CET | StdEsReturn                66.0958
+2018-01-29 14:01:35.557363 CET | MaxEsReturn               223.127
+2018-01-29 14:01:35.557636 CET | MinEsReturn               -76.0935
+2018-01-29 14:01:35.557855 CET | AverageDiscountedReturn     3.4662
+2018-01-29 14:01:35.558065 CET | AverageQLoss                0.0320267
+2018-01-29 14:01:35.558275 CET | AveragePolicySurr          -2.31317
+2018-01-29 14:01:35.558486 CET | AverageQ                    2.23266
+2018-01-29 14:01:35.558696 CET | AverageAbsQ                 2.2481
+2018-01-29 14:01:35.558907 CET | AverageY                    2.23348
+2018-01-29 14:01:35.559118 CET | AverageAbsY                 2.24984
+2018-01-29 14:01:35.559328 CET | AverageAbsQYDiff            0.117467
+2018-01-29 14:01:35.559559 CET | AverageAction               0.967672
+2018-01-29 14:01:35.559787 CET | PolicyRegParamNorm         36.8267
+2018-01-29 14:01:35.559998 CET | QFunRegParamNorm           68.5222
+2018-01-29 14:01:35.560209 CET | -----------------------  ------------
+2018-01-29 14:01:35.560491 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #9 | Training started
+2018-01-29 14:03:55.388175 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #9 | Training finished
+2018-01-29 14:03:55.388587 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #9 | Collecting samples for evaluation
+2018-01-29 14:04:02.329148 CET | -----------------------  ------------
+2018-01-29 14:04:02.329435 CET | Epoch                       9
+2018-01-29 14:04:02.329655 CET | AverageReturn              31.5956
+2018-01-29 14:04:02.329869 CET | StdReturn                  59.5055
+2018-01-29 14:04:02.330082 CET | MaxReturn                 173.455
+2018-01-29 14:04:02.330294 CET | MinReturn                 -24.8677
+2018-01-29 14:04:02.330530 CET | AverageEsReturn           -27.1174
+2018-01-29 14:04:02.330767 CET | StdEsReturn                57.2777
+2018-01-29 14:04:02.330977 CET | MaxEsReturn               102.768
+2018-01-29 14:04:02.331192 CET | MinEsReturn              -139.895
+2018-01-29 14:04:02.331402 CET | AverageDiscountedReturn    37.8214
+2018-01-29 14:04:02.331612 CET | AverageQLoss                0.0380949
+2018-01-29 14:04:02.331822 CET | AveragePolicySurr          -2.846
+2018-01-29 14:04:02.332031 CET | AverageQ                    2.76803
+2018-01-29 14:04:02.332241 CET | AverageAbsQ                 2.77256
+2018-01-29 14:04:02.332450 CET | AverageY                    2.76896
+2018-01-29 14:04:02.332671 CET | AverageAbsY                 2.77382
+2018-01-29 14:04:02.332897 CET | AverageAbsQYDiff            0.124702
+2018-01-29 14:04:02.333107 CET | AverageAction               0.953305
+2018-01-29 14:04:02.333348 CET | PolicyRegParamNorm         37.6265
+2018-01-29 14:04:02.333574 CET | QFunRegParamNorm           71.7628
+2018-01-29 14:04:02.333784 CET | -----------------------  ------------
+2018-01-29 14:04:02.334067 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #10 | Training started
+2018-01-29 14:06:22.680556 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #10 | Training finished
+2018-01-29 14:06:22.680951 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #10 | Collecting samples for evaluation
+2018-01-29 14:06:29.571271 CET | -----------------------  -----------
+2018-01-29 14:06:29.571554 CET | Epoch                     10
+2018-01-29 14:06:29.571772 CET | AverageReturn            -59.4763
+2018-01-29 14:06:29.571987 CET | StdReturn                  6.15585
+2018-01-29 14:06:29.572199 CET | MaxReturn                -48.5699
+2018-01-29 14:06:29.572410 CET | MinReturn                -71.9593
+2018-01-29 14:06:29.572670 CET | AverageEsReturn           72.857
+2018-01-29 14:06:29.572894 CET | StdEsReturn               51.9753
+2018-01-29 14:06:29.573104 CET | MaxEsReturn              188.997
+2018-01-29 14:06:29.573315 CET | MinEsReturn              -22.4923
+2018-01-29 14:06:29.573542 CET | AverageDiscountedReturn   13.663
+2018-01-29 14:06:29.573753 CET | AverageQLoss               0.0488914
+2018-01-29 14:06:29.573965 CET | AveragePolicySurr         -3.26554
+2018-01-29 14:06:29.574192 CET | AverageQ                   3.18823
+2018-01-29 14:06:29.574403 CET | AverageAbsQ                3.18962
+2018-01-29 14:06:29.574613 CET | AverageY                   3.189
+2018-01-29 14:06:29.574824 CET | AverageAbsY                3.19048
+2018-01-29 14:06:29.575046 CET | AverageAbsQYDiff           0.131133
+2018-01-29 14:06:29.575264 CET | AverageAction              0.890117
+2018-01-29 14:06:29.575475 CET | PolicyRegParamNorm        38.4104
+2018-01-29 14:06:29.575685 CET | QFunRegParamNorm          74.7173
+2018-01-29 14:06:29.575895 CET | -----------------------  -----------
+2018-01-29 14:06:29.576176 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #11 | Training started
+2018-01-29 14:08:48.003689 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #11 | Training finished
+2018-01-29 14:08:48.004082 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #11 | Collecting samples for evaluation
+2018-01-29 14:08:54.658638 CET | -----------------------  -----------
+2018-01-29 14:08:54.658919 CET | Epoch                     11
+2018-01-29 14:08:54.659136 CET | AverageReturn             79.727
+2018-01-29 14:08:54.659350 CET | StdReturn                 36.3922
+2018-01-29 14:08:54.659563 CET | MaxReturn                120.763
+2018-01-29 14:08:54.659987 CET | MinReturn                -59.3712
+2018-01-29 14:08:54.660199 CET | AverageEsReturn           18.5191
+2018-01-29 14:08:54.660410 CET | StdEsReturn               37.1153
+2018-01-29 14:08:54.660632 CET | MaxEsReturn               77.8901
+2018-01-29 14:08:54.660864 CET | MinEsReturn              -47.8439
+2018-01-29 14:08:54.661075 CET | AverageDiscountedReturn   38.6949
+2018-01-29 14:08:54.661285 CET | AverageQLoss               0.0586108
+2018-01-29 14:08:54.661495 CET | AveragePolicySurr         -3.59802
+2018-01-29 14:08:54.661706 CET | AverageQ                   3.53526
+2018-01-29 14:08:54.661922 CET | AverageAbsQ                3.53571
+2018-01-29 14:08:54.662374 CET | AverageY                   3.53571
+2018-01-29 14:08:54.662585 CET | AverageAbsY                3.5362
+2018-01-29 14:08:54.662794 CET | AverageAbsQYDiff           0.134395
+2018-01-29 14:08:54.663004 CET | AverageAction              0.897204
+2018-01-29 14:08:54.663213 CET | PolicyRegParamNorm        39.1259
+2018-01-29 14:08:54.663423 CET | QFunRegParamNorm          77.4847
+2018-01-29 14:08:54.663633 CET | -----------------------  -----------
+2018-01-29 14:08:54.663917 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #12 | Training started
+2018-01-29 14:11:14.687483 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #12 | Training finished
+2018-01-29 14:11:14.687870 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #12 | Collecting samples for evaluation
+2018-01-29 14:11:21.411328 CET | -----------------------  ----------
+2018-01-29 14:11:21.412191 CET | Epoch                     12
+2018-01-29 14:11:21.412735 CET | AverageReturn             47.9775
+2018-01-29 14:11:21.413245 CET | StdReturn                 25.5102
+2018-01-29 14:11:21.414069 CET | MaxReturn                 94.8863
+2018-01-29 14:11:21.414577 CET | MinReturn                  6.75172
+2018-01-29 14:11:21.415080 CET | AverageEsReturn           65.5695
+2018-01-29 14:11:21.415580 CET | StdEsReturn               46.0274
+2018-01-29 14:11:21.416081 CET | MaxEsReturn              165.176
+2018-01-29 14:11:21.416855 CET | MinEsReturn               -5.91236
+2018-01-29 14:11:21.417358 CET | AverageDiscountedReturn   45.3936
+2018-01-29 14:11:21.417864 CET | AverageQLoss               0.059263
+2018-01-29 14:11:21.418366 CET | AveragePolicySurr         -3.79162
+2018-01-29 14:11:21.419196 CET | AverageQ                   3.73567
+2018-01-29 14:11:21.419714 CET | AverageAbsQ                3.73573
+2018-01-29 14:11:21.420225 CET | AverageY                   3.73606
+2018-01-29 14:11:21.420749 CET | AverageAbsY                3.73613
+2018-01-29 14:11:21.421446 CET | AverageAbsQYDiff           0.133591
+2018-01-29 14:11:21.421937 CET | AverageAction              0.901953
+2018-01-29 14:11:21.422423 CET | PolicyRegParamNorm        39.8525
+2018-01-29 14:11:21.422895 CET | QFunRegParamNorm          80.0415
+2018-01-29 14:11:21.423688 CET | -----------------------  ----------
+2018-01-29 14:11:21.424305 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #13 | Training started
+2018-01-29 14:13:40.110957 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #13 | Training finished
+2018-01-29 14:13:40.111335 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #13 | Collecting samples for evaluation
+2018-01-29 14:13:46.894438 CET | -----------------------  ------------
+2018-01-29 14:13:46.895299 CET | Epoch                      13
+2018-01-29 14:13:46.895827 CET | AverageReturn               6.21493
+2018-01-29 14:13:46.896335 CET | StdReturn                   9.07451
+2018-01-29 14:13:46.897174 CET | MaxReturn                  24.9806
+2018-01-29 14:13:46.897647 CET | MinReturn                  -8.31345
+2018-01-29 14:13:46.898118 CET | AverageEsReturn            38.2955
+2018-01-29 14:13:46.898587 CET | StdEsReturn                49.4522
+2018-01-29 14:13:46.899057 CET | MaxEsReturn               106.333
+2018-01-29 14:13:46.899753 CET | MinEsReturn              -129.827
+2018-01-29 14:13:46.900225 CET | AverageDiscountedReturn    35.3071
+2018-01-29 14:13:46.900710 CET | AverageQLoss                0.0621472
+2018-01-29 14:13:46.901181 CET | AveragePolicySurr          -4.02067
+2018-01-29 14:13:46.901651 CET | AverageQ                    3.96219
+2018-01-29 14:13:46.902422 CET | AverageAbsQ                 3.96219
+2018-01-29 14:13:46.902892 CET | AverageY                    3.96258
+2018-01-29 14:13:46.903364 CET | AverageAbsY                 3.96259
+2018-01-29 14:13:46.903835 CET | AverageAbsQYDiff            0.133965
+2018-01-29 14:13:46.904517 CET | AverageAction               0.883179
+2018-01-29 14:13:46.905021 CET | PolicyRegParamNorm         40.4326
+2018-01-29 14:13:46.905492 CET | QFunRegParamNorm           82.3459
+2018-01-29 14:13:46.905963 CET | -----------------------  ------------
+2018-01-29 14:13:46.906873 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #14 | Training started
+2018-01-29 14:16:07.067239 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #14 | Training finished
+2018-01-29 14:16:07.067638 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #14 | Collecting samples for evaluation
+2018-01-29 14:16:13.714954 CET | -----------------------  -----------
+2018-01-29 14:16:13.715235 CET | Epoch                     14
+2018-01-29 14:16:13.715453 CET | AverageReturn             86.9661
+2018-01-29 14:16:13.715668 CET | StdReturn                 34.1035
+2018-01-29 14:16:13.715881 CET | MaxReturn                163.286
+2018-01-29 14:16:13.716320 CET | MinReturn                 20.3228
+2018-01-29 14:16:13.716534 CET | AverageEsReturn           43.6122
+2018-01-29 14:16:13.716759 CET | StdEsReturn               47.5121
+2018-01-29 14:16:13.716971 CET | MaxEsReturn              153.334
+2018-01-29 14:16:13.717182 CET | MinEsReturn              -18.0008
+2018-01-29 14:16:13.717393 CET | AverageDiscountedReturn   34.7471
+2018-01-29 14:16:13.717605 CET | AverageQLoss               0.0638111
+2018-01-29 14:16:13.717838 CET | AveragePolicySurr         -4.15543
+2018-01-29 14:16:13.718049 CET | AverageQ                   4.10138
+2018-01-29 14:16:13.718260 CET | AverageAbsQ                4.10138
+2018-01-29 14:16:13.718471 CET | AverageY                   4.1018
+2018-01-29 14:16:13.718925 CET | AverageAbsY                4.1018
+2018-01-29 14:16:13.719137 CET | AverageAbsQYDiff           0.133669
+2018-01-29 14:16:13.719348 CET | AverageAction              0.926833
+2018-01-29 14:16:13.719559 CET | PolicyRegParamNorm        40.9911
+2018-01-29 14:16:13.719770 CET | QFunRegParamNorm          84.6325
+2018-01-29 14:16:13.719981 CET | -----------------------  -----------
+2018-01-29 14:16:13.720264 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #15 | Training started
+2018-01-29 14:18:31.376948 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #15 | Training finished
+2018-01-29 14:18:31.377331 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #15 | Collecting samples for evaluation
+2018-01-29 14:18:38.083814 CET | -----------------------  -----------
+2018-01-29 14:18:38.084100 CET | Epoch                     15
+2018-01-29 14:18:38.084321 CET | AverageReturn            159.336
+2018-01-29 14:18:38.084554 CET | StdReturn                 35.7202
+2018-01-29 14:18:38.084783 CET | MaxReturn                222.324
+2018-01-29 14:18:38.084994 CET | MinReturn                100.6
+2018-01-29 14:18:38.085224 CET | AverageEsReturn           72.1812
+2018-01-29 14:18:38.085435 CET | StdEsReturn               44.8161
+2018-01-29 14:18:38.085647 CET | MaxEsReturn              135.245
+2018-01-29 14:18:38.085857 CET | MinEsReturn              -14.8733
+2018-01-29 14:18:38.086068 CET | AverageDiscountedReturn   67.7196
+2018-01-29 14:18:38.086278 CET | AverageQLoss               0.0763861
+2018-01-29 14:18:38.086488 CET | AveragePolicySurr         -4.27834
+2018-01-29 14:18:38.086698 CET | AverageQ                   4.22545
+2018-01-29 14:18:38.086908 CET | AverageAbsQ                4.22545
+2018-01-29 14:18:38.087119 CET | AverageY                   4.22599
+2018-01-29 14:18:38.087329 CET | AverageAbsY                4.22599
+2018-01-29 14:18:38.087557 CET | AverageAbsQYDiff           0.137842
+2018-01-29 14:18:38.087766 CET | AverageAction              0.938761
+2018-01-29 14:18:38.087976 CET | PolicyRegParamNorm        41.661
+2018-01-29 14:18:38.088187 CET | QFunRegParamNorm          86.8762
+2018-01-29 14:18:38.088396 CET | -----------------------  -----------
+2018-01-29 14:18:38.088719 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #16 | Training started
+2018-01-29 14:20:56.145206 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #16 | Training finished
+2018-01-29 14:20:56.145603 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #16 | Collecting samples for evaluation
+2018-01-29 14:21:03.109005 CET | -----------------------  -----------
+2018-01-29 14:21:03.109292 CET | Epoch                     16
+2018-01-29 14:21:03.109518 CET | AverageReturn             56.1101
+2018-01-29 14:21:03.109732 CET | StdReturn                 65.8094
+2018-01-29 14:21:03.109943 CET | MaxReturn                240.148
+2018-01-29 14:21:03.110153 CET | MinReturn                -42.6684
+2018-01-29 14:21:03.110586 CET | AverageEsReturn          108.333
+2018-01-29 14:21:03.110797 CET | StdEsReturn               59.398
+2018-01-29 14:21:03.111007 CET | MaxEsReturn              249.541
+2018-01-29 14:21:03.111217 CET | MinEsReturn               -1.38931
+2018-01-29 14:21:03.111454 CET | AverageDiscountedReturn   32.0805
+2018-01-29 14:21:03.111673 CET | AverageQLoss               0.0869111
+2018-01-29 14:21:03.111882 CET | AveragePolicySurr         -4.36889
+2018-01-29 14:21:03.112092 CET | AverageQ                   4.31838
+2018-01-29 14:21:03.112302 CET | AverageAbsQ                4.31838
+2018-01-29 14:21:03.112512 CET | AverageY                   4.31875
+2018-01-29 14:21:03.112730 CET | AverageAbsY                4.31875
+2018-01-29 14:21:03.113185 CET | AverageAbsQYDiff           0.139696
+2018-01-29 14:21:03.113395 CET | AverageAction              0.901745
+2018-01-29 14:21:03.113606 CET | PolicyRegParamNorm        42.2345
+2018-01-29 14:21:03.113816 CET | QFunRegParamNorm          89.116
+2018-01-29 14:21:03.114026 CET | -----------------------  -----------
+2018-01-29 14:21:03.114307 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #17 | Training started
+2018-01-29 14:23:22.470929 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #17 | Training finished
+2018-01-29 14:23:22.471314 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #17 | Collecting samples for evaluation
+2018-01-29 14:23:29.324447 CET | -----------------------  -----------
+2018-01-29 14:23:29.324758 CET | Epoch                     17
+2018-01-29 14:23:29.324976 CET | AverageReturn             15.2703
+2018-01-29 14:23:29.325190 CET | StdReturn                 59.1154
+2018-01-29 14:23:29.325402 CET | MaxReturn                105.242
+2018-01-29 14:23:29.325614 CET | MinReturn                -97.956
+2018-01-29 14:23:29.325843 CET | AverageEsReturn          110.703
+2018-01-29 14:23:29.326054 CET | StdEsReturn              110.898
+2018-01-29 14:23:29.326265 CET | MaxEsReturn              490.289
+2018-01-29 14:23:29.326475 CET | MinEsReturn                2.51218
+2018-01-29 14:23:29.326685 CET | AverageDiscountedReturn   45.3749
+2018-01-29 14:23:29.326894 CET | AverageQLoss               0.0890787
+2018-01-29 14:23:29.327105 CET | AveragePolicySurr         -4.47191
+2018-01-29 14:23:29.327335 CET | AverageQ                   4.42513
+2018-01-29 14:23:29.327580 CET | AverageAbsQ                4.42513
+2018-01-29 14:23:29.327790 CET | AverageY                   4.42561
+2018-01-29 14:23:29.328000 CET | AverageAbsY                4.42562
+2018-01-29 14:23:29.328226 CET | AverageAbsQYDiff           0.138581
+2018-01-29 14:23:29.328437 CET | AverageAction              0.907078
+2018-01-29 14:23:29.328652 CET | PolicyRegParamNorm        42.7756
+2018-01-29 14:23:29.328862 CET | QFunRegParamNorm          91.3061
+2018-01-29 14:23:29.329072 CET | -----------------------  -----------
+2018-01-29 14:23:29.329355 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #18 | Training started
+2018-01-29 14:25:48.217449 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #18 | Training finished
+2018-01-29 14:25:48.217837 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #18 | Collecting samples for evaluation
+2018-01-29 14:25:54.850267 CET | -----------------------  -----------
+2018-01-29 14:25:54.850548 CET | Epoch                     18
+2018-01-29 14:25:54.850787 CET | AverageReturn             51.9447
+2018-01-29 14:25:54.851006 CET | StdReturn                 46.36
+2018-01-29 14:25:54.851218 CET | MaxReturn                174.222
+2018-01-29 14:25:54.851429 CET | MinReturn                -24.0206
+2018-01-29 14:25:54.851646 CET | AverageEsReturn           84.3379
+2018-01-29 14:25:54.851869 CET | StdEsReturn               69.0868
+2018-01-29 14:25:54.852079 CET | MaxEsReturn              296.882
+2018-01-29 14:25:54.852305 CET | MinEsReturn                2.51491
+2018-01-29 14:25:54.852514 CET | AverageDiscountedReturn   53.0237
+2018-01-29 14:25:54.852763 CET | AverageQLoss               0.0891068
+2018-01-29 14:25:54.852973 CET | AveragePolicySurr         -4.499
+2018-01-29 14:25:54.853184 CET | AverageQ                   4.45656
+2018-01-29 14:25:54.853394 CET | AverageAbsQ                4.45656
+2018-01-29 14:25:54.853621 CET | AverageY                   4.45686
+2018-01-29 14:25:54.853830 CET | AverageAbsY                4.45686
+2018-01-29 14:25:54.854055 CET | AverageAbsQYDiff           0.139009
+2018-01-29 14:25:54.854265 CET | AverageAction              0.939497
+2018-01-29 14:25:54.854475 CET | PolicyRegParamNorm        43.3058
+2018-01-29 14:25:54.854684 CET | QFunRegParamNorm          93.3834
+2018-01-29 14:25:54.854894 CET | -----------------------  -----------
+2018-01-29 14:25:54.855175 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #19 | Training started
+2018-01-29 14:28:14.767092 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #19 | Training finished
+2018-01-29 14:28:14.767479 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #19 | Collecting samples for evaluation
+2018-01-29 14:28:21.468002 CET | -----------------------  ----------
+2018-01-29 14:28:21.468280 CET | Epoch                     19
+2018-01-29 14:28:21.468498 CET | AverageReturn             70.916
+2018-01-29 14:28:21.468721 CET | StdReturn                 25.7011
+2018-01-29 14:28:21.468935 CET | MaxReturn                123.932
+2018-01-29 14:28:21.469147 CET | MinReturn                 25.0774
+2018-01-29 14:28:21.469370 CET | AverageEsReturn          114.122
+2018-01-29 14:28:21.469589 CET | StdEsReturn               67.9582
+2018-01-29 14:28:21.469799 CET | MaxEsReturn              266.804
+2018-01-29 14:28:21.470009 CET | MinEsReturn               -5.21771
+2018-01-29 14:28:21.470237 CET | AverageDiscountedReturn   49.367
+2018-01-29 14:28:21.470448 CET | AverageQLoss               0.098835
+2018-01-29 14:28:21.470658 CET | AveragePolicySurr         -4.51046
+2018-01-29 14:28:21.470868 CET | AverageQ                   4.46906
+2018-01-29 14:28:21.471078 CET | AverageAbsQ                4.46907
+2018-01-29 14:28:21.471288 CET | AverageY                   4.46955
+2018-01-29 14:28:21.471532 CET | AverageAbsY                4.46955
+2018-01-29 14:28:21.471755 CET | AverageAbsQYDiff           0.139644
+2018-01-29 14:28:21.471967 CET | AverageAction              0.918017
+2018-01-29 14:28:21.472177 CET | PolicyRegParamNorm        43.8628
+2018-01-29 14:28:21.472387 CET | QFunRegParamNorm          95.3444
+2018-01-29 14:28:21.472597 CET | -----------------------  ----------
+2018-01-29 14:28:21.472886 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #20 | Training started
+2018-01-29 14:30:41.090538 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #20 | Training finished
+2018-01-29 14:30:41.090927 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #20 | Collecting samples for evaluation
+2018-01-29 14:30:47.790519 CET | -----------------------  ------------
+2018-01-29 14:30:47.790800 CET | Epoch                      20
+2018-01-29 14:30:47.791018 CET | AverageReturn               0.505472
+2018-01-29 14:30:47.791233 CET | StdReturn                  54.9304
+2018-01-29 14:30:47.791445 CET | MaxReturn                  78.0822
+2018-01-29 14:30:47.791656 CET | MinReturn                -165.72
+2018-01-29 14:30:47.791883 CET | AverageEsReturn            95.8098
+2018-01-29 14:30:47.792098 CET | StdEsReturn                56.0082
+2018-01-29 14:30:47.792344 CET | MaxEsReturn               269.443
+2018-01-29 14:30:47.792559 CET | MinEsReturn                27.2153
+2018-01-29 14:30:47.792782 CET | AverageDiscountedReturn    40.027
+2018-01-29 14:30:47.792992 CET | AverageQLoss                0.0908433
+2018-01-29 14:30:47.793220 CET | AveragePolicySurr          -4.52157
+2018-01-29 14:30:47.793431 CET | AverageQ                    4.48186
+2018-01-29 14:30:47.793642 CET | AverageAbsQ                 4.48186
+2018-01-29 14:30:47.793853 CET | AverageY                    4.48191
+2018-01-29 14:30:47.794063 CET | AverageAbsY                 4.48191
+2018-01-29 14:30:47.794290 CET | AverageAbsQYDiff            0.13622
+2018-01-29 14:30:47.794506 CET | AverageAction               0.923055
+2018-01-29 14:30:47.794717 CET | PolicyRegParamNorm         44.3863
+2018-01-29 14:30:47.794927 CET | QFunRegParamNorm           97.3016
+2018-01-29 14:30:47.795138 CET | -----------------------  ------------
+2018-01-29 14:30:47.795419 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #21 | Training started
+2018-01-29 14:33:06.948666 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #21 | Training finished
+2018-01-29 14:33:06.949050 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #21 | Collecting samples for evaluation
+2018-01-29 14:33:13.661726 CET | -----------------------  -----------
+2018-01-29 14:33:13.662004 CET | Epoch                     21
+2018-01-29 14:33:13.662221 CET | AverageReturn             53.2623
+2018-01-29 14:33:13.662433 CET | StdReturn                 24.0913
+2018-01-29 14:33:13.662645 CET | MaxReturn                 93.3946
+2018-01-29 14:33:13.662856 CET | MinReturn                 15.8025
+2018-01-29 14:33:13.663291 CET | AverageEsReturn           83.6684
+2018-01-29 14:33:13.663500 CET | StdEsReturn               59.0826
+2018-01-29 14:33:13.663710 CET | MaxEsReturn              223.096
+2018-01-29 14:33:13.663920 CET | MinEsReturn              -16.2147
+2018-01-29 14:33:13.664165 CET | AverageDiscountedReturn   57.0259
+2018-01-29 14:33:13.664392 CET | AverageQLoss               0.0919488
+2018-01-29 14:33:13.664601 CET | AveragePolicySurr         -4.51657
+2018-01-29 14:33:13.664823 CET | AverageQ                   4.47824
+2018-01-29 14:33:13.665033 CET | AverageAbsQ                4.47824
+2018-01-29 14:33:13.665243 CET | AverageY                   4.47825
+2018-01-29 14:33:13.665697 CET | AverageAbsY                4.47826
+2018-01-29 14:33:13.665907 CET | AverageAbsQYDiff           0.133696
+2018-01-29 14:33:13.666117 CET | AverageAction              0.969941
+2018-01-29 14:33:13.666326 CET | PolicyRegParamNorm        44.9569
+2018-01-29 14:33:13.666553 CET | QFunRegParamNorm          99.1207
+2018-01-29 14:33:13.666762 CET | -----------------------  -----------
+2018-01-29 14:33:13.667044 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #22 | Training started
+2018-01-29 14:35:33.371112 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #22 | Training finished
+2018-01-29 14:35:33.371498 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #22 | Collecting samples for evaluation
+2018-01-29 14:35:40.080310 CET | -----------------------  -----------
+2018-01-29 14:35:40.080592 CET | Epoch                     22
+2018-01-29 14:35:40.080822 CET | AverageReturn             86.9662
+2018-01-29 14:35:40.081037 CET | StdReturn                 56.4567
+2018-01-29 14:35:40.081249 CET | MaxReturn                299.086
+2018-01-29 14:35:40.081461 CET | MinReturn                 29.9544
+2018-01-29 14:35:40.081688 CET | AverageEsReturn           94.7428
+2018-01-29 14:35:40.081904 CET | StdEsReturn               38.9234
+2018-01-29 14:35:40.082114 CET | MaxEsReturn              222.903
+2018-01-29 14:35:40.082325 CET | MinEsReturn               31.467
+2018-01-29 14:35:40.082535 CET | AverageDiscountedReturn   54.2737
+2018-01-29 14:35:40.082762 CET | AverageQLoss               0.0903539
+2018-01-29 14:35:40.082991 CET | AveragePolicySurr         -4.55556
+2018-01-29 14:35:40.083236 CET | AverageQ                   4.51176
+2018-01-29 14:35:40.083451 CET | AverageAbsQ                4.51176
+2018-01-29 14:35:40.083662 CET | AverageY                   4.51186
+2018-01-29 14:35:40.083872 CET | AverageAbsY                4.51186
+2018-01-29 14:35:40.084108 CET | AverageAbsQYDiff           0.134057
+2018-01-29 14:35:40.084327 CET | AverageAction              0.946004
+2018-01-29 14:35:40.084536 CET | PolicyRegParamNorm        45.4847
+2018-01-29 14:35:40.084753 CET | QFunRegParamNorm         101.031
+2018-01-29 14:35:40.084963 CET | -----------------------  -----------
+2018-01-29 14:35:40.085248 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #23 | Training started
+2018-01-29 14:37:58.668698 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #23 | Training finished
+2018-01-29 14:37:58.669004 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #23 | Collecting samples for evaluation
+2018-01-29 14:38:05.476168 CET | -----------------------  -----------
+2018-01-29 14:38:05.476449 CET | Epoch                     23
+2018-01-29 14:38:05.476680 CET | AverageReturn             31.2605
+2018-01-29 14:38:05.476895 CET | StdReturn                 15.6177
+2018-01-29 14:38:05.477108 CET | MaxReturn                 70.4027
+2018-01-29 14:38:05.477319 CET | MinReturn                 10.8158
+2018-01-29 14:38:05.477551 CET | AverageEsReturn           98.5125
+2018-01-29 14:38:05.477762 CET | StdEsReturn               35.9054
+2018-01-29 14:38:05.477973 CET | MaxEsReturn              166.043
+2018-01-29 14:38:05.478184 CET | MinEsReturn               31.1851
+2018-01-29 14:38:05.478412 CET | AverageDiscountedReturn   53.6942
+2018-01-29 14:38:05.478640 CET | AverageQLoss               0.0898317
+2018-01-29 14:38:05.478851 CET | AveragePolicySurr         -4.56443
+2018-01-29 14:38:05.479062 CET | AverageQ                   4.52759
+2018-01-29 14:38:05.479272 CET | AverageAbsQ                4.5276
+2018-01-29 14:38:05.479483 CET | AverageY                   4.52751
+2018-01-29 14:38:05.479692 CET | AverageAbsY                4.52752
+2018-01-29 14:38:05.479919 CET | AverageAbsQYDiff           0.133013
+2018-01-29 14:38:05.480129 CET | AverageAction              0.971239
+2018-01-29 14:38:05.480339 CET | PolicyRegParamNorm        45.9692
+2018-01-29 14:38:05.480550 CET | QFunRegParamNorm         102.72
+2018-01-29 14:38:05.480768 CET | -----------------------  -----------
+2018-01-29 14:38:05.481051 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #24 | Training started
+2018-01-29 14:40:25.316563 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #24 | Training finished
+2018-01-29 14:40:25.316880 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #24 | Collecting samples for evaluation
+2018-01-29 14:40:32.244091 CET | -----------------------  -----------
+2018-01-29 14:40:32.244369 CET | Epoch                     24
+2018-01-29 14:40:32.244587 CET | AverageReturn             80.7373
+2018-01-29 14:40:32.244814 CET | StdReturn                 22.0331
+2018-01-29 14:40:32.245026 CET | MaxReturn                125.864
+2018-01-29 14:40:32.245238 CET | MinReturn                 18.8673
+2018-01-29 14:40:32.245450 CET | AverageEsReturn           90.917
+2018-01-29 14:40:32.245676 CET | StdEsReturn               36.7293
+2018-01-29 14:40:32.245886 CET | MaxEsReturn              164.787
+2018-01-29 14:40:32.246096 CET | MinEsReturn               30.3433
+2018-01-29 14:40:32.246328 CET | AverageDiscountedReturn   54.109
+2018-01-29 14:40:32.246555 CET | AverageQLoss               0.0967095
+2018-01-29 14:40:32.246799 CET | AveragePolicySurr         -4.57854
+2018-01-29 14:40:32.247009 CET | AverageQ                   4.53775
+2018-01-29 14:40:32.247220 CET | AverageAbsQ                4.53775
+2018-01-29 14:40:32.247430 CET | AverageY                   4.53792
+2018-01-29 14:40:32.247640 CET | AverageAbsY                4.53792
+2018-01-29 14:40:32.247866 CET | AverageAbsQYDiff           0.132408
+2018-01-29 14:40:32.248081 CET | AverageAction              0.798338
+2018-01-29 14:40:32.248290 CET | PolicyRegParamNorm        46.4246
+2018-01-29 14:40:32.248505 CET | QFunRegParamNorm         104.467
+2018-01-29 14:40:32.248722 CET | -----------------------  -----------
+2018-01-29 14:40:32.249005 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #25 | Training started
+2018-01-29 14:42:53.160631 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #25 | Training finished
+2018-01-29 14:42:53.160936 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #25 | Collecting samples for evaluation
+2018-01-29 14:43:00.109025 CET | -----------------------  ----------
+2018-01-29 14:43:00.109307 CET | Epoch                     25
+2018-01-29 14:43:00.109526 CET | AverageReturn             29.5834
+2018-01-29 14:43:00.109741 CET | StdReturn                 28.0756
+2018-01-29 14:43:00.109970 CET | MaxReturn                 83.4067
+2018-01-29 14:43:00.110181 CET | MinReturn                -18.0918
+2018-01-29 14:43:00.110409 CET | AverageEsReturn          116.893
+2018-01-29 14:43:00.110619 CET | StdEsReturn               58.3342
+2018-01-29 14:43:00.110829 CET | MaxEsReturn              268.318
+2018-01-29 14:43:00.111039 CET | MinEsReturn              -19.0473
+2018-01-29 14:43:00.111249 CET | AverageDiscountedReturn   53.6746
+2018-01-29 14:43:00.111459 CET | AverageQLoss               0.093813
+2018-01-29 14:43:00.111669 CET | AveragePolicySurr         -4.61875
+2018-01-29 14:43:00.111880 CET | AverageQ                   4.57908
+2018-01-29 14:43:00.112090 CET | AverageAbsQ                4.57908
+2018-01-29 14:43:00.112300 CET | AverageY                   4.57933
+2018-01-29 14:43:00.112510 CET | AverageAbsY                4.57933
+2018-01-29 14:43:00.112756 CET | AverageAbsQYDiff           0.128254
+2018-01-29 14:43:00.112976 CET | AverageAction              0.973968
+2018-01-29 14:43:00.113186 CET | PolicyRegParamNorm        46.8742
+2018-01-29 14:43:00.113396 CET | QFunRegParamNorm         106.059
+2018-01-29 14:43:00.113606 CET | -----------------------  ----------
+2018-01-29 14:43:00.113886 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #26 | Training started
+2018-01-29 14:45:19.319354 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #26 | Training finished
+2018-01-29 14:45:19.319736 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #26 | Collecting samples for evaluation
+2018-01-29 14:45:26.024801 CET | -----------------------  -----------
+2018-01-29 14:45:26.025081 CET | Epoch                     26
+2018-01-29 14:45:26.025321 CET | AverageReturn             32.8947
+2018-01-29 14:45:26.025570 CET | StdReturn                 23.3089
+2018-01-29 14:45:26.025783 CET | MaxReturn                 87.54
+2018-01-29 14:45:26.025994 CET | MinReturn                -18.6772
+2018-01-29 14:45:26.026225 CET | AverageEsReturn           82.6101
+2018-01-29 14:45:26.026435 CET | StdEsReturn               24.749
+2018-01-29 14:45:26.026646 CET | MaxEsReturn              125.559
+2018-01-29 14:45:26.026856 CET | MinEsReturn               40.0308
+2018-01-29 14:45:26.027083 CET | AverageDiscountedReturn   54.368
+2018-01-29 14:45:26.027295 CET | AverageQLoss               0.0987246
+2018-01-29 14:45:26.027506 CET | AveragePolicySurr         -4.62756
+2018-01-29 14:45:26.027716 CET | AverageQ                   4.58732
+2018-01-29 14:45:26.027926 CET | AverageAbsQ                4.58733
+2018-01-29 14:45:26.028137 CET | AverageY                   4.58741
+2018-01-29 14:45:26.028348 CET | AverageAbsY                4.58741
+2018-01-29 14:45:26.028568 CET | AverageAbsQYDiff           0.125709
+2018-01-29 14:45:26.028800 CET | AverageAction              0.972178
+2018-01-29 14:45:26.029010 CET | PolicyRegParamNorm        47.3102
+2018-01-29 14:45:26.029221 CET | QFunRegParamNorm         107.639
+2018-01-29 14:45:26.029431 CET | -----------------------  -----------
+2018-01-29 14:45:26.029713 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #27 | Training started
+2018-01-29 14:47:45.827183 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #27 | Training finished
+2018-01-29 14:47:45.827785 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #27 | Collecting samples for evaluation
+2018-01-29 14:47:52.556467 CET | -----------------------  ----------
+2018-01-29 14:47:52.556759 CET | Epoch                     27
+2018-01-29 14:47:52.556977 CET | AverageReturn             61.7469
+2018-01-29 14:47:52.557218 CET | StdReturn                 59.1364
+2018-01-29 14:47:52.557439 CET | MaxReturn                176.387
+2018-01-29 14:47:52.557667 CET | MinReturn                -22.8019
+2018-01-29 14:47:52.557894 CET | AverageEsReturn           82.9515
+2018-01-29 14:47:52.558104 CET | StdEsReturn               40.5566
+2018-01-29 14:47:52.558314 CET | MaxEsReturn              169.803
+2018-01-29 14:47:52.558524 CET | MinEsReturn              -33.1212
+2018-01-29 14:47:52.558734 CET | AverageDiscountedReturn   57.5889
+2018-01-29 14:47:52.558945 CET | AverageQLoss               0.104512
+2018-01-29 14:47:52.559155 CET | AveragePolicySurr         -4.62524
+2018-01-29 14:47:52.559366 CET | AverageQ                   4.58917
+2018-01-29 14:47:52.559576 CET | AverageAbsQ                4.58917
+2018-01-29 14:47:52.559786 CET | AverageY                   4.58923
+2018-01-29 14:47:52.559996 CET | AverageAbsY                4.58923
+2018-01-29 14:47:52.560223 CET | AverageAbsQYDiff           0.125778
+2018-01-29 14:47:52.560433 CET | AverageAction              0.924702
+2018-01-29 14:47:52.560656 CET | PolicyRegParamNorm        47.7034
+2018-01-29 14:47:52.560866 CET | QFunRegParamNorm         109.196
+2018-01-29 14:47:52.561075 CET | -----------------------  ----------
+2018-01-29 14:47:52.561375 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #28 | Training started
+2018-01-29 14:50:13.017682 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #28 | Training finished
+2018-01-29 14:50:13.017989 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #28 | Collecting samples for evaluation
+2018-01-29 14:50:19.696247 CET | -----------------------  ----------
+2018-01-29 14:50:19.696529 CET | Epoch                     28
+2018-01-29 14:50:19.696777 CET | AverageReturn             52.2748
+2018-01-29 14:50:19.697012 CET | StdReturn                 29.1022
+2018-01-29 14:50:19.697223 CET | MaxReturn                108.682
+2018-01-29 14:50:19.697433 CET | MinReturn                 -6.13586
+2018-01-29 14:50:19.697660 CET | AverageEsReturn           80.9117
+2018-01-29 14:50:19.697878 CET | StdEsReturn               39.0546
+2018-01-29 14:50:19.698087 CET | MaxEsReturn              168.824
+2018-01-29 14:50:19.698315 CET | MinEsReturn                8.53069
+2018-01-29 14:50:19.698524 CET | AverageDiscountedReturn   55.1973
+2018-01-29 14:50:19.698733 CET | AverageQLoss               0.101408
+2018-01-29 14:50:19.698943 CET | AveragePolicySurr         -4.58023
+2018-01-29 14:50:19.699153 CET | AverageQ                   4.54761
+2018-01-29 14:50:19.699362 CET | AverageAbsQ                4.54762
+2018-01-29 14:50:19.699607 CET | AverageY                   4.54764
+2018-01-29 14:50:19.699816 CET | AverageAbsY                4.54764
+2018-01-29 14:50:19.700029 CET | AverageAbsQYDiff           0.125013
+2018-01-29 14:50:19.700252 CET | AverageAction              0.894152
+2018-01-29 14:50:19.700461 CET | PolicyRegParamNorm        48.1009
+2018-01-29 14:50:19.700677 CET | QFunRegParamNorm         110.791
+2018-01-29 14:50:19.700887 CET | -----------------------  ----------
+2018-01-29 14:50:19.701168 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #29 | Training started
+2018-01-29 14:52:40.623108 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #29 | Training finished
+2018-01-29 14:52:40.623410 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #29 | Collecting samples for evaluation
+2018-01-29 14:52:47.315172 CET | -----------------------  ----------
+2018-01-29 14:52:47.315454 CET | Epoch                     29
+2018-01-29 14:52:47.315670 CET | AverageReturn            153.177
+2018-01-29 14:52:47.315883 CET | StdReturn                 82.2098
+2018-01-29 14:52:47.316099 CET | MaxReturn                412.734
+2018-01-29 14:52:47.316309 CET | MinReturn                 14.59
+2018-01-29 14:52:47.316555 CET | AverageEsReturn          124.286
+2018-01-29 14:52:47.316821 CET | StdEsReturn               51.4605
+2018-01-29 14:52:47.317029 CET | MaxEsReturn              295.121
+2018-01-29 14:52:47.317238 CET | MinEsReturn               56.9065
+2018-01-29 14:52:47.317465 CET | AverageDiscountedReturn   76.3787
+2018-01-29 14:52:47.317675 CET | AverageQLoss               0.111082
+2018-01-29 14:52:47.317884 CET | AveragePolicySurr         -4.52838
+2018-01-29 14:52:47.318093 CET | AverageQ                   4.49633
+2018-01-29 14:52:47.318302 CET | AverageAbsQ                4.49633
+2018-01-29 14:52:47.318512 CET | AverageY                   4.49645
+2018-01-29 14:52:47.318734 CET | AverageAbsY                4.49645
+2018-01-29 14:52:47.318966 CET | AverageAbsQYDiff           0.125951
+2018-01-29 14:52:47.319181 CET | AverageAction              0.924425
+2018-01-29 14:52:47.319395 CET | PolicyRegParamNorm        48.49
+2018-01-29 14:52:47.319610 CET | QFunRegParamNorm         112.351
+2018-01-29 14:52:47.319824 CET | -----------------------  ----------
+2018-01-29 14:52:47.320112 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #30 | Training started
+2018-01-29 14:55:07.418561 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #30 | Training finished
+2018-01-29 14:55:07.418869 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #30 | Collecting samples for evaluation
+2018-01-29 14:55:14.138646 CET | -----------------------  ----------
+2018-01-29 14:55:14.138926 CET | Epoch                     30
+2018-01-29 14:55:14.139144 CET | AverageReturn             92.5516
+2018-01-29 14:55:14.139357 CET | StdReturn                 27.2461
+2018-01-29 14:55:14.139569 CET | MaxReturn                136.371
+2018-01-29 14:55:14.139780 CET | MinReturn                 48.1558
+2018-01-29 14:55:14.140214 CET | AverageEsReturn          163.846
+2018-01-29 14:55:14.140425 CET | StdEsReturn               53.5814
+2018-01-29 14:55:14.140646 CET | MaxEsReturn              290.077
+2018-01-29 14:55:14.140858 CET | MinEsReturn               66.8038
+2018-01-29 14:55:14.141085 CET | AverageDiscountedReturn   68.142
+2018-01-29 14:55:14.141296 CET | AverageQLoss               0.102205
+2018-01-29 14:55:14.141506 CET | AveragePolicySurr         -4.52723
+2018-01-29 14:55:14.141717 CET | AverageQ                   4.49432
+2018-01-29 14:55:14.141927 CET | AverageAbsQ                4.49432
+2018-01-29 14:55:14.142137 CET | AverageY                   4.49439
+2018-01-29 14:55:14.142591 CET | AverageAbsY                4.49439
+2018-01-29 14:55:14.142801 CET | AverageAbsQYDiff           0.122832
+2018-01-29 14:55:14.143010 CET | AverageAction              0.952904
+2018-01-29 14:55:14.143220 CET | PolicyRegParamNorm        48.8839
+2018-01-29 14:55:14.143463 CET | QFunRegParamNorm         113.934
+2018-01-29 14:55:14.143673 CET | -----------------------  ----------
+2018-01-29 14:55:14.143952 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #31 | Training started
+2018-01-29 14:57:35.642637 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #31 | Training finished
+2018-01-29 14:57:35.643019 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #31 | Collecting samples for evaluation
+2018-01-29 14:57:42.337074 CET | -----------------------  -----------
+2018-01-29 14:57:42.337394 CET | Epoch                     31
+2018-01-29 14:57:42.337612 CET | AverageReturn            206.548
+2018-01-29 14:57:42.337827 CET | StdReturn                 74.6953
+2018-01-29 14:57:42.338040 CET | MaxReturn                432.178
+2018-01-29 14:57:42.338251 CET | MinReturn                111.903
+2018-01-29 14:57:42.338687 CET | AverageEsReturn          174.123
+2018-01-29 14:57:42.338899 CET | StdEsReturn               78.7726
+2018-01-29 14:57:42.339109 CET | MaxEsReturn              382.519
+2018-01-29 14:57:42.339319 CET | MinEsReturn               83.539
+2018-01-29 14:57:42.339552 CET | AverageDiscountedReturn   84.1308
+2018-01-29 14:57:42.339762 CET | AverageQLoss               0.0922895
+2018-01-29 14:57:42.339972 CET | AveragePolicySurr         -4.52926
+2018-01-29 14:57:42.340182 CET | AverageQ                   4.49651
+2018-01-29 14:57:42.340393 CET | AverageAbsQ                4.49651
+2018-01-29 14:57:42.340603 CET | AverageY                   4.49661
+2018-01-29 14:57:42.341067 CET | AverageAbsY                4.49661
+2018-01-29 14:57:42.341278 CET | AverageAbsQYDiff           0.122052
+2018-01-29 14:57:42.341489 CET | AverageAction              0.88586
+2018-01-29 14:57:42.341699 CET | PolicyRegParamNorm        49.284
+2018-01-29 14:57:42.341910 CET | QFunRegParamNorm         115.433
+2018-01-29 14:57:42.342120 CET | -----------------------  -----------
+2018-01-29 14:57:42.342420 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #32 | Training started
+2018-01-29 15:00:02.505933 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #32 | Training finished
+2018-01-29 15:00:02.506324 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #32 | Collecting samples for evaluation
+2018-01-29 15:00:09.277628 CET | -----------------------  ----------
+2018-01-29 15:00:09.277913 CET | Epoch                     32
+2018-01-29 15:00:09.278132 CET | AverageReturn            117.588
+2018-01-29 15:00:09.278355 CET | StdReturn                 63.4699
+2018-01-29 15:00:09.278576 CET | MaxReturn                264.848
+2018-01-29 15:00:09.278788 CET | MinReturn                 43.0389
+2018-01-29 15:00:09.279014 CET | AverageEsReturn          234.051
+2018-01-29 15:00:09.279225 CET | StdEsReturn              113.503
+2018-01-29 15:00:09.279434 CET | MaxEsReturn              443.914
+2018-01-29 15:00:09.279644 CET | MinEsReturn               51.0121
+2018-01-29 15:00:09.279855 CET | AverageDiscountedReturn   72.3269
+2018-01-29 15:00:09.280065 CET | AverageQLoss               0.102282
+2018-01-29 15:00:09.280274 CET | AveragePolicySurr         -4.54924
+2018-01-29 15:00:09.280484 CET | AverageQ                   4.51704
+2018-01-29 15:00:09.280706 CET | AverageAbsQ                4.51704
+2018-01-29 15:00:09.280936 CET | AverageY                   4.51709
+2018-01-29 15:00:09.281147 CET | AverageAbsY                4.51709
+2018-01-29 15:00:09.281372 CET | AverageAbsQYDiff           0.124365
+2018-01-29 15:00:09.281582 CET | AverageAction              0.953717
+2018-01-29 15:00:09.281792 CET | PolicyRegParamNorm        49.6281
+2018-01-29 15:00:09.282002 CET | QFunRegParamNorm         116.95
+2018-01-29 15:00:09.282211 CET | -----------------------  ----------
+2018-01-29 15:00:09.282493 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #33 | Training started
+2018-01-29 15:02:30.197224 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #33 | Training finished
+2018-01-29 15:02:30.197527 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #33 | Collecting samples for evaluation
+2018-01-29 15:02:36.908038 CET | -----------------------  ----------
+2018-01-29 15:02:36.908317 CET | Epoch                     33
+2018-01-29 15:02:36.908536 CET | AverageReturn             81.98
+2018-01-29 15:02:36.908761 CET | StdReturn                 22.0367
+2018-01-29 15:02:36.908974 CET | MaxReturn                132.189
+2018-01-29 15:02:36.909185 CET | MinReturn                 41.8043
+2018-01-29 15:02:36.909664 CET | AverageEsReturn          240.73
+2018-01-29 15:02:36.909875 CET | StdEsReturn              148.73
+2018-01-29 15:02:36.910085 CET | MaxEsReturn              574.13
+2018-01-29 15:02:36.910312 CET | MinEsReturn               74.5953
+2018-01-29 15:02:36.910522 CET | AverageDiscountedReturn   60.3315
+2018-01-29 15:02:36.910733 CET | AverageQLoss               0.100373
+2018-01-29 15:02:36.910943 CET | AveragePolicySurr         -4.5809
+2018-01-29 15:02:36.911153 CET | AverageQ                   4.54996
+2018-01-29 15:02:36.911363 CET | AverageAbsQ                4.54996
+2018-01-29 15:02:36.911573 CET | AverageY                   4.5498
+2018-01-29 15:02:36.912037 CET | AverageAbsY                4.5498
+2018-01-29 15:02:36.912246 CET | AverageAbsQYDiff           0.122485
+2018-01-29 15:02:36.912456 CET | AverageAction              0.957532
+2018-01-29 15:02:36.912673 CET | PolicyRegParamNorm        49.9705
+2018-01-29 15:02:36.912883 CET | QFunRegParamNorm         118.387
+2018-01-29 15:02:36.913092 CET | -----------------------  ----------
+2018-01-29 15:02:36.913374 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #34 | Training started
+2018-01-29 15:04:57.468093 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #34 | Training finished
+2018-01-29 15:04:57.468479 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #34 | Collecting samples for evaluation
+2018-01-29 15:05:04.525033 CET | -----------------------  -----------
+2018-01-29 15:05:04.525316 CET | Epoch                     34
+2018-01-29 15:05:04.525534 CET | AverageReturn            172.385
+2018-01-29 15:05:04.525747 CET | StdReturn                 73.5462
+2018-01-29 15:05:04.525958 CET | MaxReturn                282.828
+2018-01-29 15:05:04.526168 CET | MinReturn                 68.9879
+2018-01-29 15:05:04.526618 CET | AverageEsReturn          211.83
+2018-01-29 15:05:04.526829 CET | StdEsReturn               76.1264
+2018-01-29 15:05:04.527039 CET | MaxEsReturn              389.899
+2018-01-29 15:05:04.527249 CET | MinEsReturn              112.942
+2018-01-29 15:05:04.527458 CET | AverageDiscountedReturn   78.7806
+2018-01-29 15:05:04.527668 CET | AverageQLoss               0.0993323
+2018-01-29 15:05:04.527878 CET | AveragePolicySurr         -4.62699
+2018-01-29 15:05:04.528087 CET | AverageQ                   4.59347
+2018-01-29 15:05:04.528297 CET | AverageAbsQ                4.59347
+2018-01-29 15:05:04.528508 CET | AverageY                   4.59354
+2018-01-29 15:05:04.528974 CET | AverageAbsY                4.59354
+2018-01-29 15:05:04.529185 CET | AverageAbsQYDiff           0.124623
+2018-01-29 15:05:04.529396 CET | AverageAction              0.92667
+2018-01-29 15:05:04.529607 CET | PolicyRegParamNorm        50.3678
+2018-01-29 15:05:04.529817 CET | QFunRegParamNorm         119.897
+2018-01-29 15:05:04.530027 CET | -----------------------  -----------
+2018-01-29 15:05:04.530316 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #35 | Training started
+2018-01-29 15:07:25.348483 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #35 | Training finished
+2018-01-29 15:07:25.348884 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #35 | Collecting samples for evaluation
+2018-01-29 15:07:32.278775 CET | -----------------------  -----------
+2018-01-29 15:07:32.279054 CET | Epoch                     35
+2018-01-29 15:07:32.279272 CET | AverageReturn            163.188
+2018-01-29 15:07:32.279486 CET | StdReturn                126.364
+2018-01-29 15:07:32.279697 CET | MaxReturn                502.437
+2018-01-29 15:07:32.279907 CET | MinReturn                 53.4304
+2018-01-29 15:07:32.280130 CET | AverageEsReturn          242.935
+2018-01-29 15:07:32.280347 CET | StdEsReturn              130.214
+2018-01-29 15:07:32.280556 CET | MaxEsReturn              470.766
+2018-01-29 15:07:32.280780 CET | MinEsReturn               81.7957
+2018-01-29 15:07:32.280989 CET | AverageDiscountedReturn   77.6663
+2018-01-29 15:07:32.281271 CET | AverageQLoss               0.0972463
+2018-01-29 15:07:32.281481 CET | AveragePolicySurr         -4.67863
+2018-01-29 15:07:32.281691 CET | AverageQ                   4.64363
+2018-01-29 15:07:32.281901 CET | AverageAbsQ                4.64363
+2018-01-29 15:07:32.282111 CET | AverageY                   4.64358
+2018-01-29 15:07:32.282321 CET | AverageAbsY                4.64359
+2018-01-29 15:07:32.282544 CET | AverageAbsQYDiff           0.125435
+2018-01-29 15:07:32.282763 CET | AverageAction              0.971007
+2018-01-29 15:07:32.282985 CET | PolicyRegParamNorm        50.7592
+2018-01-29 15:07:32.283201 CET | QFunRegParamNorm         121.203
+2018-01-29 15:07:32.283416 CET | -----------------------  -----------
+2018-01-29 15:07:32.283710 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #36 | Training started
+2018-01-29 15:09:53.235670 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #36 | Training finished
+2018-01-29 15:09:53.236060 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #36 | Collecting samples for evaluation
+2018-01-29 15:10:00.071922 CET | -----------------------  ----------
+2018-01-29 15:10:00.072202 CET | Epoch                     36
+2018-01-29 15:10:00.072430 CET | AverageReturn            517.652
+2018-01-29 15:10:00.072702 CET | StdReturn                138.26
+2018-01-29 15:10:00.072915 CET | MaxReturn                708.564
+2018-01-29 15:10:00.073126 CET | MinReturn                280.66
+2018-01-29 15:10:00.073546 CET | AverageEsReturn          334.617
+2018-01-29 15:10:00.073757 CET | StdEsReturn              145.309
+2018-01-29 15:10:00.073967 CET | MaxEsReturn              584.708
+2018-01-29 15:10:00.074178 CET | MinEsReturn              103.014
+2018-01-29 15:10:00.074387 CET | AverageDiscountedReturn   72.7838
+2018-01-29 15:10:00.074598 CET | AverageQLoss               0.105922
+2018-01-29 15:10:00.074809 CET | AveragePolicySurr         -4.80059
+2018-01-29 15:10:00.075019 CET | AverageQ                   4.76331
+2018-01-29 15:10:00.075229 CET | AverageAbsQ                4.76332
+2018-01-29 15:10:00.075439 CET | AverageY                   4.76336
+2018-01-29 15:10:00.075886 CET | AverageAbsY                4.76337
+2018-01-29 15:10:00.076096 CET | AverageAbsQYDiff           0.128687
+2018-01-29 15:10:00.076306 CET | AverageAction              0.95066
+2018-01-29 15:10:00.076516 CET | PolicyRegParamNorm        51.1762
+2018-01-29 15:10:00.076734 CET | QFunRegParamNorm         122.563
+2018-01-29 15:10:00.076945 CET | -----------------------  ----------
+2018-01-29 15:10:00.077228 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #37 | Training started
+2018-01-29 15:12:21.739038 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #37 | Training finished
+2018-01-29 15:12:21.739421 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #37 | Collecting samples for evaluation
+2018-01-29 15:12:28.446466 CET | -----------------------  ----------
+2018-01-29 15:12:28.446743 CET | Epoch                     37
+2018-01-29 15:12:28.446960 CET | AverageReturn            356.659
+2018-01-29 15:12:28.447174 CET | StdReturn                314.969
+2018-01-29 15:12:28.447386 CET | MaxReturn                780.02
+2018-01-29 15:12:28.447598 CET | MinReturn                -86.2816
+2018-01-29 15:12:28.447998 CET | AverageEsReturn          356.17
+2018-01-29 15:12:28.448209 CET | StdEsReturn              190.793
+2018-01-29 15:12:28.448421 CET | MaxEsReturn              649.284
+2018-01-29 15:12:28.448657 CET | MinEsReturn               44.1536
+2018-01-29 15:12:28.448868 CET | AverageDiscountedReturn   87.3464
+2018-01-29 15:12:28.449079 CET | AverageQLoss               0.116809
+2018-01-29 15:12:28.449307 CET | AveragePolicySurr         -4.95964
+2018-01-29 15:12:28.449517 CET | AverageQ                   4.92203
+2018-01-29 15:12:28.449728 CET | AverageAbsQ                4.92206
+2018-01-29 15:12:28.450150 CET | AverageY                   4.92196
+2018-01-29 15:12:28.450362 CET | AverageAbsY                4.92199
+2018-01-29 15:12:28.450572 CET | AverageAbsQYDiff           0.134356
+2018-01-29 15:12:28.450781 CET | AverageAction              0.91706
+2018-01-29 15:12:28.450991 CET | PolicyRegParamNorm        51.5169
+2018-01-29 15:12:28.451200 CET | QFunRegParamNorm         124.015
+2018-01-29 15:12:28.451410 CET | -----------------------  ----------
+2018-01-29 15:12:28.451703 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #38 | Training started
+2018-01-29 15:14:50.381405 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #38 | Training finished
+2018-01-29 15:14:50.381709 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #38 | Collecting samples for evaluation
+2018-01-29 15:14:57.053070 CET | -----------------------  ----------
+2018-01-29 15:14:57.053352 CET | Epoch                     38
+2018-01-29 15:14:57.053569 CET | AverageReturn            390.886
+2018-01-29 15:14:57.053781 CET | StdReturn                223.508
+2018-01-29 15:14:57.053992 CET | MaxReturn                765.498
+2018-01-29 15:14:57.054202 CET | MinReturn                128.167
+2018-01-29 15:14:57.054421 CET | AverageEsReturn          275.566
+2018-01-29 15:14:57.054641 CET | StdEsReturn              189.94
+2018-01-29 15:14:57.054850 CET | MaxEsReturn              643.597
+2018-01-29 15:14:57.055059 CET | MinEsReturn              -48.2823
+2018-01-29 15:14:57.055272 CET | AverageDiscountedReturn   82.4932
+2018-01-29 15:14:57.055516 CET | AverageQLoss               0.127047
+2018-01-29 15:14:57.055725 CET | AveragePolicySurr         -5.06956
+2018-01-29 15:14:57.055934 CET | AverageQ                   5.03419
+2018-01-29 15:14:57.056143 CET | AverageAbsQ                5.03422
+2018-01-29 15:14:57.056369 CET | AverageY                   5.03425
+2018-01-29 15:14:57.056594 CET | AverageAbsY                5.03428
+2018-01-29 15:14:57.056831 CET | AverageAbsQYDiff           0.137161
+2018-01-29 15:14:57.057040 CET | AverageAction              0.948932
+2018-01-29 15:14:57.057251 CET | PolicyRegParamNorm        51.7853
+2018-01-29 15:14:57.057461 CET | QFunRegParamNorm         125.45
+2018-01-29 15:14:57.057671 CET | -----------------------  ----------
+2018-01-29 15:14:57.057952 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #39 | Training started
+2018-01-29 15:17:20.427529 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #39 | Training finished
+2018-01-29 15:17:20.427921 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #39 | Collecting samples for evaluation
+2018-01-29 15:17:27.152328 CET | -----------------------  ----------
+2018-01-29 15:17:27.152608 CET | Epoch                     39
+2018-01-29 15:17:27.152878 CET | AverageReturn            350.537
+2018-01-29 15:17:27.153093 CET | StdReturn                248.88
+2018-01-29 15:17:27.153305 CET | MaxReturn                609.897
+2018-01-29 15:17:27.153517 CET | MinReturn                 -2.10905
+2018-01-29 15:17:27.153737 CET | AverageEsReturn          440.616
+2018-01-29 15:17:27.153957 CET | StdEsReturn              165.585
+2018-01-29 15:17:27.154167 CET | MaxEsReturn              705.928
+2018-01-29 15:17:27.154395 CET | MinEsReturn               70.1856
+2018-01-29 15:17:27.154605 CET | AverageDiscountedReturn   84.2639
+2018-01-29 15:17:27.154816 CET | AverageQLoss               0.121534
+2018-01-29 15:17:27.155026 CET | AveragePolicySurr         -5.25201
+2018-01-29 15:17:27.155237 CET | AverageQ                   5.21187
+2018-01-29 15:17:27.155447 CET | AverageAbsQ                5.21189
+2018-01-29 15:17:27.155657 CET | AverageY                   5.21184
+2018-01-29 15:17:27.155868 CET | AverageAbsY                5.21186
+2018-01-29 15:17:27.156093 CET | AverageAbsQYDiff           0.136972
+2018-01-29 15:17:27.156303 CET | AverageAction              0.956022
+2018-01-29 15:17:27.156513 CET | PolicyRegParamNorm        52.0949
+2018-01-29 15:17:27.156730 CET | QFunRegParamNorm         126.798
+2018-01-29 15:17:27.156940 CET | -----------------------  ----------
+2018-01-29 15:17:27.157221 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #40 | Training started
+2018-01-29 15:19:51.157536 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #40 | Training finished
+2018-01-29 15:19:51.157919 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #40 | Collecting samples for evaluation
+2018-01-29 15:19:57.854877 CET | -----------------------  ----------
+2018-01-29 15:19:57.855156 CET | Epoch                     40
+2018-01-29 15:19:57.855375 CET | AverageReturn            414.372
+2018-01-29 15:19:57.855588 CET | StdReturn                294.058
+2018-01-29 15:19:57.855800 CET | MaxReturn                901.064
+2018-01-29 15:19:57.856012 CET | MinReturn                  2.70824
+2018-01-29 15:19:57.856237 CET | AverageEsReturn          332.935
+2018-01-29 15:19:57.856463 CET | StdEsReturn              191.741
+2018-01-29 15:19:57.856686 CET | MaxEsReturn              561.609
+2018-01-29 15:19:57.856897 CET | MinEsReturn               34.4929
+2018-01-29 15:19:57.857125 CET | AverageDiscountedReturn  102.919
+2018-01-29 15:19:57.857334 CET | AverageQLoss               0.131543
+2018-01-29 15:19:57.857543 CET | AveragePolicySurr         -5.41274
+2018-01-29 15:19:57.857753 CET | AverageQ                   5.37017
+2018-01-29 15:19:57.857963 CET | AverageAbsQ                5.37019
+2018-01-29 15:19:57.858172 CET | AverageY                   5.3703
+2018-01-29 15:19:57.858439 CET | AverageAbsY                5.37032
+2018-01-29 15:19:57.858657 CET | AverageAbsQYDiff           0.141168
+2018-01-29 15:19:57.858879 CET | AverageAction              0.957386
+2018-01-29 15:19:57.859090 CET | PolicyRegParamNorm        52.3447
+2018-01-29 15:19:57.859299 CET | QFunRegParamNorm         128.159
+2018-01-29 15:19:57.859509 CET | -----------------------  ----------
+2018-01-29 15:19:57.859791 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #41 | Training started
+2018-01-29 15:22:22.007376 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #41 | Training finished
+2018-01-29 15:22:22.007757 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #41 | Collecting samples for evaluation
+2018-01-29 15:22:28.812816 CET | -----------------------  ----------
+2018-01-29 15:22:28.813097 CET | Epoch                     41
+2018-01-29 15:22:28.813315 CET | AverageReturn            329.15
+2018-01-29 15:22:28.813529 CET | StdReturn                115.005
+2018-01-29 15:22:28.813741 CET | MaxReturn                510.249
+2018-01-29 15:22:28.813952 CET | MinReturn                129.851
+2018-01-29 15:22:28.814177 CET | AverageEsReturn          456.606
+2018-01-29 15:22:28.814394 CET | StdEsReturn              209.444
+2018-01-29 15:22:28.814614 CET | MaxEsReturn              786.369
+2018-01-29 15:22:28.814832 CET | MinEsReturn               75.7049
+2018-01-29 15:22:28.815043 CET | AverageDiscountedReturn   83.4225
+2018-01-29 15:22:28.815253 CET | AverageQLoss               0.136658
+2018-01-29 15:22:28.815463 CET | AveragePolicySurr         -5.63831
+2018-01-29 15:22:28.815672 CET | AverageQ                   5.59874
+2018-01-29 15:22:28.815882 CET | AverageAbsQ                5.59875
+2018-01-29 15:22:28.816091 CET | AverageY                   5.59915
+2018-01-29 15:22:28.816302 CET | AverageAbsY                5.59916
+2018-01-29 15:22:28.816552 CET | AverageAbsQYDiff           0.144022
+2018-01-29 15:22:28.816829 CET | AverageAction              0.902718
+2018-01-29 15:22:28.817049 CET | PolicyRegParamNorm        52.6191
+2018-01-29 15:22:28.817269 CET | QFunRegParamNorm         129.428
+2018-01-29 15:22:28.817479 CET | -----------------------  ----------
+2018-01-29 15:22:28.817762 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #42 | Training started
+2018-01-29 15:24:50.964756 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #42 | Training finished
+2018-01-29 15:24:50.965131 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #42 | Collecting samples for evaluation
+2018-01-29 15:24:57.652198 CET | -----------------------  -----------
+2018-01-29 15:24:57.652482 CET | Epoch                      42
+2018-01-29 15:24:57.652725 CET | AverageReturn             852.364
+2018-01-29 15:24:57.652948 CET | StdReturn                 131.313
+2018-01-29 15:24:57.653161 CET | MaxReturn                1089.59
+2018-01-29 15:24:57.653372 CET | MinReturn                 500.662
+2018-01-29 15:24:57.653598 CET | AverageEsReturn           383.385
+2018-01-29 15:24:57.653809 CET | StdEsReturn               199.483
+2018-01-29 15:24:57.654020 CET | MaxEsReturn               789.963
+2018-01-29 15:24:57.654246 CET | MinEsReturn               108.809
+2018-01-29 15:24:57.654457 CET | AverageDiscountedReturn   110.968
+2018-01-29 15:24:57.654667 CET | AverageQLoss                0.14076
+2018-01-29 15:24:57.654883 CET | AveragePolicySurr          -5.77021
+2018-01-29 15:24:57.655093 CET | AverageQ                    5.72869
+2018-01-29 15:24:57.655303 CET | AverageAbsQ                 5.72869
+2018-01-29 15:24:57.655522 CET | AverageY                    5.7291
+2018-01-29 15:24:57.655758 CET | AverageAbsY                 5.72911
+2018-01-29 15:24:57.655985 CET | AverageAbsQYDiff            0.144896
+2018-01-29 15:24:57.656195 CET | AverageAction               0.955931
+2018-01-29 15:24:57.656406 CET | PolicyRegParamNorm         52.9487
+2018-01-29 15:24:57.656615 CET | QFunRegParamNorm          130.755
+2018-01-29 15:24:57.656831 CET | -----------------------  -----------
+2018-01-29 15:24:57.657114 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #43 | Training started
+2018-01-29 15:27:21.288526 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #43 | Training finished
+2018-01-29 15:27:21.288916 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #43 | Collecting samples for evaluation
+2018-01-29 15:27:27.918309 CET | -----------------------  -----------
+2018-01-29 15:27:27.918592 CET | Epoch                      43
+2018-01-29 15:27:27.918808 CET | AverageReturn             780.603
+2018-01-29 15:27:27.919043 CET | StdReturn                 193.054
+2018-01-29 15:27:27.919253 CET | MaxReturn                1073.38
+2018-01-29 15:27:27.919463 CET | MinReturn                 141.275
+2018-01-29 15:27:27.919681 CET | AverageEsReturn           551.919
+2018-01-29 15:27:27.919927 CET | StdEsReturn               182.947
+2018-01-29 15:27:27.920155 CET | MaxEsReturn               745.842
+2018-01-29 15:27:27.920365 CET | MinEsReturn               150.532
+2018-01-29 15:27:27.920575 CET | AverageDiscountedReturn   113.002
+2018-01-29 15:27:27.920795 CET | AverageQLoss                0.144045
+2018-01-29 15:27:27.921005 CET | AveragePolicySurr          -6.0202
+2018-01-29 15:27:27.921214 CET | AverageQ                    5.97545
+2018-01-29 15:27:27.921424 CET | AverageAbsQ                 5.97546
+2018-01-29 15:27:27.921634 CET | AverageY                    5.97588
+2018-01-29 15:27:27.921844 CET | AverageAbsY                 5.97589
+2018-01-29 15:27:27.922070 CET | AverageAbsQYDiff            0.14998
+2018-01-29 15:27:27.922282 CET | AverageAction               0.946118
+2018-01-29 15:27:27.922493 CET | PolicyRegParamNorm         53.2336
+2018-01-29 15:27:27.922703 CET | QFunRegParamNorm          132.017
+2018-01-29 15:27:27.922913 CET | -----------------------  -----------
+2018-01-29 15:27:27.923195 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #44 | Training started
+2018-01-29 15:29:51.440090 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #44 | Training finished
+2018-01-29 15:29:51.440479 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #44 | Collecting samples for evaluation
+2018-01-29 15:29:58.116054 CET | -----------------------  ----------
+2018-01-29 15:29:58.116338 CET | Epoch                     44
+2018-01-29 15:29:58.116556 CET | AverageReturn            717.409
+2018-01-29 15:29:58.116803 CET | StdReturn                 90.2794
+2018-01-29 15:29:58.117017 CET | MaxReturn                872.474
+2018-01-29 15:29:58.117227 CET | MinReturn                576.466
+2018-01-29 15:29:58.117465 CET | AverageEsReturn          525.291
+2018-01-29 15:29:58.117719 CET | StdEsReturn              197.263
+2018-01-29 15:29:58.117965 CET | MaxEsReturn              780.712
+2018-01-29 15:29:58.118192 CET | MinEsReturn              127.609
+2018-01-29 15:29:58.118416 CET | AverageDiscountedReturn   85.1158
+2018-01-29 15:29:58.118633 CET | AverageQLoss               0.155191
+2018-01-29 15:29:58.118859 CET | AveragePolicySurr         -6.28501
+2018-01-29 15:29:58.119089 CET | AverageQ                   6.23668
+2018-01-29 15:29:58.119298 CET | AverageAbsQ                6.23669
+2018-01-29 15:29:58.119518 CET | AverageY                   6.23742
+2018-01-29 15:29:58.119735 CET | AverageAbsY                6.23743
+2018-01-29 15:29:58.119960 CET | AverageAbsQYDiff           0.155161
+2018-01-29 15:29:58.120191 CET | AverageAction              0.963124
+2018-01-29 15:29:58.120407 CET | PolicyRegParamNorm        53.49
+2018-01-29 15:29:58.120632 CET | QFunRegParamNorm         133.332
+2018-01-29 15:29:58.120851 CET | -----------------------  ----------
+2018-01-29 15:29:58.121151 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #45 | Training started
+2018-01-29 15:32:21.268279 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #45 | Training finished
+2018-01-29 15:32:21.268682 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #45 | Collecting samples for evaluation
+2018-01-29 15:32:27.919493 CET | -----------------------  -----------
+2018-01-29 15:32:27.919774 CET | Epoch                      45
+2018-01-29 15:32:27.919992 CET | AverageReturn             573.676
+2018-01-29 15:32:27.920228 CET | StdReturn                 320.788
+2018-01-29 15:32:27.920439 CET | MaxReturn                1136.72
+2018-01-29 15:32:27.920660 CET | MinReturn                 104.202
+2018-01-29 15:32:27.920888 CET | AverageEsReturn           574.542
+2018-01-29 15:32:27.921100 CET | StdEsReturn               200.028
+2018-01-29 15:32:27.921327 CET | MaxEsReturn               878.456
+2018-01-29 15:32:27.921537 CET | MinEsReturn                 7.90147
+2018-01-29 15:32:27.921746 CET | AverageDiscountedReturn    88.0543
+2018-01-29 15:32:27.921956 CET | AverageQLoss                0.143772
+2018-01-29 15:32:27.922165 CET | AveragePolicySurr          -6.57393
+2018-01-29 15:32:27.922374 CET | AverageQ                    6.52041
+2018-01-29 15:32:27.922583 CET | AverageAbsQ                 6.52041
+2018-01-29 15:32:27.922792 CET | AverageY                    6.52107
+2018-01-29 15:32:27.923001 CET | AverageAbsY                 6.52108
+2018-01-29 15:32:27.923218 CET | AverageAbsQYDiff            0.155985
+2018-01-29 15:32:27.923440 CET | AverageAction               0.959576
+2018-01-29 15:32:27.923649 CET | PolicyRegParamNorm         53.7959
+2018-01-29 15:32:27.923857 CET | QFunRegParamNorm          134.655
+2018-01-29 15:32:27.924067 CET | -----------------------  -----------
+2018-01-29 15:32:27.924352 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #46 | Training started
+2018-01-29 15:34:50.995263 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #46 | Training finished
+2018-01-29 15:34:50.995655 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #46 | Collecting samples for evaluation
+2018-01-29 15:34:57.622343 CET | -----------------------  ----------
+2018-01-29 15:34:57.622621 CET | Epoch                     46
+2018-01-29 15:34:57.622838 CET | AverageReturn            485.135
+2018-01-29 15:34:57.623052 CET | StdReturn                121.33
+2018-01-29 15:34:57.623264 CET | MaxReturn                723.77
+2018-01-29 15:34:57.623474 CET | MinReturn                314.825
+2018-01-29 15:34:57.623906 CET | AverageEsReturn          519.685
+2018-01-29 15:34:57.624115 CET | StdEsReturn              200.259
+2018-01-29 15:34:57.624325 CET | MaxEsReturn              931.693
+2018-01-29 15:34:57.624551 CET | MinEsReturn              135.07
+2018-01-29 15:34:57.624772 CET | AverageDiscountedReturn   68.1118
+2018-01-29 15:34:57.624984 CET | AverageQLoss               0.158373
+2018-01-29 15:34:57.625194 CET | AveragePolicySurr         -6.89151
+2018-01-29 15:34:57.625404 CET | AverageQ                   6.83832
+2018-01-29 15:34:57.625614 CET | AverageAbsQ                6.83888
+2018-01-29 15:34:57.625825 CET | AverageY                   6.83915
+2018-01-29 15:34:57.626280 CET | AverageAbsY                6.83963
+2018-01-29 15:34:57.626491 CET | AverageAbsQYDiff           0.163755
+2018-01-29 15:34:57.626709 CET | AverageAction              0.954348
+2018-01-29 15:34:57.626945 CET | PolicyRegParamNorm        54.0763
+2018-01-29 15:34:57.627155 CET | QFunRegParamNorm         135.846
+2018-01-29 15:34:57.627365 CET | -----------------------  ----------
+2018-01-29 15:34:57.627646 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #47 | Training started
+2018-01-29 15:37:20.006724 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #47 | Training finished
+2018-01-29 15:37:20.007120 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #47 | Collecting samples for evaluation
+2018-01-29 15:37:26.680356 CET | -----------------------  ----------
+2018-01-29 15:37:26.680646 CET | Epoch                     47
+2018-01-29 15:37:26.680864 CET | AverageReturn            694.043
+2018-01-29 15:37:26.681079 CET | StdReturn                117.828
+2018-01-29 15:37:26.681292 CET | MaxReturn                858.101
+2018-01-29 15:37:26.681505 CET | MinReturn                393.065
+2018-01-29 15:37:26.681733 CET | AverageEsReturn          482.735
+2018-01-29 15:37:26.681949 CET | StdEsReturn              226.107
+2018-01-29 15:37:26.682161 CET | MaxEsReturn              861.715
+2018-01-29 15:37:26.682372 CET | MinEsReturn               67.6709
+2018-01-29 15:37:26.682603 CET | AverageDiscountedReturn  108.876
+2018-01-29 15:37:26.682831 CET | AverageQLoss               0.153881
+2018-01-29 15:37:26.683043 CET | AveragePolicySurr         -7.17975
+2018-01-29 15:37:26.683255 CET | AverageQ                   7.12358
+2018-01-29 15:37:26.683465 CET | AverageAbsQ                7.12451
+2018-01-29 15:37:26.683676 CET | AverageY                   7.12414
+2018-01-29 15:37:26.683887 CET | AverageAbsY                7.12506
+2018-01-29 15:37:26.684116 CET | AverageAbsQYDiff           0.16546
+2018-01-29 15:37:26.684327 CET | AverageAction              0.947585
+2018-01-29 15:37:26.684537 CET | PolicyRegParamNorm        54.3802
+2018-01-29 15:37:26.684756 CET | QFunRegParamNorm         136.872
+2018-01-29 15:37:26.684968 CET | -----------------------  ----------
+2018-01-29 15:37:26.685250 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #48 | Training started
+2018-01-29 15:39:49.564305 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #48 | Training finished
+2018-01-29 15:39:49.564678 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #48 | Collecting samples for evaluation
+2018-01-29 15:39:56.259180 CET | -----------------------  ----------
+2018-01-29 15:39:56.259477 CET | Epoch                     48
+2018-01-29 15:39:56.259696 CET | AverageReturn            678.017
+2018-01-29 15:39:56.259910 CET | StdReturn                112.968
+2018-01-29 15:39:56.260122 CET | MaxReturn                968.278
+2018-01-29 15:39:56.260334 CET | MinReturn                468.279
+2018-01-29 15:39:56.260559 CET | AverageEsReturn          488.519
+2018-01-29 15:39:56.260791 CET | StdEsReturn              138.736
+2018-01-29 15:39:56.261002 CET | MaxEsReturn              709.29
+2018-01-29 15:39:56.261213 CET | MinEsReturn              229.963
+2018-01-29 15:39:56.261423 CET | AverageDiscountedReturn  113.908
+2018-01-29 15:39:56.261634 CET | AverageQLoss               0.143066
+2018-01-29 15:39:56.261844 CET | AveragePolicySurr         -7.44219
+2018-01-29 15:39:56.262055 CET | AverageQ                   7.38903
+2018-01-29 15:39:56.262265 CET | AverageAbsQ                7.38916
+2018-01-29 15:39:56.262475 CET | AverageY                   7.38963
+2018-01-29 15:39:56.262686 CET | AverageAbsY                7.38972
+2018-01-29 15:39:56.262908 CET | AverageAbsQYDiff           0.164212
+2018-01-29 15:39:56.263145 CET | AverageAction              0.955913
+2018-01-29 15:39:56.263356 CET | PolicyRegParamNorm        54.6021
+2018-01-29 15:39:56.263565 CET | QFunRegParamNorm         137.908
+2018-01-29 15:39:56.263776 CET | -----------------------  ----------
+2018-01-29 15:39:56.264057 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #49 | Training started
+2018-01-29 15:42:20.151263 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #49 | Training finished
+2018-01-29 15:42:20.151648 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #49 | Collecting samples for evaluation
+2018-01-29 15:42:26.857741 CET | -----------------------  -----------
+2018-01-29 15:42:26.858022 CET | Epoch                      49
+2018-01-29 15:42:26.858243 CET | AverageReturn             719.524
+2018-01-29 15:42:26.858459 CET | StdReturn                 153.528
+2018-01-29 15:42:26.858673 CET | MaxReturn                1029.09
+2018-01-29 15:42:26.858884 CET | MinReturn                 428.162
+2018-01-29 15:42:26.859308 CET | AverageEsReturn           578.363
+2018-01-29 15:42:26.859518 CET | StdEsReturn               124.82
+2018-01-29 15:42:26.859748 CET | MaxEsReturn               784.735
+2018-01-29 15:42:26.859958 CET | MinEsReturn               254.27
+2018-01-29 15:42:26.860169 CET | AverageDiscountedReturn   133.14
+2018-01-29 15:42:26.860380 CET | AverageQLoss                0.148974
+2018-01-29 15:42:26.860590 CET | AveragePolicySurr          -7.68567
+2018-01-29 15:42:26.860846 CET | AverageQ                    7.6326
+2018-01-29 15:42:26.861055 CET | AverageAbsQ                 7.63265
+2018-01-29 15:42:26.861266 CET | AverageY                    7.63334
+2018-01-29 15:42:26.861717 CET | AverageAbsY                 7.63336
+2018-01-29 15:42:26.861928 CET | AverageAbsQYDiff            0.166633
+2018-01-29 15:42:26.862137 CET | AverageAction               0.931828
+2018-01-29 15:42:26.862347 CET | PolicyRegParamNorm         54.8215
+2018-01-29 15:42:26.862558 CET | QFunRegParamNorm          138.968
+2018-01-29 15:42:26.862768 CET | -----------------------  -----------
+2018-01-29 15:42:26.863068 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #50 | Training started
+2018-01-29 15:44:51.002788 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #50 | Training finished
+2018-01-29 15:44:51.003169 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #50 | Collecting samples for evaluation
+2018-01-29 15:44:57.654232 CET | -----------------------  -----------
+2018-01-29 15:44:57.654511 CET | Epoch                      50
+2018-01-29 15:44:57.654729 CET | AverageReturn             789.576
+2018-01-29 15:44:57.654943 CET | StdReturn                 153.604
+2018-01-29 15:44:57.655154 CET | MaxReturn                1035.46
+2018-01-29 15:44:57.655365 CET | MinReturn                 419.62
+2018-01-29 15:44:57.655590 CET | AverageEsReturn           484.589
+2018-01-29 15:44:57.655808 CET | StdEsReturn               168.85
+2018-01-29 15:44:57.656018 CET | MaxEsReturn               804.341
+2018-01-29 15:44:57.656228 CET | MinEsReturn               182.647
+2018-01-29 15:44:57.656438 CET | AverageDiscountedReturn   108.114
+2018-01-29 15:44:57.656695 CET | AverageQLoss                0.156799
+2018-01-29 15:44:57.656905 CET | AveragePolicySurr          -7.93381
+2018-01-29 15:44:57.657115 CET | AverageQ                    7.87938
+2018-01-29 15:44:57.657325 CET | AverageAbsQ                 7.87938
+2018-01-29 15:44:57.657535 CET | AverageY                    7.88039
+2018-01-29 15:44:57.657744 CET | AverageAbsY                 7.8804
+2018-01-29 15:44:57.657958 CET | AverageAbsQYDiff            0.171351
+2018-01-29 15:44:57.658183 CET | AverageAction               0.952612
+2018-01-29 15:44:57.658393 CET | PolicyRegParamNorm         55.1184
+2018-01-29 15:44:57.658603 CET | QFunRegParamNorm          140.021
+2018-01-29 15:44:57.658811 CET | -----------------------  -----------
+2018-01-29 15:44:57.659092 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #51 | Training started
+2018-01-29 15:47:20.721229 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #51 | Training finished
+2018-01-29 15:47:20.721616 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #51 | Collecting samples for evaluation
+2018-01-29 15:47:27.332144 CET | -----------------------  ----------
+2018-01-29 15:47:27.332425 CET | Epoch                     51
+2018-01-29 15:47:27.332655 CET | AverageReturn            733.172
+2018-01-29 15:47:27.332870 CET | StdReturn                147.337
+2018-01-29 15:47:27.333082 CET | MaxReturn                982.734
+2018-01-29 15:47:27.333292 CET | MinReturn                372.862
+2018-01-29 15:47:27.333724 CET | AverageEsReturn          520.895
+2018-01-29 15:47:27.333935 CET | StdEsReturn              117.171
+2018-01-29 15:47:27.334150 CET | MaxEsReturn              734.473
+2018-01-29 15:47:27.334376 CET | MinEsReturn              307.612
+2018-01-29 15:47:27.334586 CET | AverageDiscountedReturn   98.7063
+2018-01-29 15:47:27.334795 CET | AverageQLoss               0.150317
+2018-01-29 15:47:27.335005 CET | AveragePolicySurr         -8.18466
+2018-01-29 15:47:27.335214 CET | AverageQ                   8.12692
+2018-01-29 15:47:27.335424 CET | AverageAbsQ                8.12692
+2018-01-29 15:47:27.335634 CET | AverageY                   8.12762
+2018-01-29 15:47:27.336084 CET | AverageAbsY                8.12762
+2018-01-29 15:47:27.336294 CET | AverageAbsQYDiff           0.171819
+2018-01-29 15:47:27.336521 CET | AverageAction              0.929562
+2018-01-29 15:47:27.336739 CET | PolicyRegParamNorm        55.405
+2018-01-29 15:47:27.336948 CET | QFunRegParamNorm         141.23
+2018-01-29 15:47:27.337158 CET | -----------------------  ----------
+2018-01-29 15:47:27.337440 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #52 | Training started
+2018-01-29 15:49:52.169813 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #52 | Training finished
+2018-01-29 15:49:52.170199 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #52 | Collecting samples for evaluation
+2018-01-29 15:49:59.039663 CET | -----------------------  -----------
+2018-01-29 15:49:59.039944 CET | Epoch                      52
+2018-01-29 15:49:59.040163 CET | AverageReturn             866.494
+2018-01-29 15:49:59.040393 CET | StdReturn                 186.508
+2018-01-29 15:49:59.040605 CET | MaxReturn                1111.51
+2018-01-29 15:49:59.040827 CET | MinReturn                 249.683
+2018-01-29 15:49:59.041094 CET | AverageEsReturn           543.455
+2018-01-29 15:49:59.041315 CET | StdEsReturn               158.089
+2018-01-29 15:49:59.041525 CET | MaxEsReturn               761.371
+2018-01-29 15:49:59.041752 CET | MinEsReturn               214.06
+2018-01-29 15:49:59.041962 CET | AverageDiscountedReturn   137.68
+2018-01-29 15:49:59.042172 CET | AverageQLoss                0.141408
+2018-01-29 15:49:59.042382 CET | AveragePolicySurr          -8.42079
+2018-01-29 15:49:59.042590 CET | AverageQ                    8.37026
+2018-01-29 15:49:59.042799 CET | AverageAbsQ                 8.37026
+2018-01-29 15:49:59.043009 CET | AverageY                    8.37065
+2018-01-29 15:49:59.043236 CET | AverageAbsY                 8.37065
+2018-01-29 15:49:59.043462 CET | AverageAbsQYDiff            0.172276
+2018-01-29 15:49:59.043671 CET | AverageAction               0.94238
+2018-01-29 15:49:59.043880 CET | PolicyRegParamNorm         55.6361
+2018-01-29 15:49:59.044090 CET | QFunRegParamNorm          142.374
+2018-01-29 15:49:59.044299 CET | -----------------------  -----------
+2018-01-29 15:49:59.044581 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #53 | Training started
+2018-01-29 15:52:22.350841 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #53 | Training finished
+2018-01-29 15:52:22.351223 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #53 | Collecting samples for evaluation
+2018-01-29 15:52:29.185286 CET | -----------------------  -----------
+2018-01-29 15:52:29.185617 CET | Epoch                      53
+2018-01-29 15:52:29.185836 CET | AverageReturn            1115.95
+2018-01-29 15:52:29.186050 CET | StdReturn                 163.967
+2018-01-29 15:52:29.186262 CET | MaxReturn                1309.26
+2018-01-29 15:52:29.186473 CET | MinReturn                 567.244
+2018-01-29 15:52:29.186717 CET | AverageEsReturn           650.921
+2018-01-29 15:52:29.186931 CET | StdEsReturn               175.107
+2018-01-29 15:52:29.187141 CET | MaxEsReturn               912.953
+2018-01-29 15:52:29.187352 CET | MinEsReturn               266.763
+2018-01-29 15:52:29.187590 CET | AverageDiscountedReturn   135.885
+2018-01-29 15:52:29.187808 CET | AverageQLoss                0.151269
+2018-01-29 15:52:29.188018 CET | AveragePolicySurr          -8.65941
+2018-01-29 15:52:29.188234 CET | AverageQ                    8.60309
+2018-01-29 15:52:29.188444 CET | AverageAbsQ                 8.60309
+2018-01-29 15:52:29.188662 CET | AverageY                    8.60376
+2018-01-29 15:52:29.188872 CET | AverageAbsY                 8.60376
+2018-01-29 15:52:29.189087 CET | AverageAbsQYDiff            0.176276
+2018-01-29 15:52:29.189314 CET | AverageAction               0.952851
+2018-01-29 15:52:29.189523 CET | PolicyRegParamNorm         55.8454
+2018-01-29 15:52:29.189733 CET | QFunRegParamNorm          143.496
+2018-01-29 15:52:29.189943 CET | -----------------------  -----------
+2018-01-29 15:52:29.190225 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #54 | Training started
+2018-01-29 15:54:52.759411 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #54 | Training finished
+2018-01-29 15:54:52.759805 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #54 | Collecting samples for evaluation
+2018-01-29 15:54:59.549942 CET | -----------------------  -----------
+2018-01-29 15:54:59.550221 CET | Epoch                      54
+2018-01-29 15:54:59.550439 CET | AverageReturn             835.765
+2018-01-29 15:54:59.550652 CET | StdReturn                 171.017
+2018-01-29 15:54:59.550862 CET | MaxReturn                1135.3
+2018-01-29 15:54:59.551073 CET | MinReturn                 387.044
+2018-01-29 15:54:59.551504 CET | AverageEsReturn           698.412
+2018-01-29 15:54:59.551715 CET | StdEsReturn               238.952
+2018-01-29 15:54:59.551924 CET | MaxEsReturn              1022.17
+2018-01-29 15:54:59.552134 CET | MinEsReturn               193.322
+2018-01-29 15:54:59.552343 CET | AverageDiscountedReturn   103.887
+2018-01-29 15:54:59.552569 CET | AverageQLoss                0.147509
+2018-01-29 15:54:59.552806 CET | AveragePolicySurr          -8.91807
+2018-01-29 15:54:59.553015 CET | AverageQ                    8.85806
+2018-01-29 15:54:59.553224 CET | AverageAbsQ                 8.85806
+2018-01-29 15:54:59.553434 CET | AverageY                    8.859
+2018-01-29 15:54:59.553887 CET | AverageAbsY                 8.859
+2018-01-29 15:54:59.554097 CET | AverageAbsQYDiff            0.176985
+2018-01-29 15:54:59.554306 CET | AverageAction               0.94486
+2018-01-29 15:54:59.554515 CET | PolicyRegParamNorm         56.0885
+2018-01-29 15:54:59.554724 CET | QFunRegParamNorm          144.539
+2018-01-29 15:54:59.554933 CET | -----------------------  -----------
+2018-01-29 15:54:59.555215 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #55 | Training started
+2018-01-29 15:57:23.443264 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #55 | Training finished
+2018-01-29 15:57:23.443647 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #55 | Collecting samples for evaluation
+2018-01-29 15:57:30.273848 CET | -----------------------  -----------
+2018-01-29 15:57:30.274127 CET | Epoch                      55
+2018-01-29 15:57:30.274380 CET | AverageReturn             777.825
+2018-01-29 15:57:30.274595 CET | StdReturn                 174.31
+2018-01-29 15:57:30.274808 CET | MaxReturn                1104.23
+2018-01-29 15:57:30.275020 CET | MinReturn                 321.991
+2018-01-29 15:57:30.275249 CET | AverageEsReturn           526.985
+2018-01-29 15:57:30.275461 CET | StdEsReturn               179.572
+2018-01-29 15:57:30.275671 CET | MaxEsReturn               766.541
+2018-01-29 15:57:30.275881 CET | MinEsReturn               253.191
+2018-01-29 15:57:30.276091 CET | AverageDiscountedReturn   126.328
+2018-01-29 15:57:30.276318 CET | AverageQLoss                0.165519
+2018-01-29 15:57:30.276546 CET | AveragePolicySurr          -9.17228
+2018-01-29 15:57:30.276767 CET | AverageQ                    9.11273
+2018-01-29 15:57:30.276978 CET | AverageAbsQ                 9.11273
+2018-01-29 15:57:30.277188 CET | AverageY                    9.11338
+2018-01-29 15:57:30.277428 CET | AverageAbsY                 9.11338
+2018-01-29 15:57:30.277673 CET | AverageAbsQYDiff            0.181203
+2018-01-29 15:57:30.277887 CET | AverageAction               0.944412
+2018-01-29 15:57:30.278103 CET | PolicyRegParamNorm         56.2667
+2018-01-29 15:57:30.278313 CET | QFunRegParamNorm          145.776
+2018-01-29 15:57:30.278522 CET | -----------------------  -----------
+2018-01-29 15:57:30.278803 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #56 | Training started
+2018-01-29 15:59:54.787560 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #56 | Training finished
+2018-01-29 15:59:54.787948 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #56 | Collecting samples for evaluation
+2018-01-29 16:00:01.689953 CET | -----------------------  -----------
+2018-01-29 16:00:01.690237 CET | Epoch                      56
+2018-01-29 16:00:01.690455 CET | AverageReturn             826.488
+2018-01-29 16:00:01.690670 CET | StdReturn                 307.551
+2018-01-29 16:00:01.690882 CET | MaxReturn                1187.43
+2018-01-29 16:00:01.691094 CET | MinReturn                 170.75
+2018-01-29 16:00:01.691324 CET | AverageEsReturn           692.748
+2018-01-29 16:00:01.691535 CET | StdEsReturn               203.412
+2018-01-29 16:00:01.691746 CET | MaxEsReturn              1076.38
+2018-01-29 16:00:01.691956 CET | MinEsReturn               171.183
+2018-01-29 16:00:01.692167 CET | AverageDiscountedReturn   115.149
+2018-01-29 16:00:01.692378 CET | AverageQLoss                0.171915
+2018-01-29 16:00:01.692589 CET | AveragePolicySurr          -9.4161
+2018-01-29 16:00:01.692829 CET | AverageQ                    9.35312
+2018-01-29 16:00:01.693039 CET | AverageAbsQ                 9.35312
+2018-01-29 16:00:01.693249 CET | AverageY                    9.3541
+2018-01-29 16:00:01.693459 CET | AverageAbsY                 9.3541
+2018-01-29 16:00:01.693687 CET | AverageAbsQYDiff            0.185736
+2018-01-29 16:00:01.693902 CET | AverageAction               0.937522
+2018-01-29 16:00:01.694113 CET | PolicyRegParamNorm         56.4919
+2018-01-29 16:00:01.694323 CET | QFunRegParamNorm          147.054
+2018-01-29 16:00:01.694534 CET | -----------------------  -----------
+2018-01-29 16:00:01.694818 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #57 | Training started
+2018-01-29 16:02:25.161848 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #57 | Training finished
+2018-01-29 16:02:25.162244 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #57 | Collecting samples for evaluation
+2018-01-29 16:02:31.959882 CET | -----------------------  ----------
+2018-01-29 16:02:31.960200 CET | Epoch                     57
+2018-01-29 16:02:31.960418 CET | AverageReturn            700.991
+2018-01-29 16:02:31.960641 CET | StdReturn                181.918
+2018-01-29 16:02:31.960856 CET | MaxReturn                963.127
+2018-01-29 16:02:31.961068 CET | MinReturn                133.405
+2018-01-29 16:02:31.961502 CET | AverageEsReturn          640.754
+2018-01-29 16:02:31.961713 CET | StdEsReturn              222.762
+2018-01-29 16:02:31.961941 CET | MaxEsReturn              920.941
+2018-01-29 16:02:31.962151 CET | MinEsReturn              159.278
+2018-01-29 16:02:31.962362 CET | AverageDiscountedReturn  104.364
+2018-01-29 16:02:31.962572 CET | AverageQLoss               0.174449
+2018-01-29 16:02:31.962783 CET | AveragePolicySurr         -9.74461
+2018-01-29 16:02:31.962993 CET | AverageQ                   9.676
+2018-01-29 16:02:31.963204 CET | AverageAbsQ                9.676
+2018-01-29 16:02:31.963654 CET | AverageY                   9.67648
+2018-01-29 16:02:31.963866 CET | AverageAbsY                9.67648
+2018-01-29 16:02:31.964076 CET | AverageAbsQYDiff           0.188651
+2018-01-29 16:02:31.964285 CET | AverageAction              0.928151
+2018-01-29 16:02:31.964495 CET | PolicyRegParamNorm        56.7559
+2018-01-29 16:02:31.964712 CET | QFunRegParamNorm         148.22
+2018-01-29 16:02:31.964923 CET | -----------------------  ----------
+2018-01-29 16:02:31.965228 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #58 | Training started
+2018-01-29 16:04:55.536895 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #58 | Training finished
+2018-01-29 16:04:55.537286 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #58 | Collecting samples for evaluation
+2018-01-29 16:05:02.387231 CET | -----------------------  -----------
+2018-01-29 16:05:02.387511 CET | Epoch                      58
+2018-01-29 16:05:02.387727 CET | AverageReturn            1105.37
+2018-01-29 16:05:02.387940 CET | StdReturn                 191.946
+2018-01-29 16:05:02.388151 CET | MaxReturn                1406.97
+2018-01-29 16:05:02.388361 CET | MinReturn                 555.614
+2018-01-29 16:05:02.388571 CET | AverageEsReturn           768.027
+2018-01-29 16:05:02.388844 CET | StdEsReturn               146.103
+2018-01-29 16:05:02.389054 CET | MaxEsReturn              1136.04
+2018-01-29 16:05:02.389263 CET | MinEsReturn               577.364
+2018-01-29 16:05:02.389472 CET | AverageDiscountedReturn   110.697
+2018-01-29 16:05:02.389698 CET | AverageQLoss                0.187781
+2018-01-29 16:05:02.389908 CET | AveragePolicySurr         -10.0928
+2018-01-29 16:05:02.390117 CET | AverageQ                   10.0239
+2018-01-29 16:05:02.390326 CET | AverageAbsQ                10.0239
+2018-01-29 16:05:02.390557 CET | AverageY                   10.0245
+2018-01-29 16:05:02.390767 CET | AverageAbsY                10.0245
+2018-01-29 16:05:02.390993 CET | AverageAbsQYDiff            0.190946
+2018-01-29 16:05:02.391207 CET | AverageAction               0.934077
+2018-01-29 16:05:02.391417 CET | PolicyRegParamNorm         57.0185
+2018-01-29 16:05:02.391628 CET | QFunRegParamNorm          149.39
+2018-01-29 16:05:02.391837 CET | -----------------------  -----------
+2018-01-29 16:05:02.392117 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #59 | Training started
+2018-01-29 16:07:26.364843 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #59 | Training finished
+2018-01-29 16:07:26.365234 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #59 | Collecting samples for evaluation
+2018-01-29 16:07:33.224206 CET | -----------------------  -----------
+2018-01-29 16:07:33.224486 CET | Epoch                      59
+2018-01-29 16:07:33.224717 CET | AverageReturn             873.781
+2018-01-29 16:07:33.224931 CET | StdReturn                 115.487
+2018-01-29 16:07:33.225143 CET | MaxReturn                1096.3
+2018-01-29 16:07:33.225372 CET | MinReturn                 661.026
+2018-01-29 16:07:33.225589 CET | AverageEsReturn           833.288
+2018-01-29 16:07:33.225812 CET | StdEsReturn               132.363
+2018-01-29 16:07:33.226040 CET | MaxEsReturn              1046.5
+2018-01-29 16:07:33.226250 CET | MinEsReturn               489.353
+2018-01-29 16:07:33.226480 CET | AverageDiscountedReturn   102.788
+2018-01-29 16:07:33.226690 CET | AverageQLoss                0.193086
+2018-01-29 16:07:33.226900 CET | AveragePolicySurr         -10.404
+2018-01-29 16:07:33.227109 CET | AverageQ                   10.3343
+2018-01-29 16:07:33.227320 CET | AverageAbsQ                10.3343
+2018-01-29 16:07:33.227530 CET | AverageY                   10.3347
+2018-01-29 16:07:33.227741 CET | AverageAbsY                10.3347
+2018-01-29 16:07:33.227949 CET | AverageAbsQYDiff            0.191472
+2018-01-29 16:07:33.228174 CET | AverageAction               0.920314
+2018-01-29 16:07:33.228384 CET | PolicyRegParamNorm         57.2613
+2018-01-29 16:07:33.228595 CET | QFunRegParamNorm          150.628
+2018-01-29 16:07:33.228813 CET | -----------------------  -----------
+2018-01-29 16:07:33.229095 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #60 | Training started
+2018-01-29 16:09:57.808013 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #60 | Training finished
+2018-01-29 16:09:57.808396 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #60 | Collecting samples for evaluation
+2018-01-29 16:10:04.717010 CET | -----------------------  -----------
+2018-01-29 16:10:04.717293 CET | Epoch                      60
+2018-01-29 16:10:04.717511 CET | AverageReturn            1000.43
+2018-01-29 16:10:04.717729 CET | StdReturn                 178.731
+2018-01-29 16:10:04.717943 CET | MaxReturn                1256.42
+2018-01-29 16:10:04.718154 CET | MinReturn                 522.155
+2018-01-29 16:10:04.718378 CET | AverageEsReturn           811.643
+2018-01-29 16:10:04.718595 CET | StdEsReturn               160.681
+2018-01-29 16:10:04.718831 CET | MaxEsReturn              1024.97
+2018-01-29 16:10:04.719049 CET | MinEsReturn               446.334
+2018-01-29 16:10:04.719276 CET | AverageDiscountedReturn   111.688
+2018-01-29 16:10:04.719486 CET | AverageQLoss                0.203592
+2018-01-29 16:10:04.719694 CET | AveragePolicySurr         -10.7583
+2018-01-29 16:10:04.719905 CET | AverageQ                   10.6851
+2018-01-29 16:10:04.720114 CET | AverageAbsQ                10.6851
+2018-01-29 16:10:04.720324 CET | AverageY                   10.6857
+2018-01-29 16:10:04.720533 CET | AverageAbsY                10.6857
+2018-01-29 16:10:04.720761 CET | AverageAbsQYDiff            0.193526
+2018-01-29 16:10:04.720984 CET | AverageAction               0.921856
+2018-01-29 16:10:04.721213 CET | PolicyRegParamNorm         57.5677
+2018-01-29 16:10:04.721423 CET | QFunRegParamNorm          151.833
+2018-01-29 16:10:04.721632 CET | -----------------------  -----------
+2018-01-29 16:10:04.721915 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #61 | Training started
+2018-01-29 16:12:29.949303 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #61 | Training finished
+2018-01-29 16:12:29.949684 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #61 | Collecting samples for evaluation
+2018-01-29 16:12:36.617272 CET | -----------------------  -----------
+2018-01-29 16:12:36.617553 CET | Epoch                      61
+2018-01-29 16:12:36.617771 CET | AverageReturn             948.181
+2018-01-29 16:12:36.617986 CET | StdReturn                 252.61
+2018-01-29 16:12:36.618199 CET | MaxReturn                1310.89
+2018-01-29 16:12:36.618409 CET | MinReturn                 424.43
+2018-01-29 16:12:36.618635 CET | AverageEsReturn           725.488
+2018-01-29 16:12:36.618850 CET | StdEsReturn               238.892
+2018-01-29 16:12:36.619060 CET | MaxEsReturn              1056.77
+2018-01-29 16:12:36.619271 CET | MinEsReturn               157.885
+2018-01-29 16:12:36.619514 CET | AverageDiscountedReturn   134.891
+2018-01-29 16:12:36.619724 CET | AverageQLoss                0.196149
+2018-01-29 16:12:36.619934 CET | AveragePolicySurr         -11.1343
+2018-01-29 16:12:36.620143 CET | AverageQ                   11.058
+2018-01-29 16:12:36.620353 CET | AverageAbsQ                11.058
+2018-01-29 16:12:36.620588 CET | AverageY                   11.0584
+2018-01-29 16:12:36.620815 CET | AverageAbsY                11.0584
+2018-01-29 16:12:36.621056 CET | AverageAbsQYDiff            0.193201
+2018-01-29 16:12:36.621275 CET | AverageAction               0.92665
+2018-01-29 16:12:36.621485 CET | PolicyRegParamNorm         57.8908
+2018-01-29 16:12:36.621696 CET | QFunRegParamNorm          153.088
+2018-01-29 16:12:36.621906 CET | -----------------------  -----------
+2018-01-29 16:12:36.622189 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #62 | Training started
+2018-01-29 16:15:01.381505 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #62 | Training finished
+2018-01-29 16:15:01.381927 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #62 | Collecting samples for evaluation
+2018-01-29 16:15:08.101452 CET | -----------------------  -----------
+2018-01-29 16:15:08.101730 CET | Epoch                      62
+2018-01-29 16:15:08.101948 CET | AverageReturn             873.417
+2018-01-29 16:15:08.102162 CET | StdReturn                 401.095
+2018-01-29 16:15:08.102373 CET | MaxReturn                1379.98
+2018-01-29 16:15:08.102584 CET | MinReturn                 238.34
+2018-01-29 16:15:08.103022 CET | AverageEsReturn           659.303
+2018-01-29 16:15:08.103233 CET | StdEsReturn               271.799
+2018-01-29 16:15:08.103449 CET | MaxEsReturn              1052.4
+2018-01-29 16:15:08.103659 CET | MinEsReturn               187.739
+2018-01-29 16:15:08.103887 CET | AverageDiscountedReturn   132.931
+2018-01-29 16:15:08.104097 CET | AverageQLoss                0.213333
+2018-01-29 16:15:08.104307 CET | AveragePolicySurr         -11.4377
+2018-01-29 16:15:08.104517 CET | AverageQ                   11.3569
+2018-01-29 16:15:08.104734 CET | AverageAbsQ                11.3569
+2018-01-29 16:15:08.104943 CET | AverageY                   11.3574
+2018-01-29 16:15:08.105394 CET | AverageAbsY                11.3574
+2018-01-29 16:15:08.105604 CET | AverageAbsQYDiff            0.196439
+2018-01-29 16:15:08.105814 CET | AverageAction               0.927042
+2018-01-29 16:15:08.106022 CET | PolicyRegParamNorm         58.2105
+2018-01-29 16:15:08.106232 CET | QFunRegParamNorm          154.26
+2018-01-29 16:15:08.106441 CET | -----------------------  -----------
+2018-01-29 16:15:08.106722 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #63 | Training started
+2018-01-29 16:17:33.746898 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #63 | Training finished
+2018-01-29 16:17:33.747288 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #63 | Collecting samples for evaluation
+2018-01-29 16:17:40.430705 CET | -----------------------  -----------
+2018-01-29 16:17:40.430987 CET | Epoch                      63
+2018-01-29 16:17:40.431204 CET | AverageReturn             966.456
+2018-01-29 16:17:40.431418 CET | StdReturn                 351.718
+2018-01-29 16:17:40.431630 CET | MaxReturn                1310.31
+2018-01-29 16:17:40.431841 CET | MinReturn                 174.925
+2018-01-29 16:17:40.432063 CET | AverageEsReturn           719.531
+2018-01-29 16:17:40.432327 CET | StdEsReturn               284.865
+2018-01-29 16:17:40.432546 CET | MaxEsReturn              1101.46
+2018-01-29 16:17:40.432786 CET | MinEsReturn               277.362
+2018-01-29 16:17:40.433014 CET | AverageDiscountedReturn   142.553
+2018-01-29 16:17:40.433224 CET | AverageQLoss                0.22865
+2018-01-29 16:17:40.433434 CET | AveragePolicySurr         -11.7466
+2018-01-29 16:17:40.433656 CET | AverageQ                   11.6729
+2018-01-29 16:17:40.433873 CET | AverageAbsQ                11.6729
+2018-01-29 16:17:40.434088 CET | AverageY                   11.6732
+2018-01-29 16:17:40.434303 CET | AverageAbsY                11.6732
+2018-01-29 16:17:40.434533 CET | AverageAbsQYDiff            0.202089
+2018-01-29 16:17:40.434749 CET | AverageAction               0.925087
+2018-01-29 16:17:40.434964 CET | PolicyRegParamNorm         58.5374
+2018-01-29 16:17:40.435179 CET | QFunRegParamNorm          155.66
+2018-01-29 16:17:40.435395 CET | -----------------------  -----------
+2018-01-29 16:17:40.435777 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #64 | Training started
+2018-01-29 16:20:06.143343 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #64 | Training finished
+2018-01-29 16:20:06.143733 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #64 | Collecting samples for evaluation
+2018-01-29 16:20:12.765780 CET | -----------------------  -----------
+2018-01-29 16:20:12.766060 CET | Epoch                      64
+2018-01-29 16:20:12.766277 CET | AverageReturn             848.365
+2018-01-29 16:20:12.766491 CET | StdReturn                 255.184
+2018-01-29 16:20:12.766702 CET | MaxReturn                1221.23
+2018-01-29 16:20:12.766913 CET | MinReturn                 468.497
+2018-01-29 16:20:12.767355 CET | AverageEsReturn           849.53
+2018-01-29 16:20:12.767567 CET | StdEsReturn               257.925
+2018-01-29 16:20:12.767778 CET | MaxEsReturn              1179.51
+2018-01-29 16:20:12.767988 CET | MinEsReturn               157.119
+2018-01-29 16:20:12.768215 CET | AverageDiscountedReturn   110.348
+2018-01-29 16:20:12.768424 CET | AverageQLoss                0.231631
+2018-01-29 16:20:12.768642 CET | AveragePolicySurr         -12.0388
+2018-01-29 16:20:12.768852 CET | AverageQ                   11.9643
+2018-01-29 16:20:12.769067 CET | AverageAbsQ                11.9643
+2018-01-29 16:20:12.769276 CET | AverageY                   11.9648
+2018-01-29 16:20:12.769728 CET | AverageAbsY                11.9648
+2018-01-29 16:20:12.769938 CET | AverageAbsQYDiff            0.202986
+2018-01-29 16:20:12.770147 CET | AverageAction               0.935262
+2018-01-29 16:20:12.770357 CET | PolicyRegParamNorm         58.8685
+2018-01-29 16:20:12.770566 CET | QFunRegParamNorm          156.946
+2018-01-29 16:20:12.770774 CET | -----------------------  -----------
+2018-01-29 16:20:12.771054 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #65 | Training started
+2018-01-29 16:22:37.982297 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #65 | Training finished
+2018-01-29 16:22:37.982676 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #65 | Collecting samples for evaluation
+2018-01-29 16:22:44.600252 CET | -----------------------  -----------
+2018-01-29 16:22:44.600532 CET | Epoch                      65
+2018-01-29 16:22:44.600760 CET | AverageReturn            1042.16
+2018-01-29 16:22:44.600973 CET | StdReturn                  89.3667
+2018-01-29 16:22:44.601183 CET | MaxReturn                1199.5
+2018-01-29 16:22:44.601393 CET | MinReturn                 873.785
+2018-01-29 16:22:44.601634 CET | AverageEsReturn           668.545
+2018-01-29 16:22:44.601850 CET | StdEsReturn               311.191
+2018-01-29 16:22:44.602060 CET | MaxEsReturn              1184.75
+2018-01-29 16:22:44.602268 CET | MinEsReturn               206.913
+2018-01-29 16:22:44.602477 CET | AverageDiscountedReturn   137.21
+2018-01-29 16:22:44.602720 CET | AverageQLoss                0.229945
+2018-01-29 16:22:44.602930 CET | AveragePolicySurr         -12.316
+2018-01-29 16:22:44.603138 CET | AverageQ                   12.2416
+2018-01-29 16:22:44.603347 CET | AverageAbsQ                12.2416
+2018-01-29 16:22:44.603557 CET | AverageY                   12.2424
+2018-01-29 16:22:44.603765 CET | AverageAbsY                12.2424
+2018-01-29 16:22:44.603988 CET | AverageAbsQYDiff            0.203296
+2018-01-29 16:22:44.604203 CET | AverageAction               0.941613
+2018-01-29 16:22:44.604412 CET | PolicyRegParamNorm         59.2009
+2018-01-29 16:22:44.604624 CET | QFunRegParamNorm          158.048
+2018-01-29 16:22:44.604835 CET | -----------------------  -----------
+2018-01-29 16:22:44.605116 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #66 | Training started
+2018-01-29 16:25:11.199306 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #66 | Training finished
+2018-01-29 16:25:11.199695 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #66 | Collecting samples for evaluation
+2018-01-29 16:25:17.882592 CET | -----------------------  -----------
+2018-01-29 16:25:17.882873 CET | Epoch                      66
+2018-01-29 16:25:17.883092 CET | AverageReturn             907.546
+2018-01-29 16:25:17.883307 CET | StdReturn                 332.835
+2018-01-29 16:25:17.883520 CET | MaxReturn                1351.39
+2018-01-29 16:25:17.883733 CET | MinReturn                 400.51
+2018-01-29 16:25:17.883960 CET | AverageEsReturn           660.578
+2018-01-29 16:25:17.884179 CET | StdEsReturn               278.293
+2018-01-29 16:25:17.884391 CET | MaxEsReturn              1137.83
+2018-01-29 16:25:17.884602 CET | MinEsReturn               108.315
+2018-01-29 16:25:17.884845 CET | AverageDiscountedReturn   132.691
+2018-01-29 16:25:17.885056 CET | AverageQLoss                0.215955
+2018-01-29 16:25:17.885284 CET | AveragePolicySurr         -12.5006
+2018-01-29 16:25:17.885549 CET | AverageQ                   12.4294
+2018-01-29 16:25:17.885760 CET | AverageAbsQ                12.4294
+2018-01-29 16:25:17.885981 CET | AverageY                   12.4295
+2018-01-29 16:25:17.886197 CET | AverageAbsY                12.4295
+2018-01-29 16:25:17.886434 CET | AverageAbsQYDiff            0.201842
+2018-01-29 16:25:17.886651 CET | AverageAction               0.92908
+2018-01-29 16:25:17.886874 CET | PolicyRegParamNorm         59.5227
+2018-01-29 16:25:17.887091 CET | QFunRegParamNorm          159.101
+2018-01-29 16:25:17.887307 CET | -----------------------  -----------
+2018-01-29 16:25:17.887597 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #67 | Training started
+2018-01-29 16:27:44.020659 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #67 | Training finished
+2018-01-29 16:27:44.020956 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #67 | Collecting samples for evaluation
+2018-01-29 16:27:50.653091 CET | -----------------------  -----------
+2018-01-29 16:27:50.653403 CET | Epoch                      67
+2018-01-29 16:27:50.653620 CET | AverageReturn            1228.06
+2018-01-29 16:27:50.653834 CET | StdReturn                 143.843
+2018-01-29 16:27:50.654064 CET | MaxReturn                1429.48
+2018-01-29 16:27:50.654280 CET | MinReturn                 903.22
+2018-01-29 16:27:50.654490 CET | AverageEsReturn           814.169
+2018-01-29 16:27:50.654701 CET | StdEsReturn               161.831
+2018-01-29 16:27:50.654911 CET | MaxEsReturn              1054.68
+2018-01-29 16:27:50.655138 CET | MinEsReturn               489.632
+2018-01-29 16:27:50.655349 CET | AverageDiscountedReturn   162.685
+2018-01-29 16:27:50.655559 CET | AverageQLoss                0.237341
+2018-01-29 16:27:50.655769 CET | AveragePolicySurr         -12.7078
+2018-01-29 16:27:50.655979 CET | AverageQ                   12.6374
+2018-01-29 16:27:50.656189 CET | AverageAbsQ                12.6374
+2018-01-29 16:27:50.656452 CET | AverageY                   12.6381
+2018-01-29 16:27:50.656670 CET | AverageAbsY                12.6381
+2018-01-29 16:27:50.656880 CET | AverageAbsQYDiff            0.208774
+2018-01-29 16:27:50.657090 CET | AverageAction               0.909152
+2018-01-29 16:27:50.657300 CET | PolicyRegParamNorm         59.8684
+2018-01-29 16:27:50.657509 CET | QFunRegParamNorm          160.306
+2018-01-29 16:27:50.657718 CET | -----------------------  -----------
+2018-01-29 16:27:50.657998 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #68 | Training started
+2018-01-29 16:30:17.562772 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #68 | Training finished
+2018-01-29 16:30:17.563159 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #68 | Collecting samples for evaluation
+2018-01-29 16:30:24.213895 CET | -----------------------  -----------
+2018-01-29 16:30:24.214187 CET | Epoch                      68
+2018-01-29 16:30:24.214412 CET | AverageReturn            1126.86
+2018-01-29 16:30:24.214624 CET | StdReturn                 233.74
+2018-01-29 16:30:24.214836 CET | MaxReturn                1338.21
+2018-01-29 16:30:24.215064 CET | MinReturn                 389.096
+2018-01-29 16:30:24.215274 CET | AverageEsReturn           876.235
+2018-01-29 16:30:24.215485 CET | StdEsReturn               140.741
+2018-01-29 16:30:24.215712 CET | MaxEsReturn              1147.55
+2018-01-29 16:30:24.215921 CET | MinEsReturn               539.068
+2018-01-29 16:30:24.216131 CET | AverageDiscountedReturn   152.25
+2018-01-29 16:30:24.216340 CET | AverageQLoss                0.227731
+2018-01-29 16:30:24.216550 CET | AveragePolicySurr         -12.9005
+2018-01-29 16:30:24.216771 CET | AverageQ                   12.8312
+2018-01-29 16:30:24.216980 CET | AverageAbsQ                12.8312
+2018-01-29 16:30:24.217190 CET | AverageY                   12.8315
+2018-01-29 16:30:24.217414 CET | AverageAbsY                12.8315
+2018-01-29 16:30:24.217631 CET | AverageAbsQYDiff            0.208574
+2018-01-29 16:30:24.217841 CET | AverageAction               0.930658
+2018-01-29 16:30:24.218051 CET | PolicyRegParamNorm         60.1793
+2018-01-29 16:30:24.218296 CET | QFunRegParamNorm          161.529
+2018-01-29 16:30:24.218506 CET | -----------------------  -----------
+2018-01-29 16:30:24.218795 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #69 | Training started
+2018-01-29 16:32:55.436844 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #69 | Training finished
+2018-01-29 16:32:55.437233 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #69 | Collecting samples for evaluation
+2018-01-29 16:33:02.366283 CET | -----------------------  -----------
+2018-01-29 16:33:02.366565 CET | Epoch                      69
+2018-01-29 16:33:02.366784 CET | AverageReturn             910.885
+2018-01-29 16:33:02.366998 CET | StdReturn                 312.81
+2018-01-29 16:33:02.367210 CET | MaxReturn                1238.05
+2018-01-29 16:33:02.367422 CET | MinReturn                 251.992
+2018-01-29 16:33:02.367651 CET | AverageEsReturn           762.178
+2018-01-29 16:33:02.367868 CET | StdEsReturn               255.037
+2018-01-29 16:33:02.368078 CET | MaxEsReturn              1045.5
+2018-01-29 16:33:02.368288 CET | MinEsReturn               217.066
+2018-01-29 16:33:02.368525 CET | AverageDiscountedReturn   132.749
+2018-01-29 16:33:02.368755 CET | AverageQLoss                0.232181
+2018-01-29 16:33:02.368965 CET | AveragePolicySurr         -13.1493
+2018-01-29 16:33:02.369176 CET | AverageQ                   13.0767
+2018-01-29 16:33:02.369388 CET | AverageAbsQ                13.0767
+2018-01-29 16:33:02.369598 CET | AverageY                   13.0768
+2018-01-29 16:33:02.369809 CET | AverageAbsY                13.0768
+2018-01-29 16:33:02.370039 CET | AverageAbsQYDiff            0.210547
+2018-01-29 16:33:02.370249 CET | AverageAction               0.934501
+2018-01-29 16:33:02.370459 CET | PolicyRegParamNorm         60.4801
+2018-01-29 16:33:02.370670 CET | QFunRegParamNorm          162.735
+2018-01-29 16:33:02.370915 CET | -----------------------  -----------
+2018-01-29 16:33:02.371199 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #70 | Training started
+2018-01-29 16:35:51.884493 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #70 | Training finished
+2018-01-29 16:35:51.884828 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #70 | Collecting samples for evaluation
+2018-01-29 16:35:58.785183 CET | -----------------------  -----------
+2018-01-29 16:35:58.785464 CET | Epoch                      70
+2018-01-29 16:35:58.785682 CET | AverageReturn             645.632
+2018-01-29 16:35:58.785897 CET | StdReturn                 350.772
+2018-01-29 16:35:58.786109 CET | MaxReturn                1222.02
+2018-01-29 16:35:58.786321 CET | MinReturn                 176.914
+2018-01-29 16:35:58.786549 CET | AverageEsReturn           587.802
+2018-01-29 16:35:58.786763 CET | StdEsReturn               241.701
+2018-01-29 16:35:58.786973 CET | MaxEsReturn              1030.78
+2018-01-29 16:35:58.787184 CET | MinEsReturn               284.754
+2018-01-29 16:35:58.787395 CET | AverageDiscountedReturn   136.71
+2018-01-29 16:35:58.787606 CET | AverageQLoss                0.237704
+2018-01-29 16:35:58.787816 CET | AveragePolicySurr         -13.3289
+2018-01-29 16:35:58.788044 CET | AverageQ                   13.256
+2018-01-29 16:35:58.788254 CET | AverageAbsQ                13.256
+2018-01-29 16:35:58.788464 CET | AverageY                   13.2564
+2018-01-29 16:35:58.788682 CET | AverageAbsY                13.2564
+2018-01-29 16:35:58.788900 CET | AverageAbsQYDiff            0.212557
+2018-01-29 16:35:58.789140 CET | AverageAction               0.919757
+2018-01-29 16:35:58.789351 CET | PolicyRegParamNorm         60.7858
+2018-01-29 16:35:58.789562 CET | QFunRegParamNorm          163.838
+2018-01-29 16:35:58.789773 CET | -----------------------  -----------
+2018-01-29 16:35:58.790054 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #71 | Training started
+2018-01-29 16:38:52.568216 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #71 | Training finished
+2018-01-29 16:38:52.568590 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #71 | Collecting samples for evaluation
+2018-01-29 16:38:59.399938 CET | -----------------------  -----------
+2018-01-29 16:38:59.400218 CET | Epoch                      71
+2018-01-29 16:38:59.400436 CET | AverageReturn            1179.69
+2018-01-29 16:38:59.400664 CET | StdReturn                  82.0307
+2018-01-29 16:38:59.400878 CET | MaxReturn                1304
+2018-01-29 16:38:59.401090 CET | MinReturn                1003.98
+2018-01-29 16:38:59.401316 CET | AverageEsReturn           788.493
+2018-01-29 16:38:59.401527 CET | StdEsReturn               192.511
+2018-01-29 16:38:59.401738 CET | MaxEsReturn              1100.72
+2018-01-29 16:38:59.401947 CET | MinEsReturn               379.599
+2018-01-29 16:38:59.402158 CET | AverageDiscountedReturn   146.143
+2018-01-29 16:38:59.402368 CET | AverageQLoss                0.250903
+2018-01-29 16:38:59.402577 CET | AveragePolicySurr         -13.5018
+2018-01-29 16:38:59.402786 CET | AverageQ                   13.4293
+2018-01-29 16:38:59.402996 CET | AverageAbsQ                13.4293
+2018-01-29 16:38:59.403206 CET | AverageY                   13.4295
+2018-01-29 16:38:59.403416 CET | AverageAbsY                13.4295
+2018-01-29 16:38:59.403640 CET | AverageAbsQYDiff            0.215912
+2018-01-29 16:38:59.403855 CET | AverageAction               0.916817
+2018-01-29 16:38:59.404065 CET | PolicyRegParamNorm         61.1552
+2018-01-29 16:38:59.404275 CET | QFunRegParamNorm          164.984
+2018-01-29 16:38:59.404484 CET | -----------------------  -----------
+2018-01-29 16:38:59.404774 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #72 | Training started
+2018-01-29 16:41:55.772577 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #72 | Training finished
+2018-01-29 16:41:55.772988 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #72 | Collecting samples for evaluation
+2018-01-29 16:42:02.504963 CET | -----------------------  -----------
+2018-01-29 16:42:02.505248 CET | Epoch                      72
+2018-01-29 16:42:02.505467 CET | AverageReturn             880.277
+2018-01-29 16:42:02.505681 CET | StdReturn                 344.237
+2018-01-29 16:42:02.505895 CET | MaxReturn                1315.53
+2018-01-29 16:42:02.506107 CET | MinReturn                 260.233
+2018-01-29 16:42:02.506338 CET | AverageEsReturn           781.121
+2018-01-29 16:42:02.506549 CET | StdEsReturn               201.692
+2018-01-29 16:42:02.506760 CET | MaxEsReturn              1007.6
+2018-01-29 16:42:02.506970 CET | MinEsReturn                61.5002
+2018-01-29 16:42:02.507199 CET | AverageDiscountedReturn   137.577
+2018-01-29 16:42:02.507410 CET | AverageQLoss                0.236911
+2018-01-29 16:42:02.507621 CET | AveragePolicySurr         -13.7119
+2018-01-29 16:42:02.507832 CET | AverageQ                   13.6401
+2018-01-29 16:42:02.508043 CET | AverageAbsQ                13.6401
+2018-01-29 16:42:02.508254 CET | AverageY                   13.6406
+2018-01-29 16:42:02.508473 CET | AverageAbsY                13.6406
+2018-01-29 16:42:02.508718 CET | AverageAbsQYDiff            0.215565
+2018-01-29 16:42:02.508928 CET | AverageAction               0.914117
+2018-01-29 16:42:02.509139 CET | PolicyRegParamNorm         61.5378
+2018-01-29 16:42:02.509350 CET | QFunRegParamNorm          166.078
+2018-01-29 16:42:02.509561 CET | -----------------------  -----------
+2018-01-29 16:42:02.509844 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #73 | Training started
+2018-01-29 16:44:59.055275 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #73 | Training finished
+2018-01-29 16:44:59.055673 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #73 | Collecting samples for evaluation
+2018-01-29 16:45:06.073146 CET | -----------------------  -----------
+2018-01-29 16:45:06.073430 CET | Epoch                      73
+2018-01-29 16:45:06.073647 CET | AverageReturn            1233.74
+2018-01-29 16:45:06.073861 CET | StdReturn                 304.099
+2018-01-29 16:45:06.074074 CET | MaxReturn                1507.8
+2018-01-29 16:45:06.074284 CET | MinReturn                  18.7133
+2018-01-29 16:45:06.074509 CET | AverageEsReturn           812.099
+2018-01-29 16:45:06.074724 CET | StdEsReturn               293.559
+2018-01-29 16:45:06.074934 CET | MaxEsReturn              1134.72
+2018-01-29 16:45:06.075152 CET | MinEsReturn               145.764
+2018-01-29 16:45:06.075380 CET | AverageDiscountedReturn   166.181
+2018-01-29 16:45:06.075589 CET | AverageQLoss                0.257023
+2018-01-29 16:45:06.075799 CET | AveragePolicySurr         -13.8312
+2018-01-29 16:45:06.076009 CET | AverageQ                   13.7601
+2018-01-29 16:45:06.076218 CET | AverageAbsQ                13.7601
+2018-01-29 16:45:06.076428 CET | AverageY                   13.7608
+2018-01-29 16:45:06.076643 CET | AverageAbsY                13.7608
+2018-01-29 16:45:06.076871 CET | AverageAbsQYDiff            0.218079
+2018-01-29 16:45:06.077132 CET | AverageAction               0.923123
+2018-01-29 16:45:06.077342 CET | PolicyRegParamNorm         61.8502
+2018-01-29 16:45:06.077551 CET | QFunRegParamNorm          167.182
+2018-01-29 16:45:06.077761 CET | -----------------------  -----------
+2018-01-29 16:45:06.078044 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #74 | Training started
+2018-01-29 16:48:31.922117 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #74 | Training finished
+2018-01-29 16:48:31.922499 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #74 | Collecting samples for evaluation
+2018-01-29 16:48:38.941049 CET | -----------------------  -----------
+2018-01-29 16:48:38.941327 CET | Epoch                      74
+2018-01-29 16:48:38.941546 CET | AverageReturn            1205.68
+2018-01-29 16:48:38.941762 CET | StdReturn                 306.213
+2018-01-29 16:48:38.941992 CET | MaxReturn                1496.85
+2018-01-29 16:48:38.942221 CET | MinReturn                 566.654
+2018-01-29 16:48:38.942447 CET | AverageEsReturn           740.744
+2018-01-29 16:48:38.942663 CET | StdEsReturn               273.589
+2018-01-29 16:48:38.942873 CET | MaxEsReturn              1078.9
+2018-01-29 16:48:38.943102 CET | MinEsReturn                93.9771
+2018-01-29 16:48:38.943312 CET | AverageDiscountedReturn   162.471
+2018-01-29 16:48:38.943523 CET | AverageQLoss                0.2441
+2018-01-29 16:48:38.943734 CET | AveragePolicySurr         -14.0292
+2018-01-29 16:48:38.943944 CET | AverageQ                   13.954
+2018-01-29 16:48:38.944154 CET | AverageAbsQ                13.954
+2018-01-29 16:48:38.944365 CET | AverageY                   13.9543
+2018-01-29 16:48:38.944575 CET | AverageAbsY                13.9543
+2018-01-29 16:48:38.944794 CET | AverageAbsQYDiff            0.218593
+2018-01-29 16:48:38.945019 CET | AverageAction               0.926964
+2018-01-29 16:48:38.945230 CET | PolicyRegParamNorm         62.2092
+2018-01-29 16:48:38.945440 CET | QFunRegParamNorm          168.227
+2018-01-29 16:48:38.945650 CET | -----------------------  -----------
+2018-01-29 16:48:38.945931 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #75 | Training started
+2018-01-29 16:52:01.277445 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #75 | Training finished
+2018-01-29 16:52:01.277871 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #75 | Collecting samples for evaluation
+2018-01-29 16:52:08.221328 CET | -----------------------  -----------
+2018-01-29 16:52:08.221609 CET | Epoch                      75
+2018-01-29 16:52:08.221827 CET | AverageReturn            1039.79
+2018-01-29 16:52:08.222040 CET | StdReturn                  69.716
+2018-01-29 16:52:08.222252 CET | MaxReturn                1180.03
+2018-01-29 16:52:08.222462 CET | MinReturn                 933.635
+2018-01-29 16:52:08.222900 CET | AverageEsReturn           790.654
+2018-01-29 16:52:08.223128 CET | StdEsReturn               309.333
+2018-01-29 16:52:08.223338 CET | MaxEsReturn              1083.62
+2018-01-29 16:52:08.223547 CET | MinEsReturn                69.5713
+2018-01-29 16:52:08.223756 CET | AverageDiscountedReturn   139.511
+2018-01-29 16:52:08.223967 CET | AverageQLoss                0.244453
+2018-01-29 16:52:08.224177 CET | AveragePolicySurr         -14.2368
+2018-01-29 16:52:08.224387 CET | AverageQ                   14.1603
+2018-01-29 16:52:08.224602 CET | AverageAbsQ                14.1603
+2018-01-29 16:52:08.224820 CET | AverageY                   14.1605
+2018-01-29 16:52:08.225278 CET | AverageAbsY                14.1605
+2018-01-29 16:52:08.225488 CET | AverageAbsQYDiff            0.219859
+2018-01-29 16:52:08.225715 CET | AverageAction               0.906902
+2018-01-29 16:52:08.225924 CET | PolicyRegParamNorm         62.5523
+2018-01-29 16:52:08.226133 CET | QFunRegParamNorm          169.303
+2018-01-29 16:52:08.226341 CET | -----------------------  -----------
+2018-01-29 16:52:08.226622 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #76 | Training started
+2018-01-29 16:55:28.374801 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #76 | Training finished
+2018-01-29 16:55:28.375553 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #76 | Collecting samples for evaluation
+2018-01-29 16:55:37.571780 CET | -----------------------  -----------
+2018-01-29 16:55:37.572060 CET | Epoch                      76
+2018-01-29 16:55:37.572279 CET | AverageReturn             748.124
+2018-01-29 16:55:37.572494 CET | StdReturn                 278.23
+2018-01-29 16:55:37.572720 CET | MaxReturn                1406.65
+2018-01-29 16:55:37.572950 CET | MinReturn                  13.1064
+2018-01-29 16:55:37.573198 CET | AverageEsReturn           861.097
+2018-01-29 16:55:37.573409 CET | StdEsReturn               163.977
+2018-01-29 16:55:37.573621 CET | MaxEsReturn              1300.07
+2018-01-29 16:55:37.573832 CET | MinEsReturn               638.572
+2018-01-29 16:55:37.574043 CET | AverageDiscountedReturn   100.304
+2018-01-29 16:55:37.574253 CET | AverageQLoss                0.271576
+2018-01-29 16:55:37.574465 CET | AveragePolicySurr         -14.4376
+2018-01-29 16:55:37.574675 CET | AverageQ                   14.36
+2018-01-29 16:55:37.574886 CET | AverageAbsQ                14.36
+2018-01-29 16:55:37.575097 CET | AverageY                   14.3611
+2018-01-29 16:55:37.575325 CET | AverageAbsY                14.3611
+2018-01-29 16:55:37.575537 CET | AverageAbsQYDiff            0.22654
+2018-01-29 16:55:37.575808 CET | AverageAction               0.927651
+2018-01-29 16:55:37.576028 CET | PolicyRegParamNorm         62.8155
+2018-01-29 16:55:37.576239 CET | QFunRegParamNorm          170.324
+2018-01-29 16:55:37.576450 CET | -----------------------  -----------
+2018-01-29 16:55:37.576740 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #77 | Training started
+2018-01-29 16:58:51.140713 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #77 | Training finished
+2018-01-29 16:58:51.141101 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #77 | Collecting samples for evaluation
+2018-01-29 16:58:58.790762 CET | -----------------------  -----------
+2018-01-29 16:58:58.791043 CET | Epoch                      77
+2018-01-29 16:58:58.791262 CET | AverageReturn            1133.55
+2018-01-29 16:58:58.791477 CET | StdReturn                  66.3783
+2018-01-29 16:58:58.791707 CET | MaxReturn                1288.63
+2018-01-29 16:58:58.791919 CET | MinReturn                1049.25
+2018-01-29 16:58:58.792148 CET | AverageEsReturn           804.729
+2018-01-29 16:58:58.792371 CET | StdEsReturn               227.812
+2018-01-29 16:58:58.792608 CET | MaxEsReturn              1025.92
+2018-01-29 16:58:58.792830 CET | MinEsReturn               356.07
+2018-01-29 16:58:58.793040 CET | AverageDiscountedReturn   136.116
+2018-01-29 16:58:58.793249 CET | AverageQLoss                0.260366
+2018-01-29 16:58:58.793459 CET | AveragePolicySurr         -14.677
+2018-01-29 16:58:58.793670 CET | AverageQ                   14.5945
+2018-01-29 16:58:58.793880 CET | AverageAbsQ                14.5945
+2018-01-29 16:58:58.794089 CET | AverageY                   14.5953
+2018-01-29 16:58:58.794298 CET | AverageAbsY                14.5953
+2018-01-29 16:58:58.794527 CET | AverageAbsQYDiff            0.229008
+2018-01-29 16:58:58.794736 CET | AverageAction               0.890798
+2018-01-29 16:58:58.794946 CET | PolicyRegParamNorm         63.1006
+2018-01-29 16:58:58.795161 CET | QFunRegParamNorm          171.595
+2018-01-29 16:58:58.795370 CET | -----------------------  -----------
+2018-01-29 16:58:58.795652 CET | [DDPG_step-_NOT_PROVIDED_seed-_1_time-_20180129-134223] epoch #78 | Training started

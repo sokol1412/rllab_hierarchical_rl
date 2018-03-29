@@ -1,0 +1,820 @@
+2018-03-26 23:10:54.219848 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] Building BNN model (eta=0.0001) ...
+2018-03-26 23:11:15.640895 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] Model built (21.4 sec).
+2018-03-26 23:11:15.641761 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] Populating workers...
+2018-03-26 23:12:46.101123 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] Populated
+2018-03-26 23:15:20.814761 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | fitting baseline...
+2018-03-26 23:15:21.611972 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | fitted
+2018-03-26 23:15:21.614980 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | Fitting dynamics model using replay pool ...
+2018-03-26 23:17:52.799680 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | computing loss before
+2018-03-26 23:17:53.093579 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | performing update
+2018-03-26 23:17:53.093991 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | computing descent direction
+2018-03-26 23:18:06.944787 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | descent direction computed
+2018-03-26 23:18:07.719580 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | backtrack iters: 0
+2018-03-26 23:18:07.719859 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | computing loss after
+2018-03-26 23:18:07.720050 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | optimization finished
+2018-03-26 23:18:08.687803 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | saving snapshot...
+2018-03-26 23:18:08.703333 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #0 | saved
+2018-03-26 23:18:08.704476 CEST | ------------------------  ---------------
+2018-03-26 23:18:08.704673 CEST | Expl_MeanKL                   0
+2018-03-26 23:18:08.704852 CEST | Expl_StdKL                    0
+2018-03-26 23:18:08.705027 CEST | Expl_MinKL                    0
+2018-03-26 23:18:08.705200 CEST | Expl_MaxKL                    0
+2018-03-26 23:18:08.705372 CEST | Iteration                     0
+2018-03-26 23:18:08.705543 CEST | AverageDiscountedReturn      -5.90682
+2018-03-26 23:18:08.705714 CEST | AverageReturn                -9.78238
+2018-03-26 23:18:08.705885 CEST | ExplainedVariance             9.57456e-10
+2018-03-26 23:18:08.706056 CEST | NumTrajs                    749
+2018-03-26 23:18:08.706257 CEST | Entropy                      11.3515
+2018-03-26 23:18:08.706429 CEST | Perplexity                85093.7
+2018-03-26 23:18:08.706704 CEST | StdReturn                     1.45861
+2018-03-26 23:18:08.708455 CEST | MaxReturn                     1
+2018-03-26 23:18:08.708707 CEST | MinReturn                   -12
+2018-03-26 23:18:08.708890 CEST | BNN_DynModelSqLossBefore   3087.85
+2018-03-26 23:18:08.709068 CEST | BNN_DynModelSqLossAfter    1283.17
+2018-03-26 23:18:08.709242 CEST | AveragePolicyStd              1
+2018-03-26 23:18:08.709416 CEST | LossAfter                    -0.0608053
+2018-03-26 23:18:08.709588 CEST | MeanKL                        0.0970239
+2018-03-26 23:18:08.709761 CEST | dLoss                         0.0608053
+2018-03-26 23:18:08.709932 CEST | ------------------------  ---------------
+2018-03-26 23:38:00.540853 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | fitting baseline...
+2018-03-26 23:38:01.012610 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | fitted
+2018-03-26 23:38:01.037206 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | Fitting dynamics model using replay pool ...
+2018-03-26 23:40:53.149367 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | computing loss before
+2018-03-26 23:40:55.085647 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | performing update
+2018-03-26 23:40:55.085924 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | computing descent direction
+2018-03-26 23:41:19.790827 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | descent direction computed
+2018-03-26 23:41:20.177254 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | backtrack iters: 0
+2018-03-26 23:41:20.177556 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | computing loss after
+2018-03-26 23:41:20.177745 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | optimization finished
+2018-03-26 23:41:20.906791 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | saving snapshot...
+2018-03-26 23:41:20.927378 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #1 | saved
+2018-03-26 23:41:20.932293 CEST | ------------------------  -------------
+2018-03-26 23:41:20.932559 CEST | Expl_MeanKL                 342.343
+2018-03-26 23:41:20.932744 CEST | Expl_StdKL                  315.61
+2018-03-26 23:41:20.932922 CEST | Expl_MinKL                    4.87192
+2018-03-26 23:41:20.933104 CEST | Expl_MaxKL                 1000
+2018-03-26 23:41:20.933282 CEST | Iteration                     1
+2018-03-26 23:41:20.933460 CEST | AverageDiscountedReturn      -5.14762
+2018-03-26 23:41:20.933637 CEST | AverageReturn                -9.48333
+2018-03-26 23:41:20.933815 CEST | ExplainedVariance             0.524065
+2018-03-26 23:41:20.933993 CEST | NumTrajs                    540
+2018-03-26 23:41:20.934192 CEST | Entropy                      11.3398
+2018-03-26 23:41:20.934370 CEST | Perplexity                84107.2
+2018-03-26 23:41:20.934842 CEST | StdReturn                     2.26848
+2018-03-26 23:41:20.935019 CEST | MaxReturn                     2
+2018-03-26 23:41:20.935195 CEST | MinReturn                   -12
+2018-03-26 23:41:20.935370 CEST | BNN_DynModelSqLossBefore   1278.99
+2018-03-26 23:41:20.935554 CEST | BNN_DynModelSqLossAfter     670.927
+2018-03-26 23:41:20.935733 CEST | AveragePolicyStd              0.998562
+2018-03-26 23:41:20.935907 CEST | LossAfter                    -0.0615749
+2018-03-26 23:41:20.936082 CEST | MeanKL                        0.0975247
+2018-03-26 23:41:20.936257 CEST | dLoss                         0.0615749
+2018-03-26 23:41:20.936436 CEST | ------------------------  -------------
+2018-03-26 23:59:53.763723 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | fitting baseline...
+2018-03-26 23:59:56.026000 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | fitted
+2018-03-26 23:59:56.125883 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | Fitting dynamics model using replay pool ...
+2018-03-27 00:01:35.574351 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | computing loss before
+2018-03-27 00:01:35.935154 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | performing update
+2018-03-27 00:01:35.935555 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | computing descent direction
+2018-03-27 00:01:48.542975 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | descent direction computed
+2018-03-27 00:01:48.873150 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | backtrack iters: 0
+2018-03-27 00:01:48.873644 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | computing loss after
+2018-03-27 00:01:48.873867 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | optimization finished
+2018-03-27 00:01:49.490487 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | saving snapshot...
+2018-03-27 00:01:49.504533 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #2 | saved
+2018-03-27 00:01:49.505849 CEST | ------------------------  -------------
+2018-03-27 00:01:49.506061 CEST | Expl_MeanKL                 156.967
+2018-03-27 00:01:49.506245 CEST | Expl_StdKL                  228.414
+2018-03-27 00:01:49.506428 CEST | Expl_MinKL                    1.92352
+2018-03-27 00:01:49.506607 CEST | Expl_MaxKL                 1000
+2018-03-27 00:01:49.506851 CEST | Iteration                     2
+2018-03-27 00:01:49.507034 CEST | AverageDiscountedReturn      -5.08143
+2018-03-27 00:01:49.507211 CEST | AverageReturn                -9.50838
+2018-03-27 00:01:49.507388 CEST | ExplainedVariance             0.506353
+2018-03-27 00:01:49.507634 CEST | NumTrajs                    537
+2018-03-27 00:01:49.507819 CEST | Entropy                      11.3829
+2018-03-27 00:01:49.508032 CEST | Perplexity                87805.7
+2018-03-27 00:01:49.508212 CEST | StdReturn                     2.26306
+2018-03-27 00:01:49.508452 CEST | MaxReturn                     3
+2018-03-27 00:01:49.508631 CEST | MinReturn                   -12
+2018-03-27 00:01:49.508806 CEST | BNN_DynModelSqLossBefore    675.525
+2018-03-27 00:01:49.508982 CEST | BNN_DynModelSqLossAfter     359.762
+2018-03-27 00:01:49.509218 CEST | AveragePolicyStd              1.00402
+2018-03-27 00:01:49.509420 CEST | LossAfter                    -0.0596005
+2018-03-27 00:01:49.509596 CEST | MeanKL                        0.0971781
+2018-03-27 00:01:49.509772 CEST | dLoss                         0.0596005
+2018-03-27 00:01:49.509946 CEST | ------------------------  -------------
+2018-03-27 00:20:57.617903 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | fitting baseline...
+2018-03-27 00:21:00.298723 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | fitted
+2018-03-27 00:21:00.388980 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | Fitting dynamics model using replay pool ...
+2018-03-27 00:22:11.740522 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | computing loss before
+2018-03-27 00:22:13.515255 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | performing update
+2018-03-27 00:22:13.515560 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | computing descent direction
+2018-03-27 00:23:14.137768 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | descent direction computed
+2018-03-27 00:23:16.062227 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | backtrack iters: 0
+2018-03-27 00:23:16.062523 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | computing loss after
+2018-03-27 00:23:16.062731 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | optimization finished
+2018-03-27 00:23:19.782807 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | saving snapshot...
+2018-03-27 00:23:19.889399 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #3 | saved
+2018-03-27 00:23:19.890590 CEST | ------------------------  -------------
+2018-03-27 00:23:19.932927 CEST | Expl_MeanKL                 110.118
+2018-03-27 00:23:19.935114 CEST | Expl_StdKL                  247.271
+2018-03-27 00:23:19.939374 CEST | Expl_MinKL                    0.308176
+2018-03-27 00:23:19.941071 CEST | Expl_MaxKL                 1000
+2018-03-27 00:23:19.942568 CEST | Iteration                     3
+2018-03-27 00:23:19.944023 CEST | AverageDiscountedReturn      -4.35094
+2018-03-27 00:23:19.945476 CEST | AverageReturn                -8.85039
+2018-03-27 00:23:19.946854 CEST | ExplainedVariance             0.480857
+2018-03-27 00:23:19.950719 CEST | NumTrajs                    381
+2018-03-27 00:23:19.952284 CEST | Entropy                      11.4498
+2018-03-27 00:23:19.953752 CEST | Perplexity                93886.6
+2018-03-27 00:23:19.955137 CEST | StdReturn                     3.24926
+2018-03-27 00:23:19.956562 CEST | MaxReturn                     2
+2018-03-27 00:23:19.958041 CEST | MinReturn                   -12
+2018-03-27 00:23:19.962092 CEST | BNN_DynModelSqLossBefore    366.988
+2018-03-27 00:23:19.963684 CEST | BNN_DynModelSqLossAfter     189.776
+2018-03-27 00:23:19.965085 CEST | AveragePolicyStd              1.01251
+2018-03-27 00:23:19.966512 CEST | LossAfter                    -0.0610408
+2018-03-27 00:23:19.967945 CEST | MeanKL                        0.0963014
+2018-03-27 00:23:19.969328 CEST | dLoss                         0.0610408
+2018-03-27 00:23:19.973145 CEST | ------------------------  -------------
+2018-03-27 00:42:04.858110 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | fitting baseline...
+2018-03-27 00:42:07.033524 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | fitted
+2018-03-27 00:42:07.096367 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | Fitting dynamics model using replay pool ...
+2018-03-27 00:44:28.707001 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | computing loss before
+2018-03-27 00:44:29.039326 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | performing update
+2018-03-27 00:44:29.039671 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | computing descent direction
+2018-03-27 00:44:40.868965 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | descent direction computed
+2018-03-27 00:44:41.201094 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | backtrack iters: 0
+2018-03-27 00:44:41.201550 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | computing loss after
+2018-03-27 00:44:41.201757 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | optimization finished
+2018-03-27 00:44:41.857671 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | saving snapshot...
+2018-03-27 00:44:41.871321 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #4 | saved
+2018-03-27 00:44:41.872589 CEST | ------------------------  -------------
+2018-03-27 00:44:41.872823 CEST | Expl_MeanKL                  73.472
+2018-03-27 00:44:41.873099 CEST | Expl_StdKL                  221.024
+2018-03-27 00:44:41.873293 CEST | Expl_MinKL                    0.0752751
+2018-03-27 00:44:41.873485 CEST | Expl_MaxKL                 1000
+2018-03-27 00:44:41.873682 CEST | Iteration                     4
+2018-03-27 00:44:41.873917 CEST | AverageDiscountedReturn      -4.20084
+2018-03-27 00:44:41.874110 CEST | AverageReturn                -8.79255
+2018-03-27 00:44:41.874300 CEST | ExplainedVariance             0.483991
+2018-03-27 00:44:41.874492 CEST | NumTrajs                    376
+2018-03-27 00:44:41.874727 CEST | Entropy                      11.4882
+2018-03-27 00:44:41.874902 CEST | Perplexity                97561.6
+2018-03-27 00:44:41.875083 CEST | StdReturn                     3.30048
+2018-03-27 00:44:41.875262 CEST | MaxReturn                     2
+2018-03-27 00:44:41.875496 CEST | MinReturn                   -11
+2018-03-27 00:44:41.875683 CEST | BNN_DynModelSqLossBefore    189.923
+2018-03-27 00:44:41.875863 CEST | BNN_DynModelSqLossAfter      96.0296
+2018-03-27 00:44:41.876090 CEST | AveragePolicyStd              1.01748
+2018-03-27 00:44:41.876272 CEST | LossAfter                    -0.05837
+2018-03-27 00:44:41.876448 CEST | MeanKL                        0.0986461
+2018-03-27 00:44:41.876623 CEST | dLoss                         0.05837
+2018-03-27 00:44:41.876939 CEST | ------------------------  -------------
+2018-03-27 01:03:01.107419 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | fitting baseline...
+2018-03-27 01:03:03.274450 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | fitted
+2018-03-27 01:03:03.295054 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | Fitting dynamics model using replay pool ...
+2018-03-27 01:04:35.868263 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | computing loss before
+2018-03-27 01:04:36.157958 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | performing update
+2018-03-27 01:04:36.158413 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | computing descent direction
+2018-03-27 01:04:48.976225 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | descent direction computed
+2018-03-27 01:04:49.627358 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | backtrack iters: 1
+2018-03-27 01:04:49.627655 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | computing loss after
+2018-03-27 01:04:49.627847 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | optimization finished
+2018-03-27 01:04:50.340736 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | saving snapshot...
+2018-03-27 01:04:50.358656 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #5 | saved
+2018-03-27 01:04:50.363104 CEST | ------------------------  --------------
+2018-03-27 01:04:50.363320 CEST | Expl_MeanKL                  37.7297
+2018-03-27 01:04:50.363625 CEST | Expl_StdKL                  133.341
+2018-03-27 01:04:50.363909 CEST | Expl_MinKL                    0.00125616
+2018-03-27 01:04:50.364178 CEST | Expl_MaxKL                 1000
+2018-03-27 01:04:50.364423 CEST | Iteration                     5
+2018-03-27 01:04:50.364655 CEST | AverageDiscountedReturn      -3.54105
+2018-03-27 01:04:50.364832 CEST | AverageReturn                -8.08834
+2018-03-27 01:04:50.365071 CEST | ExplainedVariance             0.389704
+2018-03-27 01:04:50.365307 CEST | NumTrajs                    283
+2018-03-27 01:04:50.365545 CEST | Entropy                      11.4926
+2018-03-27 01:04:50.365772 CEST | Perplexity                97983.1
+2018-03-27 01:04:50.365953 CEST | StdReturn                     3.94252
+2018-03-27 01:04:50.366182 CEST | MaxReturn                     2
+2018-03-27 01:04:50.366420 CEST | MinReturn                   -12
+2018-03-27 01:04:50.366597 CEST | BNN_DynModelSqLossBefore     99.519
+2018-03-27 01:04:50.366829 CEST | BNN_DynModelSqLossAfter      49.341
+2018-03-27 01:04:50.367062 CEST | AveragePolicyStd              1.0184
+2018-03-27 01:04:50.367296 CEST | LossAfter                    -0.0496511
+2018-03-27 01:04:50.367520 CEST | MeanKL                        0.065671
+2018-03-27 01:04:50.367759 CEST | dLoss                         0.0496511
+2018-03-27 01:04:50.367987 CEST | ------------------------  --------------
+2018-03-27 01:23:38.810543 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | fitting baseline...
+2018-03-27 01:23:41.068092 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | fitted
+2018-03-27 01:23:41.100694 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | Fitting dynamics model using replay pool ...
+2018-03-27 01:24:44.673535 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | computing loss before
+2018-03-27 01:24:45.013810 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | performing update
+2018-03-27 01:24:45.014205 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | computing descent direction
+2018-03-27 01:25:05.332153 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | descent direction computed
+2018-03-27 01:25:07.230095 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | backtrack iters: 0
+2018-03-27 01:25:07.230366 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | computing loss after
+2018-03-27 01:25:07.230552 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | optimization finished
+2018-03-27 01:25:10.926022 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | saving snapshot...
+2018-03-27 01:25:11.064618 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #6 | saved
+2018-03-27 01:25:11.065792 CEST | ------------------------  --------------
+2018-03-27 01:25:11.065990 CEST | Expl_MeanKL                   9.6286
+2018-03-27 01:25:11.093606 CEST | Expl_StdKL                   42.2807
+2018-03-27 01:25:11.098288 CEST | Expl_MinKL                    0.00123127
+2018-03-27 01:25:11.099925 CEST | Expl_MaxKL                 1000
+2018-03-27 01:25:11.101383 CEST | Iteration                     6
+2018-03-27 01:25:11.102828 CEST | AverageDiscountedReturn      -3.66135
+2018-03-27 01:25:11.104179 CEST | AverageReturn                -8.43709
+2018-03-27 01:25:11.105562 CEST | ExplainedVariance             0.429583
+2018-03-27 01:25:11.106947 CEST | NumTrajs                    302
+2018-03-27 01:25:11.108289 CEST | Entropy                      11.4996
+2018-03-27 01:25:11.109672 CEST | Perplexity                98675.3
+2018-03-27 01:25:11.111072 CEST | StdReturn                     3.58358
+2018-03-27 01:25:11.112445 CEST | MaxReturn                     1
+2018-03-27 01:25:11.116350 CEST | MinReturn                   -11
+2018-03-27 01:25:11.120295 CEST | BNN_DynModelSqLossBefore     49.0914
+2018-03-27 01:25:11.121794 CEST | BNN_DynModelSqLossAfter      25.908
+2018-03-27 01:25:11.123225 CEST | AveragePolicyStd              1.01945
+2018-03-27 01:25:11.124648 CEST | LossAfter                    -0.0661489
+2018-03-27 01:25:11.125997 CEST | MeanKL                        0.0998191
+2018-03-27 01:25:11.127552 CEST | dLoss                         0.0661489
+2018-03-27 01:25:11.128986 CEST | ------------------------  --------------
+2018-03-27 01:44:09.806168 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | fitting baseline...
+2018-03-27 01:44:12.560986 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | fitted
+2018-03-27 01:44:12.606952 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | Fitting dynamics model using replay pool ...
+2018-03-27 01:45:43.927846 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | computing loss before
+2018-03-27 01:45:45.853027 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | performing update
+2018-03-27 01:45:45.853309 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | computing descent direction
+2018-03-27 01:46:49.266963 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | descent direction computed
+2018-03-27 01:46:51.232431 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | backtrack iters: 0
+2018-03-27 01:46:51.255171 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | computing loss after
+2018-03-27 01:46:51.257410 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | optimization finished
+2018-03-27 01:46:55.022526 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | saving snapshot...
+2018-03-27 01:46:55.157596 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #7 | saved
+2018-03-27 01:46:55.162958 CEST | ------------------------  ---------------
+2018-03-27 01:46:55.174444 CEST | Expl_MeanKL                   3.94103
+2018-03-27 01:46:55.176689 CEST | Expl_StdKL                   17.2277
+2018-03-27 01:46:55.178369 CEST | Expl_MinKL                    9.88101e-05
+2018-03-27 01:46:55.179926 CEST | Expl_MaxKL                  603.745
+2018-03-27 01:46:55.181566 CEST | Iteration                     7
+2018-03-27 01:46:55.184046 CEST | AverageDiscountedReturn      -3.38237
+2018-03-27 01:46:55.186074 CEST | AverageReturn                -7.56977
+2018-03-27 01:46:55.187597 CEST | ExplainedVariance             0.370423
+2018-03-27 01:46:55.189102 CEST | NumTrajs                    258
+2018-03-27 01:46:55.191858 CEST | Entropy                      11.5029
+2018-03-27 01:46:55.193388 CEST | Perplexity                99005.9
+2018-03-27 01:46:55.195989 CEST | StdReturn                     4.25051
+2018-03-27 01:46:55.197591 CEST | MaxReturn                     2
+2018-03-27 01:46:55.199069 CEST | MinReturn                   -12
+2018-03-27 01:46:55.200534 CEST | BNN_DynModelSqLossBefore     26.549
+2018-03-27 01:46:55.202625 CEST | BNN_DynModelSqLossAfter      15.5418
+2018-03-27 01:46:55.204168 CEST | AveragePolicyStd              1.02007
+2018-03-27 01:46:55.207248 CEST | LossAfter                    -0.0632262
+2018-03-27 01:46:55.211485 CEST | MeanKL                        0.0983335
+2018-03-27 01:46:55.213411 CEST | dLoss                         0.0632262
+2018-03-27 01:46:55.215026 CEST | ------------------------  ---------------
+2018-03-27 02:04:42.933407 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | fitting baseline...
+2018-03-27 02:04:45.278607 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | fitted
+2018-03-27 02:04:45.313863 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | Fitting dynamics model using replay pool ...
+2018-03-27 02:07:12.663842 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | computing loss before
+2018-03-27 02:07:12.976193 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | performing update
+2018-03-27 02:07:12.976527 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | computing descent direction
+2018-03-27 02:07:25.584138 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | descent direction computed
+2018-03-27 02:07:25.907973 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | backtrack iters: 0
+2018-03-27 02:07:25.908284 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | computing loss after
+2018-03-27 02:07:25.908555 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | optimization finished
+2018-03-27 02:07:26.562475 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | saving snapshot...
+2018-03-27 02:07:26.577873 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #8 | saved
+2018-03-27 02:07:26.579181 CEST | ------------------------  ---------------
+2018-03-27 02:07:26.579406 CEST | Expl_MeanKL                   1.16723
+2018-03-27 02:07:26.579623 CEST | Expl_StdKL                    9.22724
+2018-03-27 02:07:26.579819 CEST | Expl_MinKL                    6.50858e-05
+2018-03-27 02:07:26.580013 CEST | Expl_MaxKL                 1000
+2018-03-27 02:07:26.580210 CEST | Iteration                     8
+2018-03-27 02:07:26.580394 CEST | AverageDiscountedReturn      -3.40257
+2018-03-27 02:07:26.580574 CEST | AverageReturn                -7.97015
+2018-03-27 02:07:26.580768 CEST | ExplainedVariance             0.373853
+2018-03-27 02:07:26.580944 CEST | NumTrajs                    268
+2018-03-27 02:07:26.581120 CEST | Entropy                      11.4939
+2018-03-27 02:07:26.581297 CEST | Perplexity                98120
+2018-03-27 02:07:26.581473 CEST | StdReturn                     4.10577
+2018-03-27 02:07:26.581664 CEST | MaxReturn                     2
+2018-03-27 02:07:26.581856 CEST | MinReturn                   -13
+2018-03-27 02:07:26.582047 CEST | BNN_DynModelSqLossBefore     15.5875
+2018-03-27 02:07:26.582222 CEST | BNN_DynModelSqLossAfter      10.9994
+2018-03-27 02:07:26.582398 CEST | AveragePolicyStd              1.01893
+2018-03-27 02:07:26.582573 CEST | LossAfter                    -0.0642074
+2018-03-27 02:07:26.582763 CEST | MeanKL                        0.0975675
+2018-03-27 02:07:26.582939 CEST | dLoss                         0.0642074
+2018-03-27 02:07:26.583114 CEST | ------------------------  ---------------
+2018-03-27 02:24:39.921116 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | fitting baseline...
+2018-03-27 02:24:42.389038 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | fitted
+2018-03-27 02:24:42.428409 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | Fitting dynamics model using replay pool ...
+2018-03-27 02:26:52.043216 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | computing loss before
+2018-03-27 02:26:52.384487 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | performing update
+2018-03-27 02:26:52.385018 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | computing descent direction
+2018-03-27 02:27:04.679053 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | descent direction computed
+2018-03-27 02:27:05.034358 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | backtrack iters: 0
+2018-03-27 02:27:05.034670 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | computing loss after
+2018-03-27 02:27:05.034880 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | optimization finished
+2018-03-27 02:27:05.693180 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | saving snapshot...
+2018-03-27 02:27:05.710117 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #9 | saved
+2018-03-27 02:27:05.713734 CEST | ------------------------  ---------------
+2018-03-27 02:27:05.713982 CEST | Expl_MeanKL                   0.623919
+2018-03-27 02:27:05.714207 CEST | Expl_StdKL                    2.61219
+2018-03-27 02:27:05.714404 CEST | Expl_MinKL                    9.75957e-05
+2018-03-27 02:27:05.714600 CEST | Expl_MaxKL                   88.6515
+2018-03-27 02:27:05.714779 CEST | Iteration                     9
+2018-03-27 02:27:05.714956 CEST | AverageDiscountedReturn      -2.90485
+2018-03-27 02:27:05.715147 CEST | AverageReturn                -7.4026
+2018-03-27 02:27:05.715381 CEST | ExplainedVariance             0.334663
+2018-03-27 02:27:05.715581 CEST | NumTrajs                    231
+2018-03-27 02:27:05.715774 CEST | Entropy                      11.4854
+2018-03-27 02:27:05.715950 CEST | Perplexity                97282.3
+2018-03-27 02:27:05.716366 CEST | StdReturn                     4.39281
+2018-03-27 02:27:05.716545 CEST | MaxReturn                     2
+2018-03-27 02:27:05.716723 CEST | MinReturn                   -12
+2018-03-27 02:27:05.716904 CEST | BNN_DynModelSqLossBefore     10.8313
+2018-03-27 02:27:05.717079 CEST | BNN_DynModelSqLossAfter       8.91409
+2018-03-27 02:27:05.717254 CEST | AveragePolicyStd              1.01787
+2018-03-27 02:27:05.717498 CEST | LossAfter                    -0.0608192
+2018-03-27 02:27:05.717676 CEST | MeanKL                        0.0987794
+2018-03-27 02:27:05.717852 CEST | dLoss                         0.0608192
+2018-03-27 02:27:05.718108 CEST | ------------------------  ---------------
+2018-03-27 02:44:23.790933 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | fitting baseline...
+2018-03-27 02:44:26.043948 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | fitted
+2018-03-27 02:44:26.078324 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | Fitting dynamics model using replay pool ...
+2018-03-27 02:46:44.177803 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | computing loss before
+2018-03-27 02:46:44.500538 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | performing update
+2018-03-27 02:46:44.500927 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | computing descent direction
+2018-03-27 02:46:56.129251 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | descent direction computed
+2018-03-27 02:46:56.416658 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | backtrack iters: 0
+2018-03-27 02:46:56.417079 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | computing loss after
+2018-03-27 02:46:56.417298 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | optimization finished
+2018-03-27 02:46:56.991715 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | saving snapshot...
+2018-03-27 02:46:57.007759 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #10 | saved
+2018-03-27 02:46:57.009105 CEST | ------------------------  ---------------
+2018-03-27 02:46:57.009361 CEST | Expl_MeanKL                   0.458659
+2018-03-27 02:46:57.009570 CEST | Expl_StdKL                    6.48418
+2018-03-27 02:46:57.009774 CEST | Expl_MinKL                    0.000147293
+2018-03-27 02:46:57.009956 CEST | Expl_MaxKL                 1000
+2018-03-27 02:46:57.010138 CEST | Iteration                    10
+2018-03-27 02:46:57.010340 CEST | AverageDiscountedReturn      -2.62642
+2018-03-27 02:46:57.010519 CEST | AverageReturn                -6.9537
+2018-03-27 02:46:57.010698 CEST | ExplainedVariance             0.319606
+2018-03-27 02:46:57.010879 CEST | NumTrajs                    216
+2018-03-27 02:46:57.011056 CEST | Entropy                      11.4507
+2018-03-27 02:46:57.011235 CEST | Perplexity                93970.9
+2018-03-27 02:46:57.011413 CEST | StdReturn                     4.59949
+2018-03-27 02:46:57.011603 CEST | MaxReturn                     2
+2018-03-27 02:46:57.011781 CEST | MinReturn                   -11
+2018-03-27 02:46:57.011959 CEST | BNN_DynModelSqLossBefore      8.92087
+2018-03-27 02:46:57.012136 CEST | BNN_DynModelSqLossAfter       7.96659
+2018-03-27 02:46:57.012314 CEST | AveragePolicyStd              1.01372
+2018-03-27 02:46:57.012492 CEST | LossAfter                    -0.0644509
+2018-03-27 02:46:57.012669 CEST | MeanKL                        0.0984934
+2018-03-27 02:46:57.012846 CEST | dLoss                         0.0644509
+2018-03-27 02:46:57.013024 CEST | ------------------------  ---------------
+2018-03-27 03:05:24.324074 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | fitting baseline...
+2018-03-27 03:05:26.481810 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | fitted
+2018-03-27 03:05:26.524643 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | Fitting dynamics model using replay pool ...
+2018-03-27 03:06:43.660372 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | computing loss before
+2018-03-27 03:06:44.034441 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | performing update
+2018-03-27 03:06:44.034817 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | computing descent direction
+2018-03-27 03:06:56.335438 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | descent direction computed
+2018-03-27 03:06:56.632539 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | backtrack iters: 0
+2018-03-27 03:06:56.633089 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | computing loss after
+2018-03-27 03:06:56.633367 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | optimization finished
+2018-03-27 03:06:57.194405 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | saving snapshot...
+2018-03-27 03:06:57.212116 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #11 | saved
+2018-03-27 03:06:57.213315 CEST | ------------------------  ---------------
+2018-03-27 03:06:57.213506 CEST | Expl_MeanKL                   0.285771
+2018-03-27 03:06:57.213718 CEST | Expl_StdKL                    1.1462
+2018-03-27 03:06:57.213928 CEST | Expl_MinKL                    0.000270046
+2018-03-27 03:06:57.214121 CEST | Expl_MaxKL                   33.5367
+2018-03-27 03:06:57.214324 CEST | Iteration                    11
+2018-03-27 03:06:57.214500 CEST | AverageDiscountedReturn      -2.54156
+2018-03-27 03:06:57.214680 CEST | AverageReturn                -7.23697
+2018-03-27 03:06:57.214856 CEST | ExplainedVariance             0.315118
+2018-03-27 03:06:57.215033 CEST | NumTrajs                    211
+2018-03-27 03:06:57.215220 CEST | Entropy                      11.458
+2018-03-27 03:06:57.215395 CEST | Perplexity                94651.7
+2018-03-27 03:06:57.215583 CEST | StdReturn                     4.47963
+2018-03-27 03:06:57.215759 CEST | MaxReturn                     3
+2018-03-27 03:06:57.215935 CEST | MinReturn                   -12
+2018-03-27 03:06:57.216114 CEST | BNN_DynModelSqLossBefore     34.1396
+2018-03-27 03:06:57.216292 CEST | BNN_DynModelSqLossAfter      28.9824
+2018-03-27 03:06:57.216469 CEST | AveragePolicyStd              1.01451
+2018-03-27 03:06:57.216650 CEST | LossAfter                    -0.0650775
+2018-03-27 03:06:57.216826 CEST | MeanKL                        0.0961045
+2018-03-27 03:06:57.217007 CEST | dLoss                         0.0650775
+2018-03-27 03:06:57.217187 CEST | ------------------------  ---------------
+2018-03-27 03:26:21.469644 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | fitting baseline...
+2018-03-27 03:26:21.871092 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | fitted
+2018-03-27 03:26:21.876598 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | Fitting dynamics model using replay pool ...
+2018-03-27 03:29:15.106044 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | computing loss before
+2018-03-27 03:29:15.450744 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | performing update
+2018-03-27 03:29:15.451234 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | computing descent direction
+2018-03-27 03:29:27.493092 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | descent direction computed
+2018-03-27 03:29:27.814959 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | backtrack iters: 0
+2018-03-27 03:29:27.815564 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | computing loss after
+2018-03-27 03:29:27.815788 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | optimization finished
+2018-03-27 03:29:28.379732 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | saving snapshot...
+2018-03-27 03:29:28.394923 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #12 | saved
+2018-03-27 03:29:28.396176 CEST | ------------------------  ---------------
+2018-03-27 03:29:28.396405 CEST | Expl_MeanKL                   0.250972
+2018-03-27 03:29:28.396604 CEST | Expl_StdKL                    0.935845
+2018-03-27 03:29:28.396793 CEST | Expl_MinKL                    5.76375e-05
+2018-03-27 03:29:28.396975 CEST | Expl_MaxKL                   33.2628
+2018-03-27 03:29:28.397156 CEST | Iteration                    12
+2018-03-27 03:29:28.397336 CEST | AverageDiscountedReturn      -2.11839
+2018-03-27 03:29:28.397514 CEST | AverageReturn                -6.33862
+2018-03-27 03:29:28.397691 CEST | ExplainedVariance             0.297856
+2018-03-27 03:29:28.397868 CEST | NumTrajs                    189
+2018-03-27 03:29:28.398044 CEST | Entropy                      11.4435
+2018-03-27 03:29:28.398220 CEST | Perplexity                93297.1
+2018-03-27 03:29:28.398395 CEST | StdReturn                     4.90994
+2018-03-27 03:29:28.398572 CEST | MaxReturn                     2
+2018-03-27 03:29:28.398746 CEST | MinReturn                   -12
+2018-03-27 03:29:28.398922 CEST | BNN_DynModelSqLossBefore      7.05526
+2018-03-27 03:29:28.399098 CEST | BNN_DynModelSqLossAfter       6.3122
+2018-03-27 03:29:28.399273 CEST | AveragePolicyStd              1.01268
+2018-03-27 03:29:28.399449 CEST | LossAfter                    -0.0634222
+2018-03-27 03:29:28.399634 CEST | MeanKL                        0.0991843
+2018-03-27 03:29:28.399810 CEST | dLoss                         0.0634222
+2018-03-27 03:29:28.399987 CEST | ------------------------  ---------------
+2018-03-27 03:47:39.670197 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | fitting baseline...
+2018-03-27 03:47:41.830527 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | fitted
+2018-03-27 03:47:41.888673 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | Fitting dynamics model using replay pool ...
+2018-03-27 03:49:13.354094 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | computing loss before
+2018-03-27 03:49:13.734158 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | performing update
+2018-03-27 03:49:13.734558 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | computing descent direction
+2018-03-27 03:49:25.945817 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | descent direction computed
+2018-03-27 03:49:26.279821 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | backtrack iters: 0
+2018-03-27 03:49:26.280274 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | computing loss after
+2018-03-27 03:49:26.280481 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | optimization finished
+2018-03-27 03:49:26.969847 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | saving snapshot...
+2018-03-27 03:49:26.992090 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #13 | saved
+2018-03-27 03:49:26.994317 CEST | ------------------------  ---------------
+2018-03-27 03:49:26.994522 CEST | Expl_MeanKL                   0.165817
+2018-03-27 03:49:26.994722 CEST | Expl_StdKL                    0.629018
+2018-03-27 03:49:26.994923 CEST | Expl_MinKL                    0.000356881
+2018-03-27 03:49:26.995116 CEST | Expl_MaxKL                   23.2162
+2018-03-27 03:49:26.995307 CEST | Iteration                    13
+2018-03-27 03:49:26.995486 CEST | AverageDiscountedReturn      -2.08024
+2018-03-27 03:49:26.995679 CEST | AverageReturn                -5.7809
+2018-03-27 03:49:26.996079 CEST | ExplainedVariance             0.144551
+2018-03-27 03:49:26.996258 CEST | NumTrajs                    178
+2018-03-27 03:49:26.996442 CEST | Entropy                      11.4637
+2018-03-27 03:49:26.996619 CEST | Perplexity                95198.5
+2018-03-27 03:49:26.996794 CEST | StdReturn                     4.91984
+2018-03-27 03:49:26.996975 CEST | MaxReturn                     2
+2018-03-27 03:49:26.997152 CEST | MinReturn                   -11
+2018-03-27 03:49:26.997329 CEST | BNN_DynModelSqLossBefore     30.1965
+2018-03-27 03:49:26.997511 CEST | BNN_DynModelSqLossAfter      21.1818
+2018-03-27 03:49:26.997689 CEST | AveragePolicyStd              1.01485
+2018-03-27 03:49:26.997865 CEST | LossAfter                    -0.0626081
+2018-03-27 03:49:26.998046 CEST | MeanKL                        0.0974011
+2018-03-27 03:49:26.998465 CEST | dLoss                         0.0626081
+2018-03-27 03:49:26.998645 CEST | ------------------------  ---------------
+2018-03-27 04:08:38.991385 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | fitting baseline...
+2018-03-27 04:08:40.451053 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | fitted
+2018-03-27 04:08:40.469574 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | Fitting dynamics model using replay pool ...
+2018-03-27 04:11:26.641028 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | computing loss before
+2018-03-27 04:11:27.095499 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | performing update
+2018-03-27 04:11:27.095887 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | computing descent direction
+2018-03-27 04:11:45.338641 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | descent direction computed
+2018-03-27 04:11:45.657226 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | backtrack iters: 0
+2018-03-27 04:11:45.657553 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | computing loss after
+2018-03-27 04:11:45.657756 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | optimization finished
+2018-03-27 04:11:46.285323 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | saving snapshot...
+2018-03-27 04:11:46.301871 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #14 | saved
+2018-03-27 04:11:46.303174 CEST | ------------------------  ---------------
+2018-03-27 04:11:46.303416 CEST | Expl_MeanKL                   0.130326
+2018-03-27 04:11:46.303723 CEST | Expl_StdKL                    0.45723
+2018-03-27 04:11:46.303938 CEST | Expl_MinKL                    0.000141882
+2018-03-27 04:11:46.304132 CEST | Expl_MaxKL                   17.0933
+2018-03-27 04:11:46.304308 CEST | Iteration                    14
+2018-03-27 04:11:46.304547 CEST | AverageDiscountedReturn      -1.78178
+2018-03-27 04:11:46.304787 CEST | AverageReturn                -5.44512
+2018-03-27 04:11:46.304963 CEST | ExplainedVariance             0.203923
+2018-03-27 04:11:46.305138 CEST | NumTrajs                    164
+2018-03-27 04:11:46.305313 CEST | Entropy                      11.4673
+2018-03-27 04:11:46.305547 CEST | Perplexity                95538.4
+2018-03-27 04:11:46.305725 CEST | StdReturn                     5.04281
+2018-03-27 04:11:46.305900 CEST | MaxReturn                     2
+2018-03-27 04:11:46.306074 CEST | MinReturn                   -13
+2018-03-27 04:11:46.306247 CEST | BNN_DynModelSqLossBefore     32.5969
+2018-03-27 04:11:46.306478 CEST | BNN_DynModelSqLossAfter      32.4676
+2018-03-27 04:11:46.306653 CEST | AveragePolicyStd              1.01563
+2018-03-27 04:11:46.306833 CEST | LossAfter                    -0.0627389
+2018-03-27 04:11:46.307007 CEST | MeanKL                        0.0980009
+2018-03-27 04:11:46.307181 CEST | dLoss                         0.0627389
+2018-03-27 04:11:46.307410 CEST | ------------------------  ---------------
+2018-03-27 04:29:52.905944 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | fitting baseline...
+2018-03-27 04:29:55.115091 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | fitted
+2018-03-27 04:29:55.145010 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | Fitting dynamics model using replay pool ...
+2018-03-27 04:31:28.840356 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | computing loss before
+2018-03-27 04:31:29.157500 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | performing update
+2018-03-27 04:31:29.157820 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | computing descent direction
+2018-03-27 04:31:40.886936 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | descent direction computed
+2018-03-27 04:31:41.559313 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | backtrack iters: 1
+2018-03-27 04:31:41.559751 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | computing loss after
+2018-03-27 04:31:41.560051 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | optimization finished
+2018-03-27 04:31:42.227355 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | saving snapshot...
+2018-03-27 04:31:42.245232 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #15 | saved
+2018-03-27 04:31:42.246515 CEST | ------------------------  ---------------
+2018-03-27 04:31:42.246721 CEST | Expl_MeanKL                   0.106066
+2018-03-27 04:31:42.246991 CEST | Expl_StdKL                    0.336921
+2018-03-27 04:31:42.247227 CEST | Expl_MinKL                    0.000249434
+2018-03-27 04:31:42.247436 CEST | Expl_MaxKL                   11.3346
+2018-03-27 04:31:42.247663 CEST | Iteration                    15
+2018-03-27 04:31:42.247933 CEST | AverageDiscountedReturn      -1.49832
+2018-03-27 04:31:42.248172 CEST | AverageReturn                -5.17197
+2018-03-27 04:31:42.248355 CEST | ExplainedVariance             0.192881
+2018-03-27 04:31:42.248597 CEST | NumTrajs                    157
+2018-03-27 04:31:42.248777 CEST | Entropy                      11.4706
+2018-03-27 04:31:42.249015 CEST | Perplexity                95856
+2018-03-27 04:31:42.249252 CEST | StdReturn                     5.0654
+2018-03-27 04:31:42.249536 CEST | MaxReturn                     2
+2018-03-27 04:31:42.249729 CEST | MinReturn                   -12
+2018-03-27 04:31:42.249957 CEST | BNN_DynModelSqLossBefore      5.72252
+2018-03-27 04:31:42.250160 CEST | BNN_DynModelSqLossAfter       5.60998
+2018-03-27 04:31:42.250411 CEST | AveragePolicyStd              1.01613
+2018-03-27 04:31:42.250641 CEST | LossAfter                    -0.0507695
+2018-03-27 04:31:42.250822 CEST | MeanKL                        0.0648272
+2018-03-27 04:31:42.250999 CEST | dLoss                         0.0507695
+2018-03-27 04:31:42.251235 CEST | ------------------------  ---------------
+2018-03-27 04:50:57.024711 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | fitting baseline...
+2018-03-27 04:50:57.693675 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | fitted
+2018-03-27 04:50:57.704830 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | Fitting dynamics model using replay pool ...
+2018-03-27 04:53:01.815016 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | computing loss before
+2018-03-27 04:53:03.662350 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | performing update
+2018-03-27 04:53:03.678226 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | computing descent direction
+2018-03-27 04:54:02.657332 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | descent direction computed
+2018-03-27 04:54:03.111508 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | backtrack iters: 0
+2018-03-27 04:54:03.111876 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | computing loss after
+2018-03-27 04:54:03.112066 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | optimization finished
+2018-03-27 04:54:04.007915 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | saving snapshot...
+2018-03-27 04:54:04.038766 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #16 | saved
+2018-03-27 04:54:04.042379 CEST | ------------------------  ---------------
+2018-03-27 04:54:04.042628 CEST | Expl_MeanKL                   0.110572
+2018-03-27 04:54:04.042813 CEST | Expl_StdKL                    0.313447
+2018-03-27 04:54:04.042993 CEST | Expl_MinKL                    0.000313347
+2018-03-27 04:54:04.043196 CEST | Expl_MaxKL                    6.95073
+2018-03-27 04:54:04.043396 CEST | Iteration                    16
+2018-03-27 04:54:04.043657 CEST | AverageDiscountedReturn      -1.19771
+2018-03-27 04:54:04.043834 CEST | AverageReturn                -4.02143
+2018-03-27 04:54:04.044011 CEST | ExplainedVariance             0.12887
+2018-03-27 04:54:04.044319 CEST | NumTrajs                    140
+2018-03-27 04:54:04.044517 CEST | Entropy                      11.4519
+2018-03-27 04:54:04.044772 CEST | Perplexity                94078.3
+2018-03-27 04:54:04.044950 CEST | StdReturn                     5.02631
+2018-03-27 04:54:04.045146 CEST | MaxReturn                     2
+2018-03-27 04:54:04.045341 CEST | MinReturn                   -12
+2018-03-27 04:54:04.045577 CEST | BNN_DynModelSqLossBefore      5.61042
+2018-03-27 04:54:04.045817 CEST | BNN_DynModelSqLossAfter       5.74628
+2018-03-27 04:54:04.046012 CEST | AveragePolicyStd              1.01386
+2018-03-27 04:54:04.046206 CEST | LossAfter                    -0.0616969
+2018-03-27 04:54:04.046401 CEST | MeanKL                        0.0998764
+2018-03-27 04:54:04.046596 CEST | dLoss                         0.0616969
+2018-03-27 04:54:04.046849 CEST | ------------------------  ---------------
+2018-03-27 05:11:24.459463 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | fitting baseline...
+2018-03-27 05:11:26.808737 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | fitted
+2018-03-27 05:11:26.847382 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | Fitting dynamics model using replay pool ...
+2018-03-27 05:13:50.586436 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | computing loss before
+2018-03-27 05:13:50.903485 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | performing update
+2018-03-27 05:13:50.903840 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | computing descent direction
+2018-03-27 05:14:03.184810 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | descent direction computed
+2018-03-27 05:14:03.480631 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | backtrack iters: 0
+2018-03-27 05:14:03.481177 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | computing loss after
+2018-03-27 05:14:03.481403 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | optimization finished
+2018-03-27 05:14:04.174511 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | saving snapshot...
+2018-03-27 05:14:04.199429 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #17 | saved
+2018-03-27 05:14:04.203137 CEST | ------------------------  --------------
+2018-03-27 05:14:04.203381 CEST | Expl_MeanKL                   0.103191
+2018-03-27 05:14:04.203583 CEST | Expl_StdKL                    0.282443
+2018-03-27 05:14:04.203848 CEST | Expl_MinKL                    8.2731e-05
+2018-03-27 05:14:04.204035 CEST | Expl_MaxKL                    7.32687
+2018-03-27 05:14:04.204218 CEST | Iteration                    17
+2018-03-27 05:14:04.204464 CEST | AverageDiscountedReturn      -1.47683
+2018-03-27 05:14:04.204661 CEST | AverageReturn                -5.29747
+2018-03-27 05:14:04.204839 CEST | ExplainedVariance             0.217023
+2018-03-27 05:14:04.205075 CEST | NumTrajs                    158
+2018-03-27 05:14:04.205261 CEST | Entropy                      11.451
+2018-03-27 05:14:04.205448 CEST | Perplexity                93996.3
+2018-03-27 05:14:04.205691 CEST | StdReturn                     5.07227
+2018-03-27 05:14:04.205905 CEST | MaxReturn                     2
+2018-03-27 05:14:04.206132 CEST | MinReturn                   -11
+2018-03-27 05:14:04.206320 CEST | BNN_DynModelSqLossBefore      5.87896
+2018-03-27 05:14:04.206501 CEST | BNN_DynModelSqLossAfter       5.8089
+2018-03-27 05:14:04.206731 CEST | AveragePolicyStd              1.01388
+2018-03-27 05:14:04.206919 CEST | LossAfter                    -0.0642209
+2018-03-27 05:14:04.207098 CEST | MeanKL                        0.098832
+2018-03-27 05:14:04.207325 CEST | dLoss                         0.0642209
+2018-03-27 05:14:04.207510 CEST | ------------------------  --------------
+2018-03-27 05:32:39.302591 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | fitting baseline...
+2018-03-27 05:32:41.507160 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | fitted
+2018-03-27 05:32:41.574899 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | Fitting dynamics model using replay pool ...
+2018-03-27 05:34:01.785517 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | computing loss before
+2018-03-27 05:34:02.108265 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | performing update
+2018-03-27 05:34:02.108765 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | computing descent direction
+2018-03-27 05:34:14.971629 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | descent direction computed
+2018-03-27 05:34:15.300050 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | backtrack iters: 0
+2018-03-27 05:34:15.300458 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | computing loss after
+2018-03-27 05:34:15.300714 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | optimization finished
+2018-03-27 05:34:16.011906 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | saving snapshot...
+2018-03-27 05:34:16.055797 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #18 | saved
+2018-03-27 05:34:16.064024 CEST | ------------------------  ---------------
+2018-03-27 05:34:16.064329 CEST | Expl_MeanKL                   0.113114
+2018-03-27 05:34:16.064532 CEST | Expl_StdKL                    0.292608
+2018-03-27 05:34:16.064729 CEST | Expl_MinKL                    0.000299886
+2018-03-27 05:34:16.065025 CEST | Expl_MaxKL                    7.08323
+2018-03-27 05:34:16.065212 CEST | Iteration                    18
+2018-03-27 05:34:16.065393 CEST | AverageDiscountedReturn      -1.08584
+2018-03-27 05:34:16.065758 CEST | AverageReturn                -3.94245
+2018-03-27 05:34:16.065939 CEST | ExplainedVariance             0.101633
+2018-03-27 05:34:16.066148 CEST | NumTrajs                    139
+2018-03-27 05:34:16.066402 CEST | Entropy                      11.4609
+2018-03-27 05:34:16.066600 CEST | Perplexity                94934.1
+2018-03-27 05:34:16.066779 CEST | StdReturn                     4.89276
+2018-03-27 05:34:16.067017 CEST | MaxReturn                     2
+2018-03-27 05:34:16.067195 CEST | MinReturn                   -11
+2018-03-27 05:34:16.067484 CEST | BNN_DynModelSqLossBefore      5.86369
+2018-03-27 05:34:16.067747 CEST | BNN_DynModelSqLossAfter       5.69259
+2018-03-27 05:34:16.067934 CEST | AveragePolicyStd              1.0149
+2018-03-27 05:34:16.068113 CEST | LossAfter                    -0.0637522
+2018-03-27 05:34:16.068359 CEST | MeanKL                        0.0989591
+2018-03-27 05:34:16.068564 CEST | dLoss                         0.0637522
+2018-03-27 05:34:16.068791 CEST | ------------------------  ---------------
+2018-03-27 05:53:51.229990 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | fitting baseline...
+2018-03-27 05:53:51.944636 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | fitted
+2018-03-27 05:53:51.966728 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | Fitting dynamics model using replay pool ...
+2018-03-27 05:56:53.706787 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | computing loss before
+2018-03-27 05:56:54.179677 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | performing update
+2018-03-27 05:56:54.180075 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | computing descent direction
+2018-03-27 05:57:09.714650 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | descent direction computed
+2018-03-27 05:57:10.044676 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | backtrack iters: 0
+2018-03-27 05:57:10.045016 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | computing loss after
+2018-03-27 05:57:10.045209 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | optimization finished
+2018-03-27 05:57:10.728795 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | saving snapshot...
+2018-03-27 05:57:10.763826 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #19 | saved
+2018-03-27 05:57:10.769739 CEST | ------------------------  ---------------
+2018-03-27 05:57:10.769961 CEST | Expl_MeanKL                   0.0989971
+2018-03-27 05:57:10.770241 CEST | Expl_StdKL                    0.256311
+2018-03-27 05:57:10.770431 CEST | Expl_MinKL                    0.000135837
+2018-03-27 05:57:10.770608 CEST | Expl_MaxKL                    6.49982
+2018-03-27 05:57:10.770881 CEST | Iteration                    19
+2018-03-27 05:57:10.771095 CEST | AverageDiscountedReturn      -1.01649
+2018-03-27 05:57:10.771270 CEST | AverageReturn                -3.91912
+2018-03-27 05:57:10.771475 CEST | ExplainedVariance             0.130928
+2018-03-27 05:57:10.771694 CEST | NumTrajs                    136
+2018-03-27 05:57:10.771949 CEST | Entropy                      11.4282
+2018-03-27 05:57:10.772127 CEST | Perplexity                91873.4
+2018-03-27 05:57:10.772353 CEST | StdReturn                     5.00449
+2018-03-27 05:57:10.772550 CEST | MaxReturn                     2
+2018-03-27 05:57:10.772749 CEST | MinReturn                   -12
+2018-03-27 05:57:10.772925 CEST | BNN_DynModelSqLossBefore      5.4745
+2018-03-27 05:57:10.773099 CEST | BNN_DynModelSqLossAfter       5.49308
+2018-03-27 05:57:10.773294 CEST | AveragePolicyStd              1.01066
+2018-03-27 05:57:10.773532 CEST | LossAfter                    -0.0603248
+2018-03-27 05:57:10.773705 CEST | MeanKL                        0.098499
+2018-03-27 05:57:10.773883 CEST | dLoss                         0.0603248
+2018-03-27 05:57:10.774117 CEST | ------------------------  ---------------
+2018-03-27 06:16:19.683439 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | fitting baseline...
+2018-03-27 06:16:22.225955 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | fitted
+2018-03-27 06:16:22.275622 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | Fitting dynamics model using replay pool ...
+2018-03-27 06:17:28.535782 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | computing loss before
+2018-03-27 06:17:28.885566 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | performing update
+2018-03-27 06:17:28.885886 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | computing descent direction
+2018-03-27 06:17:40.802772 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | descent direction computed
+2018-03-27 06:17:41.086446 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | backtrack iters: 0
+2018-03-27 06:17:41.086752 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | computing loss after
+2018-03-27 06:17:41.087131 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | optimization finished
+2018-03-27 06:17:41.642746 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | saving snapshot...
+2018-03-27 06:17:41.696034 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #20 | saved
+2018-03-27 06:17:41.705799 CEST | ------------------------  ---------------
+2018-03-27 06:17:41.706050 CEST | Expl_MeanKL                   0.104541
+2018-03-27 06:17:41.706252 CEST | Expl_StdKL                    0.258627
+2018-03-27 06:17:41.706466 CEST | Expl_MinKL                    0.000174107
+2018-03-27 06:17:41.706684 CEST | Expl_MaxKL                    4.71105
+2018-03-27 06:17:41.706876 CEST | Iteration                    20
+2018-03-27 06:17:41.707067 CEST | AverageDiscountedReturn      -0.693702
+2018-03-27 06:17:41.707251 CEST | AverageReturn                -3.08661
+2018-03-27 06:17:41.707427 CEST | ExplainedVariance             0.08648
+2018-03-27 06:17:41.707612 CEST | NumTrajs                    127
+2018-03-27 06:17:41.707806 CEST | Entropy                      11.4239
+2018-03-27 06:17:41.707982 CEST | Perplexity                91486.4
+2018-03-27 06:17:41.708158 CEST | StdReturn                     4.67364
+2018-03-27 06:17:41.708434 CEST | MaxReturn                     2
+2018-03-27 06:17:41.708611 CEST | MinReturn                   -12
+2018-03-27 06:17:41.708787 CEST | BNN_DynModelSqLossBefore      5.49308
+2018-03-27 06:17:41.708963 CEST | BNN_DynModelSqLossAfter       5.42139
+2018-03-27 06:17:41.709139 CEST | AveragePolicyStd              1.01037
+2018-03-27 06:17:41.709317 CEST | LossAfter                    -0.0637728
+2018-03-27 06:17:41.709503 CEST | MeanKL                        0.0983814
+2018-03-27 06:17:41.709680 CEST | dLoss                         0.0637728
+2018-03-27 06:17:41.709855 CEST | ------------------------  ---------------
+2018-03-27 06:37:21.755443 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | fitting baseline...
+2018-03-27 06:37:22.446373 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | fitted
+2018-03-27 06:37:22.480973 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | Fitting dynamics model using replay pool ...
+2018-03-27 06:40:20.277136 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | computing loss before
+2018-03-27 06:40:20.780910 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | performing update
+2018-03-27 06:40:20.781247 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | computing descent direction
+2018-03-27 06:40:37.473333 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | descent direction computed
+2018-03-27 06:40:37.797894 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | backtrack iters: 0
+2018-03-27 06:40:37.798279 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | computing loss after
+2018-03-27 06:40:37.798490 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | optimization finished
+2018-03-27 06:40:38.449635 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | saving snapshot...
+2018-03-27 06:40:38.483428 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #21 | saved
+2018-03-27 06:40:38.487559 CEST | ------------------------  ---------------
+2018-03-27 06:40:38.487776 CEST | Expl_MeanKL                   0.0994384
+2018-03-27 06:40:38.488037 CEST | Expl_StdKL                    0.238406
+2018-03-27 06:40:38.488235 CEST | Expl_MinKL                    0.000490148
+2018-03-27 06:40:38.488414 CEST | Expl_MaxKL                    4.49765
+2018-03-27 06:40:38.488614 CEST | Iteration                    21
+2018-03-27 06:40:38.488862 CEST | AverageDiscountedReturn      -0.437894
+2018-03-27 06:40:38.489040 CEST | AverageReturn                -2.34167
+2018-03-27 06:40:38.489217 CEST | ExplainedVariance             0.0603563
+2018-03-27 06:40:38.489459 CEST | NumTrajs                    120
+2018-03-27 06:40:38.489693 CEST | Entropy                      11.4301
+2018-03-27 06:40:38.489870 CEST | Perplexity                92054.1
+2018-03-27 06:40:38.490046 CEST | StdReturn                     4.39032
+2018-03-27 06:40:38.490245 CEST | MaxReturn                     2
+2018-03-27 06:40:38.490442 CEST | MinReturn                   -11
+2018-03-27 06:40:38.490619 CEST | BNN_DynModelSqLossBefore      5.45826
+2018-03-27 06:40:38.490850 CEST | BNN_DynModelSqLossAfter       5.41896
+2018-03-27 06:40:38.491111 CEST | AveragePolicyStd              1.0112
+2018-03-27 06:40:38.491346 CEST | LossAfter                    -0.0615126
+2018-03-27 06:40:38.491523 CEST | MeanKL                        0.0979976
+2018-03-27 06:40:38.491710 CEST | dLoss                         0.0615126
+2018-03-27 06:40:38.491944 CEST | ------------------------  ---------------
+2018-03-27 06:59:51.051970 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | fitting baseline...
+2018-03-27 06:59:53.899609 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | fitted
+2018-03-27 06:59:53.946275 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | Fitting dynamics model using replay pool ...
+2018-03-27 07:00:47.100988 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | computing loss before
+2018-03-27 07:00:47.442570 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | performing update
+2018-03-27 07:00:47.442902 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | computing descent direction
+2018-03-27 07:01:22.329528 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | descent direction computed
+2018-03-27 07:01:24.295654 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | backtrack iters: 0
+2018-03-27 07:01:24.302802 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | computing loss after
+2018-03-27 07:01:24.307039 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | optimization finished
+2018-03-27 07:01:28.120369 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | saving snapshot...
+2018-03-27 07:01:28.302993 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #22 | saved
+2018-03-27 07:01:28.317257 CEST | ------------------------  ---------------
+2018-03-27 07:01:28.319761 CEST | Expl_MeanKL                   0.0881261
+2018-03-27 07:01:28.323946 CEST | Expl_StdKL                    0.202031
+2018-03-27 07:01:28.325569 CEST | Expl_MinKL                    0.000302495
+2018-03-27 07:01:28.328284 CEST | Expl_MaxKL                    4.11571
+2018-03-27 07:01:28.330052 CEST | Iteration                    22
+2018-03-27 07:01:28.331583 CEST | AverageDiscountedReturn      -0.84945
+2018-03-27 07:01:28.333057 CEST | AverageReturn                -3.42969
+2018-03-27 07:01:28.334486 CEST | ExplainedVariance             0.127167
+2018-03-27 07:01:28.338459 CEST | NumTrajs                    128
+2018-03-27 07:01:28.340044 CEST | Entropy                      11.4455
+2018-03-27 07:01:28.341507 CEST | Perplexity                93479.1
+2018-03-27 07:01:28.342939 CEST | StdReturn                     4.78553
+2018-03-27 07:01:28.344365 CEST | MaxReturn                     2
+2018-03-27 07:01:28.348097 CEST | MinReturn                   -12
+2018-03-27 07:01:28.349671 CEST | BNN_DynModelSqLossBefore      5.36872
+2018-03-27 07:01:28.351109 CEST | BNN_DynModelSqLossAfter       5.2511
+2018-03-27 07:01:28.352516 CEST | AveragePolicyStd              1.01302
+2018-03-27 07:01:28.353911 CEST | LossAfter                    -0.0605935
+2018-03-27 07:01:28.355297 CEST | MeanKL                        0.098587
+2018-03-27 07:01:28.356678 CEST | dLoss                         0.0605935
+2018-03-27 07:01:28.358057 CEST | ------------------------  ---------------
+2018-03-27 07:20:19.753385 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | fitting baseline...
+2018-03-27 07:20:20.197370 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | fitted
+2018-03-27 07:20:20.205649 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | Fitting dynamics model using replay pool ...
+2018-03-27 07:23:15.296614 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | computing loss before
+2018-03-27 07:23:15.811333 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | performing update
+2018-03-27 07:23:15.811713 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | computing descent direction
+2018-03-27 07:23:33.054120 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | descent direction computed
+2018-03-27 07:23:33.415491 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | backtrack iters: 0
+2018-03-27 07:23:33.415801 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | computing loss after
+2018-03-27 07:23:33.415987 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | optimization finished
+2018-03-27 07:23:34.107987 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | saving snapshot...
+2018-03-27 07:23:34.126485 CEST | [trpo-vime-ant-gather_2018_03_26_23_10_50_0001] itr #23 | saved
+2018-03-27 07:23:34.128558 CEST | ------------------------  ---------------
+2018-03-27 07:23:34.128778 CEST | Expl_MeanKL                   0.0907737
+2018-03-27 07:23:34.128994 CEST | Expl_StdKL                    0.208091
+2018-03-27 07:23:34.129232 CEST | Expl_MinKL                    0.000151239
+2018-03-27 07:23:34.129431 CEST | Expl_MaxKL                    3.36968
+2018-03-27 07:23:34.129608 CEST | Iteration                    23
+2018-03-27 07:23:34.129786 CEST | AverageDiscountedReturn      -0.787273
+2018-03-27 07:23:34.130021 CEST | AverageReturn                -2.6875
+2018-03-27 07:23:34.130198 CEST | ExplainedVariance             0.0534561
+2018-03-27 07:23:34.130427 CEST | NumTrajs                    128
+2018-03-27 07:23:34.130608 CEST | Entropy                      11.4283
+2018-03-27 07:23:34.130792 CEST | Perplexity                91885.3
+2018-03-27 07:23:34.130968 CEST | StdReturn                     4.54792
+2018-03-27 07:23:34.131204 CEST | MaxReturn                     2
+2018-03-27 07:23:34.131381 CEST | MinReturn                   -11
+2018-03-27 07:23:34.131614 CEST | BNN_DynModelSqLossBefore      5.29436
+2018-03-27 07:23:34.131797 CEST | BNN_DynModelSqLossAfter       5.34223
+2018-03-27 07:23:34.131972 CEST | AveragePolicyStd              1.01101
+2018-03-27 07:23:34.132146 CEST | LossAfter                    -0.060811
+2018-03-27 07:23:34.132381 CEST | MeanKL                        0.0966875
+2018-03-27 07:23:34.132555 CEST | dLoss                         0.060811
+2018-03-27 07:23:34.132776 CEST | ------------------------  ---------------

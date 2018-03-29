@@ -1,0 +1,20 @@
+MuJoCo Pro Personal license activation key, number 41904, type 6.
+
+Issued to Wadim Sokolowski <wadsokol@student.pg.edu.pl>.
+
+Expires August 6, 2018.
+
+This file activates MuJoCo Pro on a single computer with id:
+LINUX_5NC12ST20A22NP1_W3IRVES2GGL003CNMR5SD471
+
+Do not modify this file. Its entire content, including the
+plain text section, is used by the activation manager.
+
+d0034bf770e7ee9a788775e57bb24b4d6e3a0a5fb56503f35f45f872d3ddd13c
+aa4e3cd8b2f5e62811e6777e420910ea1810c61067702218859bad963851f2c2
+cbd7910f7993ba8b6ea6add0f97336eba7b710750c7afe4277032325f5cc9e61
+920f03f3974c64b3533b74c5cd109504d4b26ddd928cab1011f74560004ea230
+5d2c316f008845f3b675a306cf1538a1909b7dc38a24b7487d2fe7735113cab6
+c434724da00395b96ef9760db3616daebcf85479a17abb1985f805f06fb3ee03
+cb3540817c9b0d942a70b26fa0292a560a5e66d00655acf836fad264a2e7b21e
+21d5ba49443622fb8fe4988f9f820f9ae2c2c3d335d8ac8393ad6d2ea3b4bc25

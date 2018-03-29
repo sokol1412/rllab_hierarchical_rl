@@ -1,0 +1,78 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAsAAABwcm94eV9jbGFzc3EHY3NhbmRib3gudmltZS5hbGdvcy50cnBvX2V4cGwKVFJQTwpxCFgGAAAAa3dhcmdzcQl9cQooWAMAAABlbnZxC2gEKYFxDH1xDShoB2NybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcQ5oCX1xD2gLaAQpgXEQfXERKGgHY3JsbGFiLmVudnMubXVqb2NvLmdhdGhlci5zd2ltbWVyX2dhdGhlcl9lbnYKU3dpbW1lckdhdGhlckVudgpxEmgJfXETWAQAAABhcmdzcRQpdWJzaBQpdWJYEAAAAHJlcGxheV9wb29sX3NpemVxFUpAQg8AWBQAAABuX3VwZGF0ZXNfcGVyX3NhbXBsZXEWTYgTWA4AAAB1c2Vfa2xfcmF0aW9fcXEXiFgTAAAAc2Vjb25kX29yZGVyX3VwZGF0ZXEYiFgGAAAAcG9saWN5cRloBCmBcRp9cRsoaAdjcmxsYWIucG9saWNpZXMuZ2F1c3NpYW5fbWxwX3BvbGljeQpHYXVzc2lhbk1MUFBvbGljeQpxHGgJfXEdKFgMAAAAaGlkZGVuX3NpemVzcR5LQEsghnEfWAgAAABlbnZfc3BlY3EgY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxISmBcSJ9cSMoWAoAAABfYXR0cl9uYW1lcSRYBAAAAHNwZWNxJVgEAAAAX29ianEmaAx1YnVoFCl1YlgKAAAAYmF0Y2hfc2l6ZXEnTVDDWAgAAABiYXNlbGluZXEoaAQpgXEpfXEqKGgHY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcStoCX1xLGggaCEpgXEtfXEuKGgkaCVoJmgMdWJzaBQpdWJYDAAAAHVzZV9rbF9yYXRpb3EviFgQAAAAbm9ybWFsaXplX3Jld2FyZHEwiVgPAAAAdW5uX2xheWVyc190eXBlcTFdcTIoSwFLAWVYDQAAAHNubl9uX3NhbXBsZXNxM0sKWAsAAAB3aG9sZV9wYXRoc3E0iFgDAAAAZXRhcTVHPxo24uscQy1YEAAAAHN1YnNhbXBsZV9mYWN0b3JxNkc/8AAAAAAAAFgPAAAAdXNlX3JlcGxheV9wb29scTeIWAkAAABzdGVwX3NpemVxOEc/hHrhR64Ue1gMAAAAbl9pdHJfdXBkYXRlcTlLAVgNAAAAa2xfYmF0Y2hfc2l6ZXE6SwFYBQAAAG5faXRycTtNECdYEQAAAHVubl9sZWFybmluZ19yYXRlcTxHPxo24uscQy1YDwAAAG1heF9wYXRoX2xlbmd0aHE9TfQBWAwAAAB1bm5fbl9oaWRkZW5xPl1xP0sgYXVoFCl1YlgFAAAAdHJhaW5xQCl9cUF0cUJYCAAAAF9fa3dhcmdzcUN9cUR1Yi4=",
+  "exp_name": "trpo-vime-swimmer-gather_2018_03_30_00_05_09_0001",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.vime.algos.trpo_expl.TRPO",
+      "batch_size": 50000,
+      "eta": 0.0001,
+      "kl_batch_size": 1,
+      "max_path_length": 500,
+      "n_itr": 10000,
+      "n_itr_update": 1,
+      "n_updates_per_sample": 5000,
+      "normalize_reward": false,
+      "replay_pool_size": 1000000,
+      "second_order_update": true,
+      "snn_n_samples": 10,
+      "step_size": 0.01,
+      "subsample_factor": 1.0,
+      "unn_layers_type": [
+        1,
+        1
+      ],
+      "unn_learning_rate": 0.0001,
+      "unn_n_hidden": [
+        32
+      ],
+      "use_kl_ratio": true,
+      "use_kl_ratio_q": true,
+      "use_replay_pool": true,
+      "whole_paths": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "rllab.envs.normalized_env.NormalizedEnv",
+      "env": {
+        "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+      }
+    },
+    "policy": {
+      "_name": "rllab.policies.gaussian_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+          }
+        }
+      },
+      "hidden_sizes": [
+        64,
+        32
+      ]
+    }
+  },
+  "log_dir": "/home/sokol/Pulpit/Magisterka_Wladek/Magisterka/rllab_wadim_fork/data/local/trpo-vime-swimmer-gather/trpo-vime-swimmer-gather_2018_03_30_00_05_09_0001",
+  "log_tabular_only": false,
+  "n_parallel": 4,
+  "params_log_file": "params.json",
+  "plot": false,
+  "seed": 0,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": true
+}
