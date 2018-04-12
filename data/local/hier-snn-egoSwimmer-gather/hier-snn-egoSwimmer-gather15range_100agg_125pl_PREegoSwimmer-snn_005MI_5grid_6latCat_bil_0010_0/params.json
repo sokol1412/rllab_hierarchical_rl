@@ -1,0 +1,88 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAYAAABrd2FyZ3NxCX1xCihYCQAAAHN0ZXBfc2l6ZXELRz+EeuFHrhR7WA8AAABtYXhfcGF0aF9sZW5ndGhxDEdAX0AAAAAAAFgLAAAAd2hvbGVfcGF0aHNxDYhYEQAAAGxvZ19kZXRlcm1pbmlzdGljcQ6IWAgAAABiYXNlbGluZXEPaAYpgXEQfXERKGgJfXESWAgAAABlbnZfc3BlY3ETY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxFCmBcRV9cRYoWAoAAABfYXR0cl9uYW1lcRdYBAAAAHNwZWNxGFgEAAAAX29ianEZaAYpgXEafXEbKGgJfXEcKFgOAAAAdGltZV9zdGVwc19hZ2dxHUtkWAgAAABwa2xfcGF0aHEeWHgAAAAvaG9tZS9sYWJfaWRsamVuay9ybGxhYl9oaWVyYXJjaGljYWxfcmwvZGF0YS9sb2NhbC9lZ29Td2ltbWVyLXNubi9lZ29Td2ltbWVyLXNubl8wMDVNSV81Z3JpZF82bGF0Q2F0X2JpbF8wMDEwL3BhcmFtcy5wa2xxH1gDAAAAZW52cSBoBimBcSF9cSIoaAl9cSNoIGgGKYFxJH1xJShoCX1xJihYDAAAAHNlbnNvcl9yYW5nZXEnSw9YBwAAAGVnb19vYnNxKIhYDgAAAGFjdGl2aXR5X3JhbmdlcSlLD1gLAAAAc2Vuc29yX3NwYW5xKkdAGSH7VEQtGHVYCwAAAHByb3h5X2NsYXNzcStjc2FuZGJveC5zbm40aHJsLmVudnMubXVqb2NvLmdhdGhlci5zd2ltbWVyX2dhdGhlcl9lbnYKU3dpbW1lckdhdGhlckVudgpxLFgEAAAAYXJnc3EtKXVic2grY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxLmgtKXVidWgrY3NhbmRib3guc25uNGhybC5lbnZzLmhpZXJhcmNoaXplZF9zbm5fZW52CkhpZXJhcmNoaXplZFNubkVudgpxL2gtKXVidWJzaCtjcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxMGgtKXViWAYAAABwb2xpY3lxMWgGKYFxMn1xMyhoCX1xNGgTaBQpgXE1fXE2KGgXaBhoGWgadWJzaCtjc2FuZGJveC5zbm40aHJsLnBvbGljaWVzLmNhdGVnb3JpY2FsX21scF9wb2xpY3kKQ2F0ZWdvcmljYWxNTFBQb2xpY3kKcTdoLSl1YlgOAAAAc2VsZl9ub3JtYWxpemVxOIhoIGgaWAgAAABkaXNjb3VudHE5Rz/vrhR64UeuWAoAAABiYXRjaF9zaXplcTpHQLOIAAAAAABYBQAAAG5faXRycTtN0Ad1aCtjc2FuZGJveC5zbm40aHJsLmFsZ29zLnRycG9fc25uClRSUE9fc25uCnE8aC0pdWJYBQAAAHRyYWlucT0pfXE+dHE/dWIu",
+  "exp_name": "hier-snn-egoSwimmer-gather15range_100agg_125pl_PREegoSwimmer-snn_005MI_5grid_6latCat_bil_0010_0",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.snn4hrl.algos.trpo_snn.TRPO_snn",
+      "batch_size": 5000.0,
+      "discount": 0.99,
+      "log_deterministic": true,
+      "max_path_length": 125.0,
+      "n_itr": 2000,
+      "self_normalize": true,
+      "step_size": 0.01,
+      "whole_paths": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv",
+              "activity_range": 15,
+              "ego_obs": true,
+              "sensor_range": 15,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 100
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+      "env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "sandbox.snn4hrl.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv",
+          "activity_range": 15,
+          "ego_obs": true,
+          "sensor_range": 15,
+          "sensor_span": 6.283185307179586
+        }
+      },
+      "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+      "time_steps_agg": 100
+    },
+    "policy": {
+      "_name": "sandbox.snn4hrl.policies.categorical_mlp_policy.CategoricalMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv",
+              "activity_range": 15,
+              "ego_obs": true,
+              "sensor_range": 15,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 100
+        }
+      }
+    }
+  },
+  "log_dir": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/hier-snn-egoSwimmer-gather/hier-snn-egoSwimmer-gather15range_100agg_125pl_PREegoSwimmer-snn_005MI_5grid_6latCat_bil_0010_0",
+  "log_tabular_only": false,
+  "n_parallel": 90,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 0,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

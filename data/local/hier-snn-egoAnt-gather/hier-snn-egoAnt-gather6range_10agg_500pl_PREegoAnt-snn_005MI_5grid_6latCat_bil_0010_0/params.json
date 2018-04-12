@@ -1,0 +1,88 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAYAAABrd2FyZ3NxCn1xCyhYDwAAAG1heF9wYXRoX2xlbmd0aHEMR0B/QAAAAAAAWA4AAABzZWxmX25vcm1hbGl6ZXENiFgRAAAAbG9nX2RldGVybWluaXN0aWNxDohYCAAAAGRpc2NvdW50cQ9HP++uFHrhR65YCQAAAHN0ZXBfc2l6ZXEQRz+EeuFHrhR7WAgAAABiYXNlbGluZXERaAYpgXESfXETKGgJKWgKfXEUWAgAAABlbnZfc3BlY3EVY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxFimBcRd9cRgoWAoAAABfYXR0cl9uYW1lcRlYBAAAAHNwZWNxGlgEAAAAX29ianEbaAYpgXEcfXEdKGgJKWgKfXEeKFgDAAAAZW52cR9oBimBcSB9cSEoaAkpaAp9cSJoH2gGKYFxI31xJChoCSloCn1xJShYDAAAAHNlbnNvcl9yYW5nZXEmSwZYCwAAAHNlbnNvcl9zcGFucSdHQBkh+1RELRhYDgAAAGFjdGl2aXR5X3JhbmdlcShLBlgHAAAAZWdvX29ic3EpiHVYCwAAAHByb3h5X2NsYXNzcSpjc2FuZGJveC5zbm40aHJsLmVudnMubXVqb2NvLmdhdGhlci5hbnRfZ2F0aGVyX2VudgpBbnRHYXRoZXJFbnYKcSt1YnNoKmNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcSx1YlgOAAAAdGltZV9zdGVwc19hZ2dxLUsKWAgAAABwa2xfcGF0aHEuWHAAAAAvaG9tZS9sYWJfaWRsamVuay9ybGxhYl9oaWVyYXJjaGljYWxfcmwvZGF0YS9sb2NhbC9lZ29BbnQtc25uL2Vnb0FudC1zbm5fMDA1TUlfNWdyaWRfNmxhdENhdF9iaWxfMDAxMC9wYXJhbXMucGtscS91aCpjc2FuZGJveC5zbm40aHJsLmVudnMuaGllcmFyY2hpemVkX3Nubl9lbnYKSGllcmFyY2hpemVkU25uRW52CnEwdWJ1YnNoKmNybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnExdWJYCwAAAHdob2xlX3BhdGhzcTKIaB9oHFgFAAAAbl9pdHJxM03QB1gKAAAAYmF0Y2hfc2l6ZXE0R0DoagAAAAAAWAYAAABwb2xpY3lxNWgGKYFxNn1xNyhoCSloCn1xOGgVaBYpgXE5fXE6KGgZaBpoG2gcdWJzaCpjc2FuZGJveC5zbm40aHJsLnBvbGljaWVzLmNhdGVnb3JpY2FsX21scF9wb2xpY3kKQ2F0ZWdvcmljYWxNTFBQb2xpY3kKcTt1YnVoKmNzYW5kYm94LnNubjRocmwuYWxnb3MudHJwb19zbm4KVFJQT19zbm4KcTx1YlgFAAAAdHJhaW5xPSl9cT50cT91Yi4=",
+  "exp_name": "hier-snn-egoAnt-gather6range_10agg_500pl_PREegoAnt-snn_005MI_5grid_6latCat_bil_0010_0",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.snn4hrl.algos.trpo_snn.TRPO_snn",
+      "batch_size": 50000.0,
+      "discount": 0.99,
+      "log_deterministic": true,
+      "max_path_length": 500.0,
+      "n_itr": 2000,
+      "self_normalize": true,
+      "step_size": 0.01,
+      "whole_paths": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.gather.ant_gather_env.AntGatherEnv",
+              "activity_range": 6,
+              "ego_obs": true,
+              "sensor_range": 6,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoAnt-snn/egoAnt-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 10
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+      "env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "sandbox.snn4hrl.envs.mujoco.gather.ant_gather_env.AntGatherEnv",
+          "activity_range": 6,
+          "ego_obs": true,
+          "sensor_range": 6,
+          "sensor_span": 6.283185307179586
+        }
+      },
+      "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoAnt-snn/egoAnt-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+      "time_steps_agg": 10
+    },
+    "policy": {
+      "_name": "sandbox.snn4hrl.policies.categorical_mlp_policy.CategoricalMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.gather.ant_gather_env.AntGatherEnv",
+              "activity_range": 6,
+              "ego_obs": true,
+              "sensor_range": 6,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoAnt-snn/egoAnt-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 10
+        }
+      }
+    }
+  },
+  "log_dir": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/hier-snn-egoAnt-gather/hier-snn-egoAnt-gather6range_10agg_500pl_PREegoAnt-snn_005MI_5grid_6latCat_bil_0010_0",
+  "log_tabular_only": false,
+  "n_parallel": 32,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 0,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
