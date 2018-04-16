@@ -1,0 +1,139 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAYAAABrd2FyZ3NxCX1xCihYDwAAAGNwdV9hc3NpZ25tZW50c3ELTlgOAAAAc2VyaWFsX2NvbXBpbGVxDIhYCgAAAG5fcGFyYWxsZWxxDUsgWAoAAABldmFsX2ZpcnN0cQ6JWAUAAABuX2l0cnEPTdAHWAsAAABib251c19jb2VmZnEQRz8aNuLrHEMtWA8AAABtYXhfcGF0aF9sZW5ndGhxEU30AVgKAAAAcmVzZXRfZnJlcXESSwBYDQAAAGV4ZW1wbGFyX2FyZ3NxE31xFChYCQAAAG1vZGVsX2Nsc3EVY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQ2xhc3MKcRYpgXEXfXEYWAsAAABwcm94eV9jbGFzc3EZY3NhbmRib3guZXgyLm1vZGVscy5zaWFtZXNlClNpYW1lc2UKcRpzYlgKAAAAbW9kZWxfYXJnc3EbfXEcKFgJAAAAaW5wdXRfZGltcR1jcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEeKYFxH31xIChYBAAAAF9vYmpxIWgeKYFxIn1xIyhoIWgGKYFxJH1xJShoCX1xJlgDAAAAZW52cSdoBimBcSh9cSkoaAl9cSpYBAAAAGFyZ3NxKyloGWNybGxhYi5lbnZzLm11am9jby5nYXRoZXIuYW50X2dhdGhlcl9lbnYKQW50R2F0aGVyRW52CnEsdWJzaCspaBljcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEtdWJYCgAAAF9hdHRyX25hbWVxLlgRAAAAb2JzZXJ2YXRpb25fc3BhY2VxL3ViaC5YCAAAAGZsYXRfZGltcTB1YlgMAAAAaGlkZGVuX3NpemVzcTFLEIVxMlgIAAAAZW52X25hbWVxM1gHAAAAQ2hlZXRhaHE0WA0AAABsZWFybmluZ19yYXRlcTVHPxo24uscQy1YCQAAAGtsX3dlaWdodHE2SwpYCwAAAGZlYXR1cmVfZGltcTdLCFgGAAAAbDJfcmVncThLAHVYCAAAAG5fYWN0aW9ucTloHimBcTp9cTsoaCFoHimBcTx9cT0oaCFoJGguWAwAAABhY3Rpb25fc3BhY2VxPnViaC5oMHViWAsAAAByZXBsYXlfc2l6ZXE/SiChBwBYEAAAAHJlcGxheV9zdGF0ZV9kaW1xQGgeKYFxQX1xQihoIWgeKYFxQ31xRChoIWgkaC5oL3ViaC5oMHViWAkAAABzdGF0ZV9kaW1xRWgeKYFxRn1xRyhoIWgeKYFxSH1xSShoIWgkaC5oL3ViaC5oMHViWAsAAAB1c2VfYWN0aW9uc3FKiVgKAAAAYm9udXNfZm9ybXFLWAcAAAAtbG9nKHApcUxYDwAAAG1pbl9yZXBsYXlfc2l6ZXFNR0DDiAAAAAAAWAoAAAB0cmFpbl9pdHJzcU5HQI9AAAAAAAB1WAYAAABwb2xpY3lxT2gGKYFxUH1xUShoCX1xUihoMUtASyCGcVNYCAAAAGluaXRfc3RkcVRHQAAAAAAAAABYCAAAAGVudl9zcGVjcVVoHimBcVZ9cVcoaCFoJGguWAQAAABzcGVjcVh1YnVoKyloGWNybGxhYi5wb2xpY2llcy5nYXVzc2lhbl9tbHBfcG9saWN5CkdhdXNzaWFuTUxQUG9saWN5CnFZdWJYCAAAAGRpc2NvdW50cVpHP++uFHrhR65YCgAAAGJhdGNoX3NpemVxW01Qw1gJAAAAc3RlcF9zaXplcVxHP4R64UeuFHtoJ2gkWA0AAABwbG90X2V4ZW1wbGFycV2JWAgAAABiYXNlbGluZXFeaAYpgXFffXFgKGgJfXFhaFVoHimBcWJ9cWMoaCFoJGguaFh1YnNoKyloGWNzYW5kYm94LmV4Mi5wYXJhbGxlbF90cnBvLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lClplcm9CYXNlbGluZQpxZHViWAwAAABleGVtcGxhcl9jbHNxZWgWKYFxZn1xZ2gZY3NhbmRib3guZXgyLm1vZGVscy5leGVtcGxhcgpFeGVtcGxhcgpxaHNiWA0AAABlbnRyb3B5X2JvbnVzcWlLAFgQAAAAc2V0X2NwdV9hZmZpbml0eXFqiHVoKyloGWNzYW5kYm94LmV4Mi5wYXJhbGxlbF90cnBvLnRycG8KUGFyYWxsZWxUUlBPCnFrdWJYBQAAAHRyYWlucWwpfXFtdHFudWIu",
+  "exp_name": "antgather_20180412_194403_280635_AntGather",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.ex2.parallel_trpo.trpo.ParallelTRPO",
+      "batch_size": 50000,
+      "bonus_coeff": 0.0001,
+      "cpu_assignments": null,
+      "discount": 0.99,
+      "entropy_bonus": 0,
+      "eval_first": false,
+      "exemplar_args": {
+        "bonus_form": "-log(p)",
+        "min_replay_size": 10000.0,
+        "model_args": {
+          "env_name": "Cheetah",
+          "feature_dim": 8,
+          "hidden_sizes": [
+            16
+          ],
+          "input_dim": {
+            "attr": "flat_dim",
+            "obj": {
+              "attr": "observation_space",
+              "obj": {
+                "_name": "rllab.envs.normalized_env.NormalizedEnv",
+                "env": {
+                  "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+                }
+              }
+            }
+          },
+          "kl_weight": 10,
+          "l2_reg": 0,
+          "learning_rate": 0.0001
+        },
+        "model_cls": "sandbox.ex2.models.siamese.Siamese",
+        "n_action": {
+          "attr": "flat_dim",
+          "obj": {
+            "attr": "action_space",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+              }
+            }
+          }
+        },
+        "replay_size": 500000,
+        "replay_state_dim": {
+          "attr": "flat_dim",
+          "obj": {
+            "attr": "observation_space",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+              }
+            }
+          }
+        },
+        "state_dim": {
+          "attr": "flat_dim",
+          "obj": {
+            "attr": "observation_space",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+              }
+            }
+          }
+        },
+        "train_itrs": 1000.0,
+        "use_actions": false
+      },
+      "exemplar_cls": "sandbox.ex2.models.exemplar.Exemplar",
+      "max_path_length": 500,
+      "n_itr": 2000,
+      "n_parallel": 32,
+      "plot_exemplar": false,
+      "reset_freq": 0,
+      "serial_compile": true,
+      "set_cpu_affinity": true,
+      "step_size": 0.01
+    },
+    "baseline": {
+      "_name": "sandbox.ex2.parallel_trpo.linear_feature_baseline.ZeroBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "rllab.envs.normalized_env.NormalizedEnv",
+      "env": {
+        "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+      }
+    },
+    "policy": {
+      "_name": "rllab.policies.gaussian_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.mujoco.gather.ant_gather_env.AntGatherEnv"
+          }
+        }
+      },
+      "hidden_sizes": [
+        64,
+        32
+      ],
+      "init_std": 2.0
+    }
+  },
+  "log_dir": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/trpo-ex2-ant-gather/antgather-AntGather/antgather_20180412_194403_280635_AntGather",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 0,
+  "snapshot_gap": 500,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClZhcmlhbnREaWN0CnEAKYFxAShYFgAAAGV4ZW1wbGFyX2xlYXJuaW5nX3JhdGVxAkc/Gjbi6xxDLVgKAAAAbl9wYXJhbGxlbHEDSzBYCgAAAGV2YWxfZmlyc3RxBIlYCgAAAHRyYWluX2l0cnNxBUdAj0AAAAAAAFgMAAAAX2hpZGRlbl9rZXlzcQZdcQdYCwAAAGJvbnVzX2NvZWZmcQhHPxo24uscQy1YCgAAAHJlc2V0X2ZyZXFxCUsAWA0AAABlbnRyb3B5X2JvbnVzcQpLAFgIAAAAZXhwX25hbWVxC1gqAAAAYW50Z2F0aGVyXzIwMTgwNDEyXzE5NDQwM18yODA2MzVfQW50R2F0aGVycQxYDAAAAGhpZGRlbl9zaXplc3ENSxCFcQ5YAwAAAGVudnEPWAkAAABBbnRHYXRoZXJxEFgKAAAAYm9udXNfZm9ybXERWAcAAAAtbG9nKHApcRJYCwAAAHVzZV9hY3Rpb25zcROJWAkAAABrbF93ZWlnaHRxFEsKWAQAAABzZWVkcRVLAHVoAWIu",
+  "variant_log_file": "variant.json"
+}

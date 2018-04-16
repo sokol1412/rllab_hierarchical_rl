@@ -1,0 +1,139 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAQAAABhcmdzcQkpWAsAAABwcm94eV9jbGFzc3EKY3NhbmRib3guZXgyLnBhcmFsbGVsX3RycG8udHJwbwpQYXJhbGxlbFRSUE8KcQtYBgAAAGt3YXJnc3EMfXENKFgFAAAAbl9pdHJxDk3QB1gKAAAAcmVzZXRfZnJlcXEPSwBYDQAAAHBsb3RfZXhlbXBsYXJxEIlYCgAAAG5fcGFyYWxsZWxxEUsgWA8AAABtYXhfcGF0aF9sZW5ndGhxEk30AVgNAAAAZW50cm9weV9ib251c3ETSwBYDQAAAGV4ZW1wbGFyX2FyZ3NxFH1xFShYDwAAAG1pbl9yZXBsYXlfc2l6ZXEWR0DDiAAAAAAAWAoAAABib251c19mb3JtcRdYBwAAAC1sb2cocClxGFgJAAAAc3RhdGVfZGltcRljcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEaKYFxG31xHChYCgAAAF9hdHRyX25hbWVxHVgIAAAAZmxhdF9kaW1xHlgEAAAAX29ianEfaBopgXEgfXEhKGgdWBEAAABvYnNlcnZhdGlvbl9zcGFjZXEiaB9oBimBcSN9cSQoaAkpaApjcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnElaAx9cSZYAwAAAGVudnEnaAYpgXEofXEpKGgJKWgKY3JsbGFiLmVudnMubXVqb2NvLmdhdGhlci5zd2ltbWVyX2dhdGhlcl9lbnYKU3dpbW1lckdhdGhlckVudgpxKmgMfXErdWJzdWJ1YnViWAsAAAByZXBsYXlfc2l6ZXEsSiChBwBYEAAAAHJlcGxheV9zdGF0ZV9kaW1xLWgaKYFxLn1xLyhoHWgeaB9oGimBcTB9cTEoaB1oImgfaCN1YnViWAoAAABtb2RlbF9hcmdzcTJ9cTMoWAkAAABpbnB1dF9kaW1xNGgaKYFxNX1xNihoHWgeaB9oGimBcTd9cTgoaB1oImgfaCN1YnViWAYAAABsMl9yZWdxOUsAWA0AAABsZWFybmluZ19yYXRlcTpHPxo24uscQy1YCQAAAGtsX3dlaWdodHE7SwpYCwAAAGZlYXR1cmVfZGltcTxLCFgMAAAAaGlkZGVuX3NpemVzcT1LEIVxPlgIAAAAZW52X25hbWVxP1gHAAAAQ2hlZXRhaHFAdVgIAAAAbl9hY3Rpb25xQWgaKYFxQn1xQyhoHWgeaB9oGimBcUR9cUUoaB1YDAAAAGFjdGlvbl9zcGFjZXFGaB9oI3VidWJYCQAAAG1vZGVsX2Nsc3FHY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQ2xhc3MKcUgpgXFJfXFKaApjc2FuZGJveC5leDIubW9kZWxzLnNpYW1lc2UKU2lhbWVzZQpxS3NiWAoAAAB0cmFpbl9pdHJzcUxHQI9AAAAAAABYCwAAAHVzZV9hY3Rpb25zcU2JdWgnaCNYCwAAAGJvbnVzX2NvZWZmcU5HPxo24uscQy1YCAAAAGRpc2NvdW50cU9HP++uFHrhR65YCAAAAGJhc2VsaW5lcVBoBimBcVF9cVIoaAkpaApjc2FuZGJveC5leDIucGFyYWxsZWxfdHJwby5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpaZXJvQmFzZWxpbmUKcVNoDH1xVFgIAAAAZW52X3NwZWNxVWgaKYFxVn1xVyhoHVgEAAAAc3BlY3FYaB9oI3Vic3ViWAwAAABleGVtcGxhcl9jbHNxWWhIKYFxWn1xW2gKY3NhbmRib3guZXgyLm1vZGVscy5leGVtcGxhcgpFeGVtcGxhcgpxXHNiWA8AAABjcHVfYXNzaWdubWVudHNxXU5YCgAAAGV2YWxfZmlyc3RxXolYCgAAAGJhdGNoX3NpemVxX01Qw1gGAAAAcG9saWN5cWBoBimBcWF9cWIoaAkpaApjcmxsYWIucG9saWNpZXMuZ2F1c3NpYW5fbWxwX3BvbGljeQpHYXVzc2lhbk1MUFBvbGljeQpxY2gMfXFkKGhVaBopgXFlfXFmKGgdaFhoH2gjdWJYCAAAAGluaXRfc3RkcWdHQAAAAAAAAABoPUtASyCGcWh1dWJYCQAAAHN0ZXBfc2l6ZXFpRz+EeuFHrhR7WA4AAABzZXJpYWxfY29tcGlsZXFqiFgQAAAAc2V0X2NwdV9hZmZpbml0eXFriHV1YlgFAAAAdHJhaW5xbCl9cW10cW51Yi4=",
+  "exp_name": "swimmergather_20180412_193735_714968_SwimmerGather",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.ex2.parallel_trpo.trpo.ParallelTRPO",
+      "batch_size": 50000,
+      "bonus_coeff": 0.0001,
+      "cpu_assignments": null,
+      "discount": 0.99,
+      "entropy_bonus": 0,
+      "eval_first": false,
+      "exemplar_args": {
+        "bonus_form": "-log(p)",
+        "min_replay_size": 10000.0,
+        "model_args": {
+          "env_name": "Cheetah",
+          "feature_dim": 8,
+          "hidden_sizes": [
+            16
+          ],
+          "input_dim": {
+            "attr": "flat_dim",
+            "obj": {
+              "attr": "observation_space",
+              "obj": {
+                "_name": "rllab.envs.normalized_env.NormalizedEnv",
+                "env": {
+                  "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+                }
+              }
+            }
+          },
+          "kl_weight": 10,
+          "l2_reg": 0,
+          "learning_rate": 0.0001
+        },
+        "model_cls": "sandbox.ex2.models.siamese.Siamese",
+        "n_action": {
+          "attr": "flat_dim",
+          "obj": {
+            "attr": "action_space",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+              }
+            }
+          }
+        },
+        "replay_size": 500000,
+        "replay_state_dim": {
+          "attr": "flat_dim",
+          "obj": {
+            "attr": "observation_space",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+              }
+            }
+          }
+        },
+        "state_dim": {
+          "attr": "flat_dim",
+          "obj": {
+            "attr": "observation_space",
+            "obj": {
+              "_name": "rllab.envs.normalized_env.NormalizedEnv",
+              "env": {
+                "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+              }
+            }
+          }
+        },
+        "train_itrs": 1000.0,
+        "use_actions": false
+      },
+      "exemplar_cls": "sandbox.ex2.models.exemplar.Exemplar",
+      "max_path_length": 500,
+      "n_itr": 2000,
+      "n_parallel": 32,
+      "plot_exemplar": false,
+      "reset_freq": 0,
+      "serial_compile": true,
+      "set_cpu_affinity": true,
+      "step_size": 0.01
+    },
+    "baseline": {
+      "_name": "sandbox.ex2.parallel_trpo.linear_feature_baseline.ZeroBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "rllab.envs.normalized_env.NormalizedEnv",
+      "env": {
+        "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+      }
+    },
+    "policy": {
+      "_name": "rllab.policies.gaussian_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.mujoco.gather.swimmer_gather_env.SwimmerGatherEnv"
+          }
+        }
+      },
+      "hidden_sizes": [
+        64,
+        32
+      ],
+      "init_std": 2.0
+    }
+  },
+  "log_dir": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/trpo-ex2-swimmer-gather/swimmergather-SwimmerGather/swimmergather_20180412_193735_714968_SwimmerGather",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 0,
+  "snapshot_gap": 500,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClZhcmlhbnREaWN0CnEAKYFxAShYAwAAAGVudnECWA0AAABTd2ltbWVyR2F0aGVycQNYCgAAAG5fcGFyYWxsZWxxBEswWA0AAABlbnRyb3B5X2JvbnVzcQVLAFgKAAAAYm9udXNfZm9ybXEGWAcAAAAtbG9nKHApcQdYCgAAAHJlc2V0X2ZyZXFxCEsAWAwAAABfaGlkZGVuX2tleXNxCV1xClgLAAAAYm9udXNfY29lZmZxC0c/Gjbi6xxDLVgEAAAAc2VlZHEMSwBYCgAAAGV2YWxfZmlyc3RxDYlYCQAAAGtsX3dlaWdodHEOSwpYCgAAAHRyYWluX2l0cnNxD0dAj0AAAAAAAFgIAAAAZXhwX25hbWVxEFgyAAAAc3dpbW1lcmdhdGhlcl8yMDE4MDQxMl8xOTM3MzVfNzE0OTY4X1N3aW1tZXJHYXRoZXJxEVgWAAAAZXhlbXBsYXJfbGVhcm5pbmdfcmF0ZXESRz8aNuLrHEMtWAwAAABoaWRkZW5fc2l6ZXNxE0sQhXEUWAsAAAB1c2VfYWN0aW9uc3EViXVoAWIu",
+  "variant_log_file": "variant.json"
+}
