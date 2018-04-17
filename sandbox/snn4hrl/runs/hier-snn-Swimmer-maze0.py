@@ -18,34 +18,24 @@ from rllab.baselines.linear_feature_baseline import LinearFeatureBaseline
 from rllab.config_personal import *
 from rllab.envs.normalized_env import normalize
 from rllab.misc.instrument import stub, run_experiment_lite
-from sandbox.snn4hrl.envs.mujoco.maze.snake_maze_env import SnakeMazeEnv
+from sandbox.snn4hrl.envs.mujoco.maze.swimmer_maze_env import SwimmerMazeEnv
 
 stub(globals())
 
 # exp setup --------------------------------------------------------
 # mode = "local"
-mode = "ec2"
+mode = "local"
 # mode="local_docker"
 local_instance = "m4.16xlarge"
 # subnets =[
 #     "us-west-1b"
 # ]
 # subnet = "us-west-1b"
-info_instance = INSTANCE_TYPE_INFO[local_instance]
-n_parallel = 4 if mode == "local" else int(info_instance['vCPU']/2.)
-# n_parallel = 1
-spot_price = info_instance['price']
 
-# for subnet in subnets:
-aws_config = dict(
-    # image_id=AWS_IMAGE_ID,
-    instance_type=local_instance,
-    # key_name=ALL_REGION_AWS_KEY_NAMES[subnet[:-1]],
-    spot_price=str(spot_price),
-    # security_group_ids=ALL_REGION_AWS_SECURITY_GROUP_IDS[subnet[:-1]],
-)
+n_parallel = 44
 
-exp_dir = 'data_upload/egoSnake64-snn/'
+
+exp_dir = '/home/sokol/Pulpit/Magisterka_Wladek/Magisterka/rllab_hierarchical_rl/data/local/Hierarchical - Gather/SNN4HRL/egoSwimmer-snn'
 for dir in os.listdir(exp_dir):
     if 'Figure' not in dir and os.path.isfile(os.path.join(exp_dir, dir, 'params.pkl')):
         pkl_path = os.path.join(exp_dir, dir, 'params.pkl')
@@ -53,9 +43,9 @@ for dir in os.listdir(exp_dir):
 
         for maze_size_scaling in [7]:
 
-            for time_step_agg in [500, 800]:
+            for time_step_agg in [800]:
 
-                inner_env = normalize(SnakeMazeEnv(maze_id=0, maze_size_scaling=maze_size_scaling,
+                inner_env = normalize(SwimmerMazeEnv(maze_id=0, maze_size_scaling=maze_size_scaling,
                                                    sensor_span=math.pi * 2, ego_obs=True))
                 env = hierarchize_snn(inner_env, time_steps_agg=time_step_agg, pkl_path=pkl_path,
                                       # animate=True,
@@ -88,7 +78,7 @@ for dir in os.listdir(exp_dir):
                 )
 
                 for s in [10, 20, 30]:  # range(10, 110, 10):  # [10, 20, 30, 40, 50]:
-                    exp_prefix = 'hier-snn-egoSnake-maze0'
+                    exp_prefix = 'hier-snn-egoSwimmer-maze0'
                     now = datetime.datetime.now(dateutil.tz.tzlocal())
                     timestamp = now.strftime('%Y_%m_%d_%H_%M_%S')
                     exp_name = exp_prefix + '{}scale_{}agg_{}pl_PRE{}_seed{}_{}'.format(maze_size_scaling, time_step_agg,
@@ -98,7 +88,6 @@ for dir in os.listdir(exp_dir):
                         stub_method_call=algo.train(),
                         use_cloudpickle=False,
                         mode=mode,
-                        aws_config=aws_config,
                         pre_commands=['pip install --upgrade pip',
                                       'pip install joblib==0.10.3',
                                       'pip freeze',
