@@ -22,7 +22,7 @@ if __name__ == "__main__":
     # with tf.Session():
     #     [rest of the code]
 
-    data = joblib.load(args.file)
+    data = joblib.load("/home/sokol/Pulpit/Magisterka_Wladek/Magisterka/rllab_hierarchical_rl/data/local/Hierarchical - Gather/SNN4HRL/hier-snn-egoSwimmer-gather/params.pkl")
     policy = data['policy']
     env = data['env']
     while True:
