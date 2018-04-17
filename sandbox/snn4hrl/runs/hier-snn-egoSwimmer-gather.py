@@ -20,7 +20,7 @@ stub(globals())
 mode = "local"
 n_parallel = 4
 
-exp_dir = '/home/sokol/Pulpit/Magisterka_Wladek/Magisterka/rllab_wadim_fork/data/local/egoSwimmer-snn/'
+exp_dir = 'data/local/egoSwimmer-snn/'
 for dir in os.listdir(exp_dir):
     if 'Figure' not in dir and os.path.isfile(os.path.join(exp_dir, dir, 'params.pkl')):
         pkl_path = os.path.join(exp_dir, dir, 'params.pkl')

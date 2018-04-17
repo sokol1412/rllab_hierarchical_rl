@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e65480-0abe-4870-88d2-aa9da0da59d5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gym" afterPath="$PROJECT_DIR$/gym" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox/ex2" afterPath="$PROJECT_DIR$/sandbox/ex2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox/snn4hrl" afterPath="$PROJECT_DIR$/sandbox/snn4hrl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sandbox/vime" afterPath="$PROJECT_DIR$/sandbox/vime" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,10 +13,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hier-snn-egoSwimmer-gather.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hier-snn-egoSwimmer-gather.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sandbox/snn4hrl/runs/hier-snn-egoSwimmer-gather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="807">
               <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
               <folding>
                 <element signature="e#130#141#0" expanded="true" />
@@ -31,7 +28,7 @@
       <file leaf-file-name="train_snn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/snn4hrl/runs/train_snn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="-30">
               <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
               <folding />
             </state>
@@ -63,7 +60,7 @@
       <file leaf-file-name="pickle.py" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/anaconda2/envs/rllab3/lib/python3.5/pickle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="15315">
               <caret line="1031" column="32" lean-forward="false" selection-start-line="1031" selection-start-column="32" selection-end-line="1031" selection-end-column="32" />
               <folding />
             </state>
@@ -103,14 +100,14 @@
       <file leaf-file-name="run_trpo_expl.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/vime/experiments/run_trpo_expl.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
+            <state relative-caret-position="960">
               <caret line="66" column="44" lean-forward="false" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="swimmergather.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="swimmergather.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sandbox/ex2/exps/swimmergather.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
@@ -265,13 +262,26 @@
         <subPane>
           <expand>
             <path>
-              <item name="rllab_wadim_fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rllab" type="47feb1d3:ProjectViewModuleNode" />
+              <item name="rllab_hierarchical_rl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rllab_hierarchical_rl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rllab_wadim_fork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rllab" type="47feb1d3:ProjectViewModuleNode" />
-              <item name="test1" type="462c0819:PsiDirectoryNode" />
+              <item name="rllab_hierarchical_rl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rllab_hierarchical_rl" type="462c0819:PsiDirectoryNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rllab_hierarchical_rl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rllab_hierarchical_rl" type="462c0819:PsiDirectoryNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="snn4hrl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rllab_hierarchical_rl" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rllab_hierarchical_rl" type="462c0819:PsiDirectoryNode" />
+              <item name="sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="snn4hrl" type="462c0819:PsiDirectoryNode" />
+              <item name="runs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -281,7 +291,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../test1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -301,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ant-gatherer-ex2">
+  <component name="RunManager" selected="Python.SwimmerGather - SNN">
     <configuration name="SwimmerGather - SNN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -431,9 +441,9 @@
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.ant-gatherer-ex2" />
-        <item index="1" class="java.lang.String" itemvalue="Python.run_trpo_expl" />
-        <item index="2" class="java.lang.String" itemvalue="Python.SwimmerGather - SNN" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SwimmerGather - SNN" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ant-gatherer-ex2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.run_trpo_expl" />
         <item index="3" class="java.lang.String" itemvalue="Python.train_snn" />
       </list>
     </recent_temporary>
@@ -442,9 +452,10 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="3" width="1922" height="1053" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1053" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28441834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28762007" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -817,27 +828,9 @@
     </entry>
     <entry file="file://$USER_HOME$/anaconda2/envs/rllab3/lib/python3.5/pickle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="15315">
           <caret line="1031" column="32" lean-forward="false" selection-start-line="1031" selection-start-column="32" selection-end-line="1031" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/snn4hrl/runs/train_snn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sandbox/snn4hrl/runs/hier-snn-egoSwimmer-gather.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
-          <folding>
-            <element signature="e#130#141#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -851,7 +844,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sandbox/vime/experiments/run_trpo_expl.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="960">
           <caret line="66" column="44" lean-forward="false" selection-start-line="66" selection-start-column="44" selection-end-line="66" selection-end-column="44" />
           <folding />
         </state>
@@ -863,6 +856,24 @@
           <caret line="80" column="1" lean-forward="false" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
             <element signature="e#0#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/snn4hrl/runs/train_snn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-30">
+          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sandbox/snn4hrl/runs/hier-snn-egoSwimmer-gather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="65" column="53" lean-forward="false" selection-start-line="65" selection-start-column="53" selection-end-line="65" selection-end-column="53" />
+          <folding>
+            <element signature="e#130#141#0" expanded="true" />
           </folding>
         </state>
       </provider>
