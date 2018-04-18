@@ -1,0 +1,88 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAYAAABrd2FyZ3NxCX1xCihYCAAAAGRpc2NvdW50cQtHP++uFHrhR65YCwAAAHdob2xlX3BhdGhzcQyIWA4AAABzZWxmX25vcm1hbGl6ZXENiFgJAAAAc3RlcF9zaXplcQ5HP4R64UeuFHtYAwAAAGVudnEPaAYpgXEQfXERKGgJfXESKFgIAAAAcGtsX3BhdGhxE1h4AAAAL2hvbWUvbGFiX2lkbGplbmsvcmxsYWJfaGllcmFyY2hpY2FsX3JsL2RhdGEvbG9jYWwvZWdvU3dpbW1lci1zbm4vZWdvU3dpbW1lci1zbm5fMDA1TUlfNWdyaWRfNmxhdENhdF9iaWxfMDAxMC9wYXJhbXMucGtscRRoD2gGKYFxFX1xFihoCX1xF2gPaAYpgXEYfXEZKGgJfXEaKFgHAAAAZWdvX29ic3EbiFgLAAAAc2Vuc29yX3NwYW5xHEdAGSH7VEQtGFgRAAAAbWF6ZV9zaXplX3NjYWxpbmdxHUsHWAcAAABtYXplX2lkcR5LAHVYBAAAAGFyZ3NxHylYCwAAAHByb3h5X2NsYXNzcSBjc2FuZGJveC5zbm40aHJsLmVudnMubXVqb2NvLm1hemUuc3dpbW1lcl9tYXplX2VudgpTd2ltbWVyTWF6ZUVudgpxIXVic2gfKWggY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxInViWA4AAAB0aW1lX3N0ZXBzX2FnZ3EjTSADdWgfKWggY3NhbmRib3guc25uNGhybC5lbnZzLmhpZXJhcmNoaXplZF9zbm5fZW52CkhpZXJhcmNoaXplZFNubkVudgpxJHViWAUAAABuX2l0cnElS8hYBgAAAHBvbGljeXEmaAYpgXEnfXEoKGgJfXEpWAgAAABlbnZfc3BlY3EqY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxKymBcSx9cS0oWAoAAABfYXR0cl9uYW1lcS5YBAAAAHNwZWNxL1gEAAAAX29ianEwaBB1YnNoHyloIGNzYW5kYm94LnNubjRocmwucG9saWNpZXMuY2F0ZWdvcmljYWxfbWxwX3BvbGljeQpDYXRlZ29yaWNhbE1MUFBvbGljeQpxMXViWBEAAABsb2dfZGV0ZXJtaW5pc3RpY3EyiFgKAAAAYmF0Y2hfc2l6ZXEzR0CTiAAAAAAAWAgAAABiYXNlbGluZXE0aAYpgXE1fXE2KGgJfXE3aCpoKymBcTh9cTkoaC5oL2gwaBB1YnNoHyloIGNybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnE6dWJYDwAAAG1heF9wYXRoX2xlbmd0aHE7R0BF4AAAAAAAdWgfKWggY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpxPHViWAUAAAB0cmFpbnE9KX1xPnRxP3ViLg==",
+  "exp_name": "hier-snn-egoSwimmer-maze07scale_800agg_43pl_PREegoSwimmer-snn_005MI_5grid_6latCat_bil_0010_seed30_2018_04_18_04_42_52",
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO",
+      "batch_size": 1250.0,
+      "discount": 0.99,
+      "log_deterministic": true,
+      "max_path_length": 43.75,
+      "n_itr": 200,
+      "self_normalize": true,
+      "step_size": 0.01,
+      "whole_paths": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.maze.swimmer_maze_env.SwimmerMazeEnv",
+              "ego_obs": true,
+              "maze_id": 0,
+              "maze_size_scaling": 7,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 800
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+      "env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "sandbox.snn4hrl.envs.mujoco.maze.swimmer_maze_env.SwimmerMazeEnv",
+          "ego_obs": true,
+          "maze_id": 0,
+          "maze_size_scaling": 7,
+          "sensor_span": 6.283185307179586
+        }
+      },
+      "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+      "time_steps_agg": 800
+    },
+    "policy": {
+      "_name": "sandbox.snn4hrl.policies.categorical_mlp_policy.CategoricalMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.maze.swimmer_maze_env.SwimmerMazeEnv",
+              "ego_obs": true,
+              "maze_id": 0,
+              "maze_size_scaling": 7,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoSwimmer-snn/egoSwimmer-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 800
+        }
+      }
+    }
+  },
+  "log_dir": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/hier-snn-egoSwimmer-maze0/hier-snn-egoSwimmer-maze07scale_800agg_43pl_PREegoSwimmer-snn_005MI_5grid_6latCat_bil_0010_seed30_2018_04_18_04_42_52",
+  "log_tabular_only": false,
+  "n_parallel": 44,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 30,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

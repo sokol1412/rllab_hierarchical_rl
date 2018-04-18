@@ -1,0 +1,88 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAsAAABwcm94eV9jbGFzc3EJY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpxClgEAAAAYXJnc3ELKVgGAAAAa3dhcmdzcQx9cQ0oWAoAAABiYXRjaF9zaXplcQ5HQJOIAAAAAABYDwAAAG1heF9wYXRoX2xlbmd0aHEPR0BF4AAAAAAAWA4AAABzZWxmX25vcm1hbGl6ZXEQiFgDAAAAZW52cRFoBimBcRJ9cRMoaAljc2FuZGJveC5zbm40aHJsLmVudnMuaGllcmFyY2hpemVkX3Nubl9lbnYKSGllcmFyY2hpemVkU25uRW52CnEUaAspaAx9cRUoWAgAAABwa2xfcGF0aHEWWHAAAAAvaG9tZS9sYWJfaWRsamVuay9ybGxhYl9oaWVyYXJjaGljYWxfcmwvZGF0YS9sb2NhbC9lZ29BbnQtc25uL2Vnb0FudC1zbm5fMDA1TUlfNWdyaWRfNmxhdENhdF9iaWxfMDAxMC9wYXJhbXMucGtscRdoEWgGKYFxGH1xGShoCWNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcRpoCyloDH1xG2gRaAYpgXEcfXEdKGgJY3NhbmRib3guc25uNGhybC5lbnZzLm11am9jby5tYXplLmFudF9tYXplX2VudgpBbnRNYXplRW52CnEeaAspaAx9cR8oWAcAAABtYXplX2lkcSBLAFgLAAAAc2Vuc29yX3NwYW5xIUdAGSH7VEQtGFgHAAAAZWdvX29ic3EiiFgRAAAAbWF6ZV9zaXplX3NjYWxpbmdxI0sHdXVic3ViWA4AAAB0aW1lX3N0ZXBzX2FnZ3EkTSADdXViWAgAAABkaXNjb3VudHElRz/vrhR64UeuWAYAAABwb2xpY3lxJmgGKYFxJ31xKChoCWNzYW5kYm94LnNubjRocmwucG9saWNpZXMuY2F0ZWdvcmljYWxfbWxwX3BvbGljeQpDYXRlZ29yaWNhbE1MUFBvbGljeQpxKWgLKWgMfXEqWAgAAABlbnZfc3BlY3ErY3JsbGFiLm1pc2MuaW5zdHJ1bWVudApTdHViQXR0cgpxLCmBcS19cS4oWAQAAABfb2JqcS9oElgKAAAAX2F0dHJfbmFtZXEwWAQAAABzcGVjcTF1YnN1YlgJAAAAc3RlcF9zaXplcTJHP4R64UeuFHtYCAAAAGJhc2VsaW5lcTNoBimBcTR9cTUoaAljcmxsYWIuYmFzZWxpbmVzLmxpbmVhcl9mZWF0dXJlX2Jhc2VsaW5lCkxpbmVhckZlYXR1cmVCYXNlbGluZQpxNmgLKWgMfXE3aCtoLCmBcTh9cTkoaC9oEmgwaDF1YnN1YlgLAAAAd2hvbGVfcGF0aHNxOohYBQAAAG5faXRycTtLyFgRAAAAbG9nX2RldGVybWluaXN0aWNxPIh1dWJYBQAAAHRyYWlucT0pfXE+dHE/dWIu",
+  "exp_name": "hier-snn-egoAnt-maze07scale_800agg_43pl_PREegoAnt-snn_005MI_5grid_6latCat_bil_0010_seed10_2018_04_17_21_11_10",
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO",
+      "batch_size": 1250.0,
+      "discount": 0.99,
+      "log_deterministic": true,
+      "max_path_length": 43.75,
+      "n_itr": 200,
+      "self_normalize": true,
+      "step_size": 0.01,
+      "whole_paths": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.maze.ant_maze_env.AntMazeEnv",
+              "ego_obs": true,
+              "maze_id": 0,
+              "maze_size_scaling": 7,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoAnt-snn/egoAnt-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 800
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+      "env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "sandbox.snn4hrl.envs.mujoco.maze.ant_maze_env.AntMazeEnv",
+          "ego_obs": true,
+          "maze_id": 0,
+          "maze_size_scaling": 7,
+          "sensor_span": 6.283185307179586
+        }
+      },
+      "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoAnt-snn/egoAnt-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+      "time_steps_agg": 800
+    },
+    "policy": {
+      "_name": "sandbox.snn4hrl.policies.categorical_mlp_policy.CategoricalMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.snn4hrl.envs.hierarchized_snn_env.HierarchizedSnnEnv",
+          "env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "sandbox.snn4hrl.envs.mujoco.maze.ant_maze_env.AntMazeEnv",
+              "ego_obs": true,
+              "maze_id": 0,
+              "maze_size_scaling": 7,
+              "sensor_span": 6.283185307179586
+            }
+          },
+          "pkl_path": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/egoAnt-snn/egoAnt-snn_005MI_5grid_6latCat_bil_0010/params.pkl",
+          "time_steps_agg": 800
+        }
+      }
+    }
+  },
+  "log_dir": "/home/lab_idljenk/rllab_hierarchical_rl/data/local/hier-snn-egoAnt-maze0/hier-snn-egoAnt-maze07scale_800agg_43pl_PREegoAnt-snn_005MI_5grid_6latCat_bil_0010_seed10_2018_04_17_21_11_10",
+  "log_tabular_only": false,
+  "n_parallel": 44,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 10,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}
