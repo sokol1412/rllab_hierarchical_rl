@@ -1,8 +1,8 @@
 from sandbox.snn4hrl.envs.mujoco.follow.follow_env import FollowEnv
-from sandbox.snn4hrl.envs.mujoco.snake_env import SnakeEnv
+from sandbox.snn4hrl.envs.mujoco.swimmer_env import SwimmerEnv
 
 
 class SnakeFollowEnv(FollowEnv):
-    MODEL_CLASS = SnakeEnv
+    MODEL_CLASS = SwimmerEnv
     ORI_IND = 2
 
