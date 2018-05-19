@@ -32,7 +32,7 @@ local_instance = "m4.16xlarge"
 # ]
 # subnet = "us-west-1b"
 
-n_parallel = 4
+n_parallel = 44
 
 
 exp_dir = '/home/sokol/Pulpit/Magisterka_Wladek/Magisterka/rllab_hierarchical_rl/data/local/Hierarchical - Gather/SNN4HRL/egoSwimmer-snn'
@@ -73,12 +73,11 @@ for dir in os.listdir(exp_dir):
                     max_path_length=1e4 / time_step_agg * maze_size_scaling / 2.,  # correct for larger envs
                     n_itr=200,
                     discount=0.99,
-                    plot=True,
                     step_size=0.01,
 
                 )
 
-                for s in [10, 20, 30]:  # range(10, 110, 10):  # [10, 20, 30, 40, 50]:
+                for s in [10]:  # range(10, 110, 10):  # [10, 20, 30, 40, 50]:
                     exp_prefix = 'hier-snn-egoSwimmer-maze0'
                     now = datetime.datetime.now(dateutil.tz.tzlocal())
                     timestamp = now.strftime('%Y_%m_%d_%H_%M_%S')
@@ -102,7 +101,6 @@ for dir in os.listdir(exp_dir):
                         # Specifies the seed for the experiment. If this is not provided, a random seed
                         # will be used
                         seed=s,
-                        plot=True,
                         # Save to data/local/exp_prefix/exp_name/
                         exp_prefix=exp_prefix,
                         exp_name=exp_name,
